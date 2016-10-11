@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="study_exchange" author="" >
+<svs>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+  <sv name="_others_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_unknown_">
+</qsym>
+<qsym name="_undefined_">
+</qsym>
+<qsym name="_others_">
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="Trip">
+    <desc name="Continent" type="Symbol" mult="false" >
+      <symbol value="South America" />
+      <symbol value="Asia" />
+      <symbol value="North America" />
+      <symbol value="Europe" />
+      <symbol value="Africa" />
+      <symbol value="Oceania" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="South America">
+</qsym>
+<qsym name="Asia">
+</qsym>
+<qsym name="North America">
+</qsym>
+<qsym name="Europe">
+</qsym>
+<qsym name="Africa">
+</qsym>
+<qsym name="Oceania">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Language" type="Symbol" mult="false" >
+      <symbol value="English" />
+      <symbol value="Spanish" />
+      <symbol value="Deutch" />
+      <symbol value="French" />
+      <symbol value="Norwegian" />
+      <symbol value="Portoguese" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="English">
+<csym name="Deutch" sim="0.3"/>
+</qsym>
+<qsym name="Spanish">
+<csym name="Portoguese" sim="0.7"/>
+</qsym>
+<qsym name="Deutch">
+<csym name="English" sim="0.3"/>
+</qsym>
+<qsym name="French">
+</qsym>
+<qsym name="Norwegian">
+</qsym>
+<qsym name="Portoguese">
+<csym name="Spanish" sim="0.7"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="University" type="Symbol" mult="false" >
+      <symbol value="Universit&#233; Joseph Fourier" />
+      <symbol value="Far Eastern Federal University" />
+      <symbol value="UCLA" />
+      <symbol value="Bond University" />
+      <symbol value="Flinders University" />
+      <symbol value="Universitat de Barcelona" />
+      <symbol value="Augsburg College" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Université Joseph Fourier">
+</qsym>
+<qsym name="Far Eastern Federal University">
+</qsym>
+<qsym name="UCLA">
+</qsym>
+<qsym name="Bond University">
+</qsym>
+<qsym name="Flinders University">
+</qsym>
+<qsym name="Universitat de Barcelona">
+</qsym>
+<qsym name="Augsburg College">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Institute" type="Symbol" mult="true" >
+      <symbol value="DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer" />
+      <symbol value="IME-IDI - Institutt for datateknikk og informasjonsvitenskap" />
+      <symbol value="HF-IFR - Institutt for filosofi og religionsvitenskap" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer">
+</qsym>
+<qsym name="IME-IDI - Institutt for datateknikk og informasjonsvitenskap">
+</qsym>
+<qsym name="HF-IFR - Institutt for filosofi og religionsvitenskap">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Country" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="StudyPeriod" type="Integer" min="2010" max="2016" mult="false" >
+      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="SocialQuality" type="Integer" min="1" max="5" mult="false" >
+      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="AcademicQuality" type="Integer" min="1" max="5" mult="false" >
+      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Subjects" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <amalgam name="default function" type="EUCLIDEAN" active="true" >
+      <entry name="Continent" active="true" fct="default function" weight="1"/>
+      <entry name="Language" active="true" fct="default function" weight="1.0"/>
+      <entry name="University" active="true" fct="default function" weight="1"/>
+      <entry name="Institute" active="true" fct="default function" weight="1"/>
+      <entry name="Country" active="true" fct="default function" weight="1.0"/>
+      <entry name="StudyPeriod" active="true" fct="default function" weight="1"/>
+      <entry name="SocialQuality" active="true" fct="default function" weight="1.0"/>
+      <entry name="AcademicQuality" active="true" fct="default function" weight="1.0"/>
+      <entry name="Subjects" active="true" fct="default function" weight="1.0"/>
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="Trip" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="100" cb="main_case_base"/>
+</Project>

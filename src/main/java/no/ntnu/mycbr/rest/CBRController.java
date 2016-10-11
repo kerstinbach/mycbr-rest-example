@@ -2,10 +2,8 @@ package no.ntnu.mycbr.rest;
 
 import de.dfki.mycbr.core.casebase.Instance;
 import io.swagger.annotations.*;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 /**
  * Created by kerstin on 05/08/16.
@@ -13,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CBRController {
 
+    @CrossOrigin(origins = "https://localhost8000")
     @ApiOperation(value = "getConcept", nickname = "getConcept")
     @RequestMapping(method = RequestMethod.GET, path="/concepts", produces = "application/json")
     @ApiResponses(value = {
@@ -25,7 +24,7 @@ public class CBRController {
         return new ConceptName();
     }
 
-
+    @CrossOrigin(origins = "https://localhost8000")
     @ApiOperation(value = "getSimilarCases", nickname = "getSimilarCases")
     @RequestMapping(method = RequestMethod.GET, path="/retrieval", produces = "application/json")
     @ApiResponses(value = {
@@ -41,6 +40,7 @@ public class CBRController {
         return new Query(casebase, concept, attribute, value);
     }
 
+    @CrossOrigin(origins = "https://localhost8000")
     @ApiOperation(value = "getSimilarCasesByID", nickname = "getSimilarCasesByID")
     @RequestMapping(method = RequestMethod.GET, path="/retrievalByID", produces = "application/json")
     @ApiResponses(value = {
@@ -55,7 +55,7 @@ public class CBRController {
         return new Query(casebase, concept, caseID);
     }
 
-
+    @CrossOrigin(origins = "https://localhost8000")
     @ApiOperation(value = "getCase", nickname = "getCase")
     @RequestMapping(method = RequestMethod.GET, value = "/case", headers="Accept=application/json")
     @ApiResponses(value = {
@@ -68,7 +68,7 @@ public class CBRController {
         return new Case(caseID);
     }
 
-
+    @CrossOrigin(origins = "https://localhost8000")
     @ApiOperation(value = "getCaseBases", nickname = "getCaseBases")
     @RequestMapping(method = RequestMethod.GET, path="/casebase", produces = "application/json")
     @ApiResponses(value = {
@@ -81,6 +81,7 @@ public class CBRController {
         return new CaseBases();
     }
 
+    @CrossOrigin(origins = "https://localhost8000")
     @ApiOperation(value = "getAttributes", nickname = "getAttributes")
     @RequestMapping(method = RequestMethod.GET, value = "/attributes", headers="Accept=application/json")
     @ApiResponses(value = {
@@ -93,6 +94,7 @@ public class CBRController {
         return new Attribute(concept);
     }
 
+    @CrossOrigin(origins = "https://localhost8000")
     @ApiOperation(value = "getValueRange", nickname = "getValueRange")
     @RequestMapping(method = RequestMethod.GET, value = "/values", headers="Accept=application/json")
     @ApiResponses(value = {
