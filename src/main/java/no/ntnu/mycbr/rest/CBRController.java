@@ -4,6 +4,8 @@ import de.dfki.mycbr.core.casebase.Instance;
 import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import java.util.HashMap;
+
 
 /**
  * Created by kerstin on 05/08/16.
@@ -15,7 +17,7 @@ public class CBRController {
     @ApiOperation(value = "getConcept", nickname = "getConcept")
     @RequestMapping(method = RequestMethod.GET, path="/concepts", produces = "application/json")
     @ApiResponses(value = {
-            @ApiResponse(code = 200, message = "Success", response = Query.class),
+            @ApiResponse(code = 200, message = "Success", response = ConceptName.class),
             @ApiResponse(code = 401, message = "Unauthorized"),
             @ApiResponse(code = 403, message = "Forbidden"),
             @ApiResponse(code = 404, message = "Not Found"),
@@ -40,6 +42,22 @@ public class CBRController {
         return new Query(casebase, concept, attribute, value);
     }
 
+
+    @CrossOrigin(origins = "https://localhost8000")
+    @ApiOperation(value = "getSimilarCases", nickname = "getSimilarCases")
+    @RequestMapping(method = RequestMethod.POST, path="/retrieval", produces = "application/json")
+    @ApiResponses(value = {
+            @ApiResponse(code = 200, message = "Success", response = Query.class),
+            @ApiResponse(code = 401, message = "Unauthorized"),
+            @ApiResponse(code = 403, message = "Forbidden"),
+            @ApiResponse(code = 404, message = "Not Found"),
+            @ApiResponse(code = 500, message = "Failure")})
+    public Query getSimilarCases(@RequestParam(value="casebase", defaultValue="CaseBase0") String casebase,
+                                 @RequestParam(value="concept name", defaultValue="Car") String concept,
+                                 @RequestBody(required = true)  HashMap<String, Object> queryContent) {
+        return new Query(casebase, concept, queryContent);
+    }
+
     @CrossOrigin(origins = "https://localhost8000")
     @ApiOperation(value = "getSimilarCasesByID", nickname = "getSimilarCasesByID")
     @RequestMapping(method = RequestMethod.GET, path="/retrievalByID", produces = "application/json")
@@ -59,7 +77,7 @@ public class CBRController {
     @ApiOperation(value = "getCase", nickname = "getCase")
     @RequestMapping(method = RequestMethod.GET, value = "/case", headers="Accept=application/json")
     @ApiResponses(value = {
-            @ApiResponse(code = 200, message = "Success", response = Instance.class),
+            @ApiResponse(code = 200, message = "Success", response = Case.class),
             @ApiResponse(code = 401, message = "Unauthorized"),
             @ApiResponse(code = 403, message = "Forbidden"),
             @ApiResponse(code = 404, message = "Not Found"),
@@ -72,7 +90,7 @@ public class CBRController {
     @ApiOperation(value = "getCaseBases", nickname = "getCaseBases")
     @RequestMapping(method = RequestMethod.GET, path="/casebase", produces = "application/json")
     @ApiResponses(value = {
-            @ApiResponse(code = 200, message = "Success", response = Query.class),
+            @ApiResponse(code = 200, message = "Success", response = CaseBases.class),
             @ApiResponse(code = 401, message = "Unauthorized"),
             @ApiResponse(code = 403, message = "Forbidden"),
             @ApiResponse(code = 404, message = "Not Found"),
@@ -85,7 +103,7 @@ public class CBRController {
     @ApiOperation(value = "getAttributes", nickname = "getAttributes")
     @RequestMapping(method = RequestMethod.GET, value = "/attributes", headers="Accept=application/json")
     @ApiResponses(value = {
-            @ApiResponse(code = 200, message = "Success", response = Instance.class),
+            @ApiResponse(code = 200, message = "Success", response = ApiResponse.class),
             @ApiResponse(code = 401, message = "Unauthorized"),
             @ApiResponse(code = 403, message = "Forbidden"),
             @ApiResponse(code = 404, message = "Not Found"),
@@ -98,7 +116,7 @@ public class CBRController {
     @ApiOperation(value = "getValueRange", nickname = "getValueRange")
     @RequestMapping(method = RequestMethod.GET, value = "/values", headers="Accept=application/json")
     @ApiResponses(value = {
-            @ApiResponse(code = 200, message = "Success", response = Instance.class),
+            @ApiResponse(code = 200, message = "Success", response = ValueRange.class),
             @ApiResponse(code = 401, message = "Unauthorized"),
             @ApiResponse(code = 403, message = "Forbidden"),
             @ApiResponse(code = 404, message = "Not Found"),
