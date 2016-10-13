@@ -13,7 +13,7 @@ import java.util.HashMap;
 @RestController
 public class CBRController {
 
-    @CrossOrigin(origins = "https://localhost:8000")
+    @CrossOrigin(origins = "http://localhost:8000")
     @ApiOperation(value = "getConcept", nickname = "getConcept")
     @RequestMapping(method = RequestMethod.GET, path="/concepts", produces = "application/json")
     @ApiResponses(value = {
@@ -26,7 +26,7 @@ public class CBRController {
         return new ConceptName();
     }
 
-    @CrossOrigin(origins = "https://localhost:8000")
+    @CrossOrigin(origins = "http://localhost:8000")
     @ApiOperation(value = "getSimilarCases", nickname = "getSimilarCases")
     @RequestMapping(method = RequestMethod.GET, path="/retrieval", produces = "application/json")
     @ApiResponses(value = {
@@ -43,7 +43,7 @@ public class CBRController {
     }
 
 
-    @CrossOrigin(origins = "https://localhost:8000")
+    @CrossOrigin(origins = "http://localhost:8000")
     @ApiOperation(value = "getSimilarCases", nickname = "getSimilarCases")
     @RequestMapping(method = RequestMethod.POST, path="/retrieval", produces = "application/json")
     @ApiResponses(value = {
@@ -58,7 +58,7 @@ public class CBRController {
         return new Query(casebase, concept, queryContent);
     }
 
-    @CrossOrigin(origins = "https://localhost:8000")
+    @CrossOrigin(origins = "http://localhost:8000")
     @ApiOperation(value = "getSimilarCasesByID", nickname = "getSimilarCasesByID")
     @RequestMapping(method = RequestMethod.GET, path="/retrievalByID", produces = "application/json")
     @ApiResponses(value = {
@@ -73,7 +73,7 @@ public class CBRController {
         return new Query(casebase, concept, caseID);
     }
 
-    @CrossOrigin(origins = "https://localhost:8000")
+    @CrossOrigin(origins = "http://localhost:8000")
     @ApiOperation(value = "getCase", nickname = "getCase")
     @RequestMapping(method = RequestMethod.GET, value = "/case", headers="Accept=application/json")
     @ApiResponses(value = {
@@ -86,7 +86,7 @@ public class CBRController {
         return new Case(caseID);
     }
 
-    @CrossOrigin(origins = "https://localhost:8000")
+    @CrossOrigin(origins = "http://localhost:8000")
     @ApiOperation(value = "getCaseBases", nickname = "getCaseBases")
     @RequestMapping(method = RequestMethod.GET, path="/casebase", produces = "application/json")
     @ApiResponses(value = {
@@ -99,7 +99,7 @@ public class CBRController {
         return new CaseBases();
     }
 
-    @CrossOrigin(origins = "https://localhost:8000")
+    @CrossOrigin(origins = "http://localhost:8000")
     @ApiOperation(value = "getAttributes", nickname = "getAttributes")
     @RequestMapping(method = RequestMethod.GET, value = "/attributes", headers="Accept=application/json")
     @ApiResponses(value = {
@@ -112,7 +112,7 @@ public class CBRController {
         return new Attribute(concept);
     }
 
-    @CrossOrigin(origins = "https://localhost:8000")
+    @CrossOrigin(origins = "http://localhost:8000")
     @ApiOperation(value = "getValueRange", nickname = "getValueRange")
     @RequestMapping(method = RequestMethod.GET, value = "/values", headers="Accept=application/json")
     @ApiResponses(value = {
