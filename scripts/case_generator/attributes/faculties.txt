@@ -1,0 +1,7 @@
+AB - Fakultet for arkitektur og billedkunst
+DMF - Det medisinske fakultet
+HF - Det humanistiske fakultet
+IME - Fakultet for informasjonsteknologi, matematikk og elektroteknikk
+IVT - Fakultet for ingeniørvitenskap og teknologi
+NT - Fakultet for naturvitenskap og teknologi
+SVT - Fakultet for samfunnsvitenskap og teknologiledelse"
