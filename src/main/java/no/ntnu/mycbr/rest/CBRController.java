@@ -55,6 +55,11 @@ public class CBRController {
     public Query getSimilarCases(@RequestParam(value="casebase", defaultValue="CaseBase0") String casebase,
                                  @RequestParam(value="concept name", defaultValue="Car") String concept,
                                  @RequestBody(required = true)  HashMap<String, Object> queryContent) {
+        System.out.println("=============================================");
+        System.out.println("THS IS HOW THE QUERY CONTENT LOOKS LIKE: ");
+        System.out.println(queryContent.keySet());
+        System.out.println(queryContent.values());
+        System.out.println("=============================================");
         return new Query(casebase, concept, queryContent);
     }
 
