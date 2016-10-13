@@ -10,9 +10,9 @@ import de.dfki.mycbr.core.similarity.Similarity;
 import de.dfki.mycbr.util.Pair;
 import no.ntnu.mycbr.CBREngine;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
+import static java.util.Collections.reverseOrder;
 
 /**
  * Created by kerstin on 05/08/16.
@@ -126,15 +126,33 @@ public class Query {
             for (Pair<Instance, Similarity> result : results) {
                 this.resultList.put(result.getFirst().getName(), result.getSecond().getValue());
             }
-
-
+            this.resultList = sortAndReduceResult(this.resultList);
         }
         catch (Exception e) {
             e.printStackTrace();
         }
     }
 
+    private LinkedHashMap<String, Double> sortAndReduceResult(HashMap<String, Double> fullResultList) {
+        LinkedHashMap<String, Double> reducedSortedResultList = new LinkedHashMap<>();
+        LinkedHashMap<String, Double> sortedResultList = fullResultList.entrySet().stream()
+                .sorted(reverseOrder(Map.Entry.comparingByValue()))
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
+                        (e1, e2) -> e1, LinkedHashMap::new));
+
+        int counter = 0;
+        Iterator it = sortedResultList.entrySet().iterator();
+        while (it.hasNext() && counter < 9) {
+            HashMap.Entry pair = (Map.Entry)it.next();
+            reducedSortedResultList.put((String)pair.getKey(), (Double)pair.getValue());
+            counter++;
+        }
+
+        return reducedSortedResultList;
+
+    }
+
     public HashMap<String, Double> getSimilarCases() {
-        return resultList;
+        return this.resultList;
     }
 }
