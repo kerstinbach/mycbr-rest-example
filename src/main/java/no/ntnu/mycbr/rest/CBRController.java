@@ -72,9 +72,9 @@ public class CBRController {
             @ApiResponse(code = 403, message = "Forbidden"),
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
-    public Query getSimilarCases(@RequestParam(value="casebase", defaultValue="CaseBase0") String casebase,
-                                     @RequestParam(value="concept", defaultValue="Car") String concept,
-                                     @RequestParam(value="caseID", defaultValue="144_vw") String caseID) {
+    public Query getSimilarCases(@RequestParam(value="casebase", defaultValue="main_case_base") String casebase,
+                                     @RequestParam(value="concept", defaultValue="Trip") String concept,
+                                     @RequestParam(value="caseID", defaultValue="Trip0") String caseID) {
         return new Query(casebase, concept, caseID);
     }
 
@@ -87,7 +87,7 @@ public class CBRController {
             @ApiResponse(code = 403, message = "Forbidden"),
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
-    public Case getCase(@RequestParam(value="caseID", defaultValue="144_vw") String caseID) {
+    public Case getCase(@RequestParam(value="caseID", defaultValue="Trip0") String caseID) {
         return new Case(caseID);
     }
 
@@ -113,7 +113,7 @@ public class CBRController {
             @ApiResponse(code = 403, message = "Forbidden"),
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
-    public Attribute getAttributes(@RequestParam(value="concept name", defaultValue="Car") String concept) {
+    public Attribute getAttributes(@RequestParam(value="concept name", defaultValue="Trip") String concept) {
         return new Attribute(concept);
     }
 
@@ -126,8 +126,8 @@ public class CBRController {
             @ApiResponse(code = 403, message = "Forbidden"),
             @ApiResponse(code = 404, message = "Not Found"),
             @ApiResponse(code = 500, message = "Failure")})
-    public ValueRange getValueRange(@RequestParam(value="concept name", defaultValue="Car") String concept,
-                                    @RequestParam(value="attribute name", defaultValue="Color") String attributeName) {
+    public ValueRange getValueRange(@RequestParam(value="concept name", defaultValue="Trip") String concept,
+                                    @RequestParam(value="attribute name", defaultValue="University") String attributeName) {
         return new ValueRange(concept, attributeName);
     }
 

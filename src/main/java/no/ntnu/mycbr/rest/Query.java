@@ -142,7 +142,7 @@ public class Query {
 
         int counter = 0;
         Iterator it = sortedResultList.entrySet().iterator();
-        while (it.hasNext() && counter < 10) {
+        while (it.hasNext() && counter < 9) {
             HashMap.Entry pair = (Map.Entry)it.next();
             reducedSortedResultList.put((String)pair.getKey(), (Double)pair.getValue());
             counter++;
