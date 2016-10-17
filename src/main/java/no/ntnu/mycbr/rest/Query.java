@@ -106,8 +106,10 @@ public class Query {
                     query.addAttribute(attdesc, Float.parseFloat(att.getValue().toString()));
                 }
                 if (attdesc.getClass().getSimpleName().equalsIgnoreCase("IntegerDesc")){
-                    IntegerDesc aIntegerAtt = (IntegerDesc) attdesc;
-                    query.addAttribute(attdesc, Integer.parseInt(att.getValue().toString()));
+                    if (!att.getValue().toString().equals("")) {
+                        IntegerDesc aIntegerAtt = (IntegerDesc) attdesc;
+                        query.addAttribute(attdesc, Integer.parseInt(att.getValue().toString()));
+                    }
                 }
                 if (attdesc.getClass().getSimpleName().equalsIgnoreCase("DoubleDesc")){
                     DoubleDesc aIntegerAtt = (DoubleDesc) attdesc;
