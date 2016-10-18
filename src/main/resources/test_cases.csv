@@ -1,501 +1,501 @@
 Institute;Continent;Country;University;StudyPeriod;Language;AcademicQuality;SocialQuality;Subjects
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Russland;Augsburg College;2011;Norwegian;4;2;MATH4567!IT3434!MATH1123!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Frankrike;Augsburg College;2014;Norwegian;5;3;MATH1123!CS1010!CS3560!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Norge;UCLA;2014;English;2;4;IT1234!MATH4567!MATH4567!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Frankrike;Flinders University;2013;Spanish;1;5;ECO9080!MATH1123!IT1234!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Portugal;Augsburg College;2015;English;1;4;IT3434!CS1010!TECH9870!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Australia;Flinders University;2010;English;1;2;TECH2020!CS3560!MATH1123!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Norge;Bond University;2012;Norwegian;1;2;MATH1123!CS4520!CS3560!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;Augsburg College;2011;French;4;5;MATH1123!MATH1123!TECH2020!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Spania;Flinders University;2015;English;3;2;CS3560!ECO9080!IT1234!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;USA;Bond University;2010;Spanish;2;1;MATH4567!TECH9870!MATH4567!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Danmark;Augsburg College;2013;Portoguese;4;5;MATH4567!IT1234!CS3560!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Russland;Universitat de Barcelona;2011;Deutch;1;4;MATH1123!CS1010!IT3434!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Danmark;Universitat de Barcelona;2012;French;4;2;TECH9870!TECH2020!IT3434!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Frankrike;Bond University;2015;Norwegian;2;4;ECO9080!CS4520!MATH1123!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Australia;Augsburg College;2013;English;3;5;MATH1123!ECO9080!CS1010!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;USA;Bond University;2013;Norwegian;3;2;MATH1123!TECH9870!ECO9080!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Sverige;Flinders University;2010;French;3;5;CS4520!IT1234!ECO9080!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Sverige;Augsburg College;2012;Norwegian;2;4;ECO9080!MATH1123!TECH2020!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Portugal;Far Eastern Federal University;2013;Spanish;1;5;IT1234!TECH2020!TECH9870!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Frankrike;UCLA;2010;Spanish;3;4;MATH4567!CS4520!MATH1123!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;USA;Flinders University;2012;French;1;3;CS1010!CS1010!MATH1123!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;USA;Université Joseph Fourier;2010;Portoguese;4;5;TECH2020!ECO9080!TECH9870!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Portugal;Far Eastern Federal University;2011;Norwegian;2;5;MATH1123!IT1234!IT3434!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;USA;Augsburg College;2010;English;2;4;CS3560!CS1010!MATH1123!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;USA;Far Eastern Federal University;2013;Norwegian;3;5;CS3560!MATH4567!ECO9080!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Spania;Augsburg College;2015;Spanish;3;3;CS3560!CS1010!CS1010!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Spania;Bond University;2013;English;1;3;ECO9080!CS4520!MATH4567!IT3434
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Spania;Bond University;2012;Portoguese;3;4;TECH2020!MATH4567!MATH4567!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;USA;Flinders University;2012;English;3;2;ECO9080!TECH9870!MATH4567!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Spania;Universitat de Barcelona;2012;Deutch;3;5;IT3434!IT3434!TECH9870!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Portugal;UCLA;2015;French;2;4;IT1234!ECO9080!CS3560!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Danmark;UCLA;2015;English;4;1;MATH4567!CS4520!ECO9080!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Danmark;Universitat de Barcelona;2010;Deutch;4;2;TECH2020!IT3434!MATH4567!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Portugal;UCLA;2012;French;3;2;MATH1123!ECO9080!CS4520!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Sverige;Université Joseph Fourier;2014;French;2;3;CS1010!TECH2020!IT3434!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Russland;Bond University;2011;Norwegian;4;5;TECH9870!TECH2020!CS1010!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Norge;Universitat de Barcelona;2014;Portoguese;5;3;TECH9870!TECH2020!TECH2020!IT3434
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Danmark;Université Joseph Fourier;2014;French;3;4;ECO9080!MATH4567!IT3434!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Portugal;Augsburg College;2014;Deutch;1;1;TECH9870!CS4520!CS3560!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;USA;Augsburg College;2013;Norwegian;1;4;TECH9870!CS3560!MATH4567!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Russland;Augsburg College;2014;English;4;5;MATH4567!IT1234!IT3434!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Russland;Université Joseph Fourier;2014;Portoguese;1;1;CS1010!ECO9080!IT3434!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;USA;Bond University;2015;Norwegian;4;2;IT3434!CS3560!IT3434!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Spania;Augsburg College;2010;English;2;5;IT3434!TECH2020!ECO9080!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Université Joseph Fourier;2013;Portoguese;3;5;IT3434!MATH1123!TECH2020!CS3560
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Portugal;Flinders University;2014;Spanish;5;5;CS3560!TECH9870!TECH2020!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Portugal;Bond University;2015;English;3;2;IT1234!TECH9870!CS1010!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Portugal;Augsburg College;2011;Spanish;2;5;TECH2020!CS3560!CS3560!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Sverige;Far Eastern Federal University;2010;Deutch;2;5;ECO9080!CS3560!ECO9080!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Portugal;Université Joseph Fourier;2014;Portoguese;4;5;IT3434!IT3434!CS3560!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Sverige;Université Joseph Fourier;2014;Spanish;4;1;IT1234!CS1010!TECH9870!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Australia;Universitat de Barcelona;2010;Deutch;2;4;MATH1123!IT1234!MATH1123!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Russland;Bond University;2015;Norwegian;2;4;TECH9870!IT3434!MATH4567!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Spania;UCLA;2013;Deutch;3;2;TECH9870!IT1234!IT1234!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Spania;Flinders University;2013;Deutch;3;4;IT3434!ECO9080!MATH1123!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Portugal;Augsburg College;2015;Deutch;4;4;CS4520!ECO9080!MATH4567!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;USA;UCLA;2012;Spanish;2;5;TECH2020!IT1234!ECO9080!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Bond University;2011;English;4;3;ECO9080!IT3434!IT3434!IT3434
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Norge;Bond University;2012;English;2;3;CS1010!MATH1123!CS4520!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Australia;Flinders University;2015;Norwegian;3;4;TECH2020!MATH1123!TECH9870!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Russland;Far Eastern Federal University;2013;Spanish;3;4;ECO9080!MATH1123!IT1234!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Frankrike;Université Joseph Fourier;2010;Spanish;3;5;MATH4567!ECO9080!CS4520!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Russland;UCLA;2013;Norwegian;4;5;IT3434!CS4520!TECH9870!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Portugal;Bond University;2010;Spanish;2;3;TECH9870!IT1234!MATH1123!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;USA;Augsburg College;2010;Norwegian;5;3;IT3434!TECH2020!MATH1123!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Russland;Université Joseph Fourier;2010;Deutch;3;3;IT1234!CS3560!MATH1123!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Sverige;Augsburg College;2012;Spanish;5;5;MATH4567!CS3560!ECO9080!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Portugal;Université Joseph Fourier;2013;Portoguese;2;4;IT1234!TECH2020!MATH4567!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Sverige;Bond University;2012;Norwegian;2;3;CS4520!CS3560!MATH1123!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Norge;Augsburg College;2010;Norwegian;3;5;IT1234!CS4520!IT3434!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Frankrike;UCLA;2012;French;2;2;IT3434!CS3560!CS4520!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Danmark;Augsburg College;2010;Spanish;1;4;IT1234!MATH1123!IT3434!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Australia;Augsburg College;2012;English;3;3;ECO9080!CS3560!TECH2020!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Spania;Augsburg College;2013;French;4;4;TECH2020!CS3560!MATH4567!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Frankrike;Université Joseph Fourier;2011;French;5;2;IT3434!IT3434!CS1010!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Australia;Universitat de Barcelona;2013;Deutch;5;4;CS4520!MATH4567!CS3560!MATH1123
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;USA;Universitat de Barcelona;2013;Portoguese;2;3;IT3434!CS1010!MATH4567!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Spania;Universitat de Barcelona;2015;Norwegian;2;2;TECH9870!MATH1123!IT3434!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Sverige;UCLA;2013;French;4;1;MATH4567!MATH1123!MATH1123!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Danmark;Flinders University;2015;Spanish;1;2;CS4520!MATH1123!ECO9080!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Norge;Augsburg College;2015;French;2;1;MATH4567!MATH4567!TECH2020!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Portugal;Augsburg College;2013;English;1;3;MATH1123!TECH2020!MATH4567!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Norge;Université Joseph Fourier;2012;Portoguese;5;4;MATH1123!ECO9080!IT1234!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Russland;Bond University;2010;Norwegian;2;5;ECO9080!MATH1123!CS4520!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Frankrike;UCLA;2011;English;1;2;CS3560!ECO9080!IT1234!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Portugal;UCLA;2010;Spanish;2;4;CS1010!CS1010!IT3434!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Norge;Far Eastern Federal University;2013;Norwegian;2;2;IT3434!CS4520!MATH4567!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Norge;Flinders University;2014;Deutch;4;4;ECO9080!MATH4567!MATH4567!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Spania;Augsburg College;2012;Norwegian;1;5;ECO9080!MATH4567!TECH2020!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Russland;Université Joseph Fourier;2014;French;4;4;CS1010!CS1010!ECO9080!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Australia;Flinders University;2013;Portoguese;5;4;TECH9870!TECH2020!IT3434!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Spania;Flinders University;2011;Portoguese;2;1;TECH9870!IT1234!TECH2020!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Australia;UCLA;2011;Norwegian;2;2;MATH1123!ECO9080!IT3434!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Spania;Far Eastern Federal University;2010;French;4;5;CS1010!MATH4567!TECH9870!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Frankrike;UCLA;2013;French;4;1;ECO9080!CS3560!IT3434!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Frankrike;Far Eastern Federal University;2011;French;5;4;CS4520!IT3434!CS1010!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Russland;UCLA;2015;Norwegian;5;2;TECH9870!CS4520!MATH4567!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Portugal;Université Joseph Fourier;2010;Portoguese;1;2;CS4520!CS1010!ECO9080!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Australia;Université Joseph Fourier;2013;English;3;1;IT3434!CS3560!CS3560!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Australia;UCLA;2015;Spanish;2;3;IT1234!TECH9870!TECH9870!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Australia;UCLA;2014;Portoguese;3;5;CS4520!TECH9870!CS1010!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Portugal;Bond University;2011;French;1;2;IT3434!CS3560!ECO9080!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Spania;Far Eastern Federal University;2014;Spanish;1;1;TECH2020!CS1010!TECH2020!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Danmark;Flinders University;2014;English;1;2;MATH1123!IT3434!IT3434!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Danmark;Flinders University;2010;Portoguese;4;2;IT3434!IT3434!MATH1123!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Sverige;Université Joseph Fourier;2014;English;3;5;TECH2020!TECH2020!CS3560!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Frankrike;Flinders University;2013;French;3;5;MATH1123!CS3560!TECH2020!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Australia;Far Eastern Federal University;2015;Deutch;3;5;CS1010!MATH4567!IT3434!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Australia;Université Joseph Fourier;2010;English;2;3;MATH4567!CS3560!MATH1123!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;USA;UCLA;2011;Spanish;2;4;ECO9080!CS1010!IT1234!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Danmark;Flinders University;2011;Norwegian;1;4;MATH1123!MATH4567!TECH2020!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Danmark;Augsburg College;2011;French;3;3;MATH1123!IT3434!ECO9080!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Spania;Far Eastern Federal University;2011;Spanish;4;5;ECO9080!MATH4567!TECH9870!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Russland;UCLA;2012;English;1;3;CS4520!IT1234!CS1010!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Danmark;Bond University;2015;Spanish;1;1;IT1234!IT1234!CS1010!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Frankrike;UCLA;2014;Deutch;2;4;TECH9870!MATH1123!CS3560!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Sverige;Augsburg College;2015;French;3;1;MATH4567!IT1234!MATH1123!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Sverige;Universitat de Barcelona;2012;Norwegian;4;5;ECO9080!TECH2020!ECO9080!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;Far Eastern Federal University;2013;Deutch;4;1;TECH9870!CS1010!ECO9080!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Australia;Université Joseph Fourier;2015;Spanish;5;1;CS4520!ECO9080!CS1010!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;USA;Augsburg College;2013;Deutch;3;5;CS3560!TECH9870!CS3560!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Danmark;Université Joseph Fourier;2015;Deutch;2;5;MATH4567!TECH9870!IT3434!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Australia;UCLA;2012;Norwegian;5;4;CS4520!IT1234!ECO9080!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Danmark;Flinders University;2014;Norwegian;3;2;IT1234!IT1234!CS3560!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;Far Eastern Federal University;2010;English;5;5;IT1234!TECH9870!MATH4567!MATH1123
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Sverige;UCLA;2013;English;3;2;TECH9870!CS1010!MATH4567!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Danmark;Flinders University;2012;Deutch;4;5;IT1234!TECH2020!MATH4567!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Portugal;Université Joseph Fourier;2015;Norwegian;1;3;CS4520!CS4520!ECO9080!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Norge;Far Eastern Federal University;2011;Deutch;5;3;IT3434!IT1234!MATH4567!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Sverige;Universitat de Barcelona;2011;Deutch;3;3;CS4520!IT1234!MATH1123!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Norge;Far Eastern Federal University;2013;English;1;4;IT3434!MATH1123!CS1010!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Spania;UCLA;2010;French;1;2;MATH1123!CS3560!ECO9080!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Australia;Bond University;2015;Deutch;1;5;MATH4567!MATH1123!ECO9080!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Portugal;Augsburg College;2012;Deutch;2;1;IT3434!CS1010!MATH4567!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Frankrike;UCLA;2012;Deutch;2;4;IT3434!CS1010!TECH9870!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Spania;Université Joseph Fourier;2014;Portoguese;1;5;IT3434!TECH2020!ECO9080!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Spania;Universitat de Barcelona;2015;Portoguese;3;4;CS3560!CS1010!CS3560!CS3560
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;Far Eastern Federal University;2012;Deutch;2;3;MATH4567!ECO9080!CS1010!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Portugal;Far Eastern Federal University;2011;Norwegian;1;1;CS4520!CS3560!ECO9080!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Danmark;Far Eastern Federal University;2010;French;3;3;ECO9080!IT3434!MATH1123!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Spania;Université Joseph Fourier;2012;Norwegian;1;1;IT1234!IT3434!TECH2020!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Frankrike;Bond University;2012;Portoguese;2;4;MATH4567!ECO9080!CS1010!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Australia;Bond University;2014;Portoguese;2;2;CS4520!IT3434!IT1234!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Danmark;Flinders University;2012;Spanish;5;1;IT3434!ECO9080!CS4520!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Sverige;Flinders University;2015;English;4;2;IT3434!IT1234!CS4520!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;USA;Far Eastern Federal University;2015;Deutch;3;2;MATH1123!TECH2020!CS1010!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Australia;UCLA;2010;French;2;3;TECH9870!IT3434!MATH4567!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Sverige;Bond University;2010;Portoguese;3;3;IT3434!MATH1123!CS1010!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Sverige;UCLA;2013;Norwegian;3;3;TECH2020!CS3560!CS4520!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Spania;Far Eastern Federal University;2012;French;4;4;TECH9870!IT3434!CS4520!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Danmark;Bond University;2013;Norwegian;3;5;ECO9080!TECH9870!CS1010!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Norge;Flinders University;2013;Spanish;5;5;MATH4567!CS3560!MATH1123!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Frankrike;Université Joseph Fourier;2014;French;1;3;MATH4567!CS1010!TECH9870!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Frankrike;Bond University;2015;Portoguese;2;3;IT1234!TECH2020!TECH2020!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Spania;Flinders University;2013;Norwegian;5;4;CS1010!MATH1123!IT3434!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;USA;Université Joseph Fourier;2015;Norwegian;3;4;TECH2020!IT1234!IT1234!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Augsburg College;2011;Norwegian;2;5;MATH4567!ECO9080!IT1234!CS3560
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Norge;Augsburg College;2011;Portoguese;4;1;CS3560!TECH9870!CS4520!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Portugal;Augsburg College;2011;Norwegian;2;5;MATH4567!IT1234!CS4520!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Danmark;Far Eastern Federal University;2010;Portoguese;1;2;IT1234!TECH2020!IT1234!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Sverige;Far Eastern Federal University;2010;Deutch;3;4;ECO9080!MATH1123!IT1234!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Russland;Bond University;2014;French;3;1;CS3560!IT3434!MATH1123!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Sverige;Far Eastern Federal University;2014;Spanish;1;2;MATH4567!IT3434!ECO9080!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Frankrike;UCLA;2011;Norwegian;2;1;CS4520!ECO9080!ECO9080!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Australia;Universitat de Barcelona;2014;Deutch;3;5;IT1234!CS1010!MATH4567!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;Augsburg College;2014;English;1;3;ECO9080!TECH2020!CS1010!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Australia;Flinders University;2014;Deutch;5;4;CS1010!ECO9080!IT3434!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;USA;UCLA;2011;Portoguese;2;4;ECO9080!MATH4567!CS3560!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Australia;Augsburg College;2014;Deutch;2;1;MATH1123!MATH1123!CS1010!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Far Eastern Federal University;2013;Deutch;1;3;IT1234!MATH4567!IT1234!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Australia;Université Joseph Fourier;2012;Portoguese;4;2;CS1010!ECO9080!CS1010!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Sverige;Université Joseph Fourier;2011;Spanish;4;4;CS1010!IT1234!CS4520!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Sverige;Far Eastern Federal University;2011;English;3;2;MATH4567!MATH1123!IT1234!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Norge;Université Joseph Fourier;2015;French;3;2;ECO9080!MATH1123!CS3560!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Sverige;Augsburg College;2012;Spanish;4;2;CS4520!IT3434!TECH2020!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Norge;UCLA;2013;Spanish;1;1;CS4520!CS3560!IT1234!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Spania;Université Joseph Fourier;2015;English;3;5;CS4520!CS1010!MATH4567!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Flinders University;2015;French;2;4;CS3560!ECO9080!IT3434!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Russland;UCLA;2015;English;1;4;TECH9870!MATH4567!IT3434!CS3560
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Danmark;Far Eastern Federal University;2011;Deutch;4;1;IT1234!CS3560!TECH9870!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Sverige;Far Eastern Federal University;2011;Spanish;1;4;ECO9080!CS3560!CS1010!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;USA;Bond University;2013;Deutch;4;5;IT1234!CS3560!MATH4567!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;Bond University;2013;Spanish;4;2;CS1010!CS4520!CS3560!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Frankrike;Université Joseph Fourier;2013;Deutch;1;1;MATH1123!ECO9080!CS3560!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;USA;UCLA;2014;Deutch;4;4;TECH9870!CS3560!CS4520!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Sverige;UCLA;2012;Norwegian;5;1;TECH2020!CS4520!MATH4567!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Portugal;Bond University;2012;French;5;1;TECH9870!TECH9870!IT3434!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;Far Eastern Federal University;2013;Portoguese;1;1;TECH9870!CS4520!CS4520!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Portugal;Universitat de Barcelona;2012;Norwegian;5;3;IT1234!MATH4567!TECH9870!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Russland;Flinders University;2013;French;3;4;TECH2020!CS4520!IT3434!CS3560
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Norge;Université Joseph Fourier;2015;French;2;4;CS3560!IT1234!TECH9870!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Norge;Bond University;2012;English;4;3;CS1010!IT1234!ECO9080!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Australia;Augsburg College;2013;Deutch;2;1;ECO9080!CS4520!IT3434!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Norge;Far Eastern Federal University;2012;English;4;4;IT3434!MATH4567!CS4520!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Frankrike;Far Eastern Federal University;2010;Deutch;1;2;MATH4567!MATH4567!CS4520!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Russland;Bond University;2012;Portoguese;5;3;TECH2020!TECH9870!IT1234!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Spania;Augsburg College;2011;English;4;3;MATH4567!CS1010!TECH9870!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Spania;Augsburg College;2010;Portoguese;1;1;ECO9080!CS4520!TECH2020!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Russland;Flinders University;2011;Deutch;3;4;CS4520!MATH1123!CS3560!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Danmark;Universitat de Barcelona;2010;Deutch;3;5;ECO9080!CS4520!TECH9870!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Spania;UCLA;2015;Spanish;4;3;IT1234!MATH4567!CS4520!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Australia;Université Joseph Fourier;2013;French;1;3;CS1010!CS4520!TECH2020!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Spania;Far Eastern Federal University;2015;Deutch;1;4;MATH1123!IT1234!TECH2020!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Norge;Augsburg College;2010;English;4;1;CS4520!TECH2020!TECH9870!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Australia;Far Eastern Federal University;2011;Spanish;5;4;CS4520!TECH9870!MATH1123!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Portugal;Far Eastern Federal University;2010;French;5;1;MATH1123!ECO9080!CS1010!IT3434
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Russland;UCLA;2011;English;3;2;ECO9080!CS4520!CS3560!IT3434
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Spania;UCLA;2015;English;4;4;CS4520!IT1234!TECH9870!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Norge;Far Eastern Federal University;2010;Norwegian;2;2;TECH9870!IT1234!TECH9870!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Russland;Flinders University;2014;Portoguese;2;5;CS4520!MATH4567!ECO9080!CS3560
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Norge;Universitat de Barcelona;2014;English;4;2;IT3434!CS4520!IT1234!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Frankrike;Flinders University;2010;English;5;2;ECO9080!TECH2020!CS4520!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Far Eastern Federal University;2010;Portoguese;3;4;CS4520!MATH4567!CS3560!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Sverige;Bond University;2011;Deutch;2;2;TECH9870!CS1010!MATH4567!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Portugal;Université Joseph Fourier;2010;Spanish;4;5;TECH2020!IT3434!IT3434!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Danmark;Université Joseph Fourier;2011;Deutch;1;1;CS4520!MATH4567!ECO9080!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Frankrike;Université Joseph Fourier;2010;Norwegian;1;2;TECH9870!IT1234!CS3560!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Norge;UCLA;2013;Spanish;5;2;IT3434!CS3560!MATH4567!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Portugal;Université Joseph Fourier;2011;Portoguese;2;2;CS4520!IT3434!IT1234!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Frankrike;Bond University;2015;Portoguese;4;4;IT1234!IT3434!MATH4567!CS3560
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Australia;Bond University;2012;French;2;4;TECH9870!TECH9870!CS4520!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Sverige;Far Eastern Federal University;2015;Norwegian;5;1;IT3434!MATH1123!CS3560!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Australia;Flinders University;2015;Norwegian;2;2;CS3560!ECO9080!TECH9870!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;USA;Augsburg College;2012;Deutch;5;4;MATH1123!ECO9080!TECH2020!CS3560
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Danmark;Flinders University;2011;Portoguese;1;2;MATH4567!CS3560!CS1010!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Danmark;Bond University;2010;Norwegian;2;4;IT1234!MATH4567!CS1010!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Sverige;Augsburg College;2010;Portoguese;1;1;CS1010!TECH9870!ECO9080!CS3560
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Danmark;Augsburg College;2011;English;2;5;IT1234!ECO9080!CS1010!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Russland;Augsburg College;2015;Deutch;1;4;TECH2020!TECH9870!TECH2020!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Norge;Augsburg College;2015;Portoguese;1;4;IT1234!IT1234!MATH4567!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Frankrike;Far Eastern Federal University;2015;English;3;3;CS4520!MATH4567!IT3434!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;Bond University;2010;Deutch;2;3;IT3434!IT1234!TECH2020!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Universitat de Barcelona;2011;English;4;5;CS1010!MATH4567!IT3434!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Russland;Bond University;2012;English;2;4;IT1234!CS4520!ECO9080!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Australia;Bond University;2014;Spanish;2;5;TECH9870!MATH1123!CS3560!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Portugal;Flinders University;2011;French;2;4;CS4520!MATH1123!ECO9080!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;Bond University;2014;Deutch;4;4;CS4520!IT3434!TECH9870!IT3434
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Frankrike;Universitat de Barcelona;2013;Norwegian;4;1;TECH9870!IT3434!TECH9870!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Universitat de Barcelona;2012;Norwegian;5;5;CS1010!MATH1123!ECO9080!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Australia;Université Joseph Fourier;2013;Spanish;2;1;MATH4567!IT1234!CS3560!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Frankrike;Flinders University;2015;Norwegian;3;3;CS1010!MATH4567!TECH9870!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Russland;Bond University;2010;English;4;3;ECO9080!MATH4567!MATH4567!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Frankrike;Flinders University;2013;English;4;2;MATH1123!TECH9870!CS4520!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Frankrike;Augsburg College;2011;Deutch;1;1;ECO9080!MATH1123!TECH2020!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Australia;Université Joseph Fourier;2015;Portoguese;5;2;CS1010!MATH1123!CS4520!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Russland;Flinders University;2015;English;2;4;ECO9080!CS3560!ECO9080!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Australia;Universitat de Barcelona;2015;Spanish;2;2;CS3560!IT3434!CS3560!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Portugal;Augsburg College;2010;English;2;2;MATH4567!CS3560!CS3560!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Norge;Far Eastern Federal University;2010;Deutch;1;3;MATH4567!CS4520!CS1010!CS3560
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Norge;Universitat de Barcelona;2013;English;1;4;MATH1123!MATH1123!ECO9080!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Australia;Flinders University;2015;Norwegian;5;1;TECH2020!MATH1123!CS3560!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Danmark;Bond University;2012;Portoguese;4;1;TECH9870!MATH4567!IT3434!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Norge;Universitat de Barcelona;2010;Portoguese;1;4;MATH1123!MATH4567!IT3434!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Portugal;Bond University;2012;English;3;2;TECH9870!TECH9870!TECH9870!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Russland;Far Eastern Federal University;2013;Spanish;3;3;ECO9080!IT1234!ECO9080!CS3560
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Sverige;Flinders University;2013;Portoguese;5;2;MATH4567!CS1010!CS1010!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Norge;Bond University;2012;Portoguese;1;5;TECH9870!ECO9080!MATH1123!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Sverige;UCLA;2010;Portoguese;5;4;IT3434!IT1234!IT3434!MATH1123
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Portugal;Far Eastern Federal University;2013;French;3;1;TECH9870!ECO9080!CS3560!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Norge;Far Eastern Federal University;2013;Spanish;1;3;IT1234!ECO9080!MATH1123!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Russland;Université Joseph Fourier;2015;Norwegian;5;2;IT3434!MATH4567!MATH4567!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Portugal;Bond University;2011;Portoguese;4;1;MATH1123!CS4520!IT1234!IT3434
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Danmark;Université Joseph Fourier;2013;English;1;1;CS1010!MATH4567!CS1010!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Sverige;Augsburg College;2011;Deutch;2;1;IT1234!TECH9870!CS1010!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Portugal;Universitat de Barcelona;2014;English;4;1;TECH9870!CS1010!CS1010!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;USA;Université Joseph Fourier;2014;Spanish;1;4;MATH1123!IT3434!MATH1123!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Danmark;Augsburg College;2015;Portoguese;2;1;CS3560!TECH2020!IT3434!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Sverige;Bond University;2014;French;1;1;MATH4567!MATH4567!CS4520!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Danmark;Far Eastern Federal University;2013;Deutch;1;2;TECH9870!MATH4567!CS4520!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Russland;Augsburg College;2015;English;5;2;CS3560!TECH2020!IT3434!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Norge;Bond University;2013;English;3;5;MATH4567!MATH1123!MATH4567!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Spania;Université Joseph Fourier;2011;French;4;2;TECH2020!TECH9870!MATH4567!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Australia;Augsburg College;2011;Portoguese;3;5;TECH9870!IT1234!CS1010!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Australia;Université Joseph Fourier;2010;Norwegian;5;2;TECH2020!IT1234!IT3434!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Portugal;Flinders University;2011;Portoguese;4;5;CS1010!MATH1123!IT3434!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Danmark;Universitat de Barcelona;2010;French;4;3;ECO9080!IT1234!TECH9870!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;USA;Université Joseph Fourier;2010;French;1;4;ECO9080!MATH1123!IT1234!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Frankrike;Augsburg College;2014;English;2;4;CS4520!ECO9080!CS4520!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Russland;Université Joseph Fourier;2011;French;2;4;CS4520!MATH1123!CS1010!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Russland;Far Eastern Federal University;2015;Portoguese;4;1;TECH9870!CS3560!IT3434!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Sverige;Far Eastern Federal University;2011;Portoguese;3;1;ECO9080!CS3560!CS4520!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Russland;Université Joseph Fourier;2010;Norwegian;5;1;TECH9870!CS3560!ECO9080!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Portugal;Flinders University;2012;Deutch;4;1;MATH4567!TECH2020!TECH9870!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;Bond University;2010;Portoguese;3;5;TECH2020!IT1234!MATH4567!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Spania;Bond University;2013;English;2;3;CS4520!CS1010!CS3560!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Portugal;Universitat de Barcelona;2012;Deutch;5;1;MATH4567!CS4520!CS4520!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Danmark;Augsburg College;2010;Spanish;3;2;IT3434!TECH2020!IT3434!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Russland;Flinders University;2014;Portoguese;2;4;TECH2020!CS1010!IT3434!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Norge;Augsburg College;2014;Portoguese;3;5;MATH1123!TECH9870!IT1234!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Norge;Augsburg College;2015;Norwegian;1;3;CS4520!TECH2020!IT1234!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Norge;Bond University;2012;Deutch;3;5;MATH1123!CS3560!IT3434!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Sverige;UCLA;2015;Norwegian;2;4;TECH9870!IT3434!ECO9080!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Spania;Augsburg College;2010;Deutch;4;5;MATH4567!IT1234!CS1010!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Norge;Flinders University;2010;French;1;1;ECO9080!ECO9080!CS4520!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Norge;Universitat de Barcelona;2013;French;1;2;ECO9080!MATH1123!CS1010!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Frankrike;Bond University;2012;Portoguese;3;4;CS1010!IT1234!MATH4567!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Frankrike;Université Joseph Fourier;2010;Spanish;3;1;CS4520!IT1234!IT3434!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;USA;Augsburg College;2012;Portoguese;2;1;IT3434!IT3434!CS4520!CS3560
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Portugal;UCLA;2013;Norwegian;4;2;CS1010!TECH9870!MATH1123!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Russland;Far Eastern Federal University;2011;Spanish;5;5;IT1234!ECO9080!TECH2020!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;UCLA;2012;English;5;5;IT3434!IT3434!IT3434!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Portugal;Far Eastern Federal University;2010;Portoguese;3;5;CS4520!TECH2020!IT3434!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Frankrike;Far Eastern Federal University;2011;Norwegian;5;5;TECH2020!TECH9870!CS4520!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Danmark;Bond University;2012;Norwegian;4;5;ECO9080!CS1010!MATH1123!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Spania;UCLA;2011;Spanish;1;1;MATH1123!IT3434!ECO9080!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Frankrike;Augsburg College;2013;English;2;5;TECH2020!CS4520!IT1234!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Portugal;Universitat de Barcelona;2012;Portoguese;4;5;MATH4567!MATH1123!IT1234!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;USA;Flinders University;2013;Deutch;2;2;CS4520!MATH1123!IT1234!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Sverige;Université Joseph Fourier;2013;Norwegian;1;4;IT3434!IT3434!IT1234!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Norge;Universitat de Barcelona;2010;English;5;3;IT3434!IT3434!CS3560!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Russland;Far Eastern Federal University;2013;Norwegian;1;1;IT1234!CS1010!TECH9870!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Danmark;Bond University;2013;French;1;4;TECH9870!ECO9080!TECH9870!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Russland;Far Eastern Federal University;2014;Norwegian;2;4;ECO9080!IT1234!TECH9870!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Australia;Universitat de Barcelona;2015;Spanish;1;2;TECH2020!IT1234!TECH9870!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;USA;Université Joseph Fourier;2011;French;2;5;TECH9870!TECH9870!ECO9080!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Australia;Augsburg College;2010;Portoguese;1;2;CS1010!ECO9080!CS3560!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Danmark;Augsburg College;2013;French;4;4;CS4520!ECO9080!ECO9080!CS3560
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Portugal;Universitat de Barcelona;2011;Spanish;2;1;TECH9870!IT3434!CS3560!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Norge;Universitat de Barcelona;2010;Norwegian;5;3;MATH4567!CS4520!MATH1123!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Spania;UCLA;2015;Spanish;5;1;IT1234!IT3434!MATH4567!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Danmark;Universitat de Barcelona;2011;Norwegian;1;5;CS1010!IT1234!CS3560!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Spania;Augsburg College;2011;Norwegian;5;5;CS1010!CS4520!TECH9870!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Australia;Université Joseph Fourier;2014;English;3;3;CS1010!IT1234!CS4520!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Frankrike;Universitat de Barcelona;2014;French;5;2;CS1010!CS4520!MATH1123!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Sverige;Université Joseph Fourier;2010;English;3;5;CS3560!CS3560!IT1234!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Sverige;Universitat de Barcelona;2011;Norwegian;5;2;CS3560!CS1010!CS1010!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Norge;Far Eastern Federal University;2014;English;5;2;TECH2020!TECH9870!MATH4567!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Spania;Universitat de Barcelona;2011;Portoguese;5;1;IT1234!IT1234!CS3560!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Frankrike;UCLA;2012;Portoguese;3;3;MATH1123!MATH4567!MATH4567!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Danmark;Université Joseph Fourier;2013;English;1;1;CS4520!IT1234!TECH2020!MATH1123
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Australia;UCLA;2010;Deutch;4;4;MATH4567!CS4520!IT1234!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Norge;Far Eastern Federal University;2012;French;1;4;ECO9080!CS4520!ECO9080!IT3434
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Danmark;Université Joseph Fourier;2010;Norwegian;5;3;IT3434!TECH9870!ECO9080!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Danmark;Bond University;2013;English;2;1;MATH1123!TECH2020!MATH4567!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Danmark;UCLA;2010;Spanish;3;3;CS4520!TECH9870!CS3560!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Portugal;Far Eastern Federal University;2014;English;4;4;CS1010!CS3560!CS3560!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Danmark;Flinders University;2014;Norwegian;1;2;CS4520!ECO9080!IT3434!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Russland;UCLA;2014;English;2;4;MATH4567!IT1234!TECH9870!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Frankrike;Universitat de Barcelona;2010;Portoguese;4;3;CS3560!MATH4567!MATH1123!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;USA;Far Eastern Federal University;2012;Spanish;4;3;CS4520!TECH9870!CS1010!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Norge;UCLA;2015;English;3;3;MATH1123!TECH2020!CS1010!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Spania;Université Joseph Fourier;2014;Portoguese;3;3;MATH4567!MATH1123!MATH4567!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Sverige;Augsburg College;2011;Portoguese;5;4;IT1234!IT1234!CS1010!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Frankrike;Bond University;2012;French;5;5;CS3560!MATH4567!CS1010!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Norge;Far Eastern Federal University;2013;Portoguese;4;1;CS4520!IT1234!IT3434!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Frankrike;Bond University;2012;Spanish;5;2;IT3434!IT3434!TECH2020!CS3560
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Frankrike;Université Joseph Fourier;2013;Deutch;1;3;CS4520!MATH4567!MATH4567!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;USA;Flinders University;2012;English;4;3;CS3560!MATH4567!CS1010!CS3560
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Norge;Flinders University;2010;Portoguese;5;3;CS4520!MATH4567!IT3434!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Frankrike;Augsburg College;2011;Spanish;3;4;CS4520!CS3560!TECH9870!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Norge;Far Eastern Federal University;2010;Deutch;5;4;CS4520!MATH1123!CS4520!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;USA;Université Joseph Fourier;2013;Spanish;3;2;TECH9870!ECO9080!CS3560!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Spania;Flinders University;2012;Deutch;4;2;CS3560!CS1010!CS4520!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;UCLA;2011;French;2;1;TECH2020!TECH9870!MATH4567!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Australia;Université Joseph Fourier;2011;Portoguese;1;4;ECO9080!IT1234!MATH4567!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Russland;UCLA;2014;Deutch;2;4;TECH2020!ECO9080!IT1234!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Portugal;Université Joseph Fourier;2015;Deutch;4;2;TECH2020!TECH2020!MATH1123!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Sverige;Universitat de Barcelona;2013;Norwegian;2;4;CS1010!CS1010!CS3560!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Norge;UCLA;2011;Spanish;4;4;TECH9870!MATH1123!CS3560!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Spania;Flinders University;2012;Deutch;5;4;MATH1123!MATH4567!MATH1123!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Russland;Universitat de Barcelona;2014;Spanish;2;3;MATH4567!MATH4567!CS3560!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Frankrike;Far Eastern Federal University;2013;Spanish;1;4;TECH9870!IT3434!TECH9870!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Norge;UCLA;2011;Norwegian;5;4;MATH1123!IT1234!IT3434!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Norge;Université Joseph Fourier;2015;Norwegian;2;3;MATH4567!IT3434!CS1010!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;USA;Bond University;2015;Portoguese;3;4;MATH1123!TECH9870!CS3560!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Frankrike;Augsburg College;2012;Portoguese;5;1;MATH4567!IT3434!TECH9870!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Norge;Far Eastern Federal University;2012;English;1;1;TECH2020!IT3434!CS3560!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Portugal;Flinders University;2010;Spanish;3;5;IT3434!IT3434!CS1010!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Danmark;Bond University;2012;Portoguese;1;5;CS1010!CS4520!CS3560!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Norge;Universitat de Barcelona;2010;English;3;5;TECH9870!CS3560!CS3560!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Russland;Bond University;2010;Spanish;4;3;TECH2020!CS3560!CS3560!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Russland;Université Joseph Fourier;2015;Deutch;2;2;TECH9870!MATH4567!TECH2020!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Sverige;Université Joseph Fourier;2014;English;2;4;MATH4567!TECH9870!MATH1123!IT3434
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Frankrike;Augsburg College;2010;Spanish;3;3;MATH4567!TECH2020!CS3560!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Frankrike;Flinders University;2015;English;5;3;ECO9080!IT3434!IT1234!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Frankrike;Far Eastern Federal University;2015;Portoguese;3;4;CS3560!TECH2020!IT3434!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Australia;Université Joseph Fourier;2012;Spanish;3;3;MATH4567!ECO9080!TECH2020!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;USA;Université Joseph Fourier;2011;Deutch;5;5;MATH1123!MATH1123!CS1010!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Danmark;Augsburg College;2012;Portoguese;4;2;CS3560!MATH1123!TECH2020!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Spania;Université Joseph Fourier;2015;French;4;5;ECO9080!TECH2020!CS1010!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Portugal;Universitat de Barcelona;2010;Spanish;1;2;ECO9080!MATH1123!MATH1123!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Frankrike;Flinders University;2015;French;5;4;IT1234!MATH4567!IT1234!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Portugal;Far Eastern Federal University;2010;Portoguese;4;4;CS4520!CS3560!CS3560!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Portugal;Université Joseph Fourier;2013;Deutch;4;3;CS1010!CS3560!MATH1123!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Spania;UCLA;2011;English;2;2;TECH9870!MATH1123!CS3560!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Portugal;Universitat de Barcelona;2014;Portoguese;3;3;CS3560!CS1010!CS3560!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;USA;Bond University;2010;Norwegian;1;4;TECH2020!TECH2020!MATH4567!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Australia;Far Eastern Federal University;2011;Spanish;3;5;IT1234!MATH1123!CS4520!CS1010
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Frankrike;Université Joseph Fourier;2011;Spanish;1;2;IT3434!IT3434!MATH1123!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Russland;Flinders University;2011;English;3;3;CS1010!IT1234!MATH1123!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Spania;Far Eastern Federal University;2013;Norwegian;3;4;MATH1123!ECO9080!IT3434!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Spania;Flinders University;2013;Portoguese;5;5;CS3560!TECH2020!ECO9080!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Frankrike;Université Joseph Fourier;2012;Portoguese;5;2;ECO9080!IT3434!CS1010!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Australia;Universitat de Barcelona;2014;French;3;1;TECH9870!MATH1123!TECH2020!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Frankrike;Augsburg College;2015;French;4;2;IT1234!MATH4567!IT3434!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Spania;Flinders University;2013;Norwegian;2;4;IT3434!ECO9080!ECO9080!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Norge;UCLA;2014;Portoguese;2;4;IT3434!MATH4567!IT1234!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Russland;Université Joseph Fourier;2013;Portoguese;2;4;CS4520!CS4520!CS4520!MATH1123
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Danmark;Universitat de Barcelona;2015;Spanish;1;3;TECH9870!TECH9870!IT1234!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Portugal;Augsburg College;2010;French;4;1;CS1010!IT3434!CS3560!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Frankrike;Universitat de Barcelona;2011;Portoguese;3;3;CS1010!CS4520!IT1234!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Sverige;Augsburg College;2012;Deutch;4;1;MATH4567!ECO9080!IT3434!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Spania;Augsburg College;2015;Portoguese;5;4;TECH2020!TECH9870!TECH2020!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Portugal;Universitat de Barcelona;2014;Spanish;1;1;IT3434!CS3560!TECH9870!CS3560
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Norge;UCLA;2010;Portoguese;4;2;CS1010!CS3560!CS4520!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Russland;Far Eastern Federal University;2010;Deutch;5;2;CS3560!MATH1123!TECH9870!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Russland;Universitat de Barcelona;2010;Deutch;5;2;IT1234!CS3560!CS3560!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Russland;Bond University;2014;Deutch;1;3;IT1234!IT3434!IT1234!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Spania;Bond University;2012;English;4;5;MATH1123!MATH4567!IT3434!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Sverige;Université Joseph Fourier;2014;Norwegian;4;2;TECH9870!IT1234!CS1010!CS3560
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Sverige;Flinders University;2013;Spanish;3;2;ECO9080!IT1234!ECO9080!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Australia;Far Eastern Federal University;2014;Spanish;4;1;CS4520!MATH4567!IT1234!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;USA;UCLA;2015;Deutch;1;4;CS1010!CS1010!CS3560!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Spania;Flinders University;2014;French;3;3;MATH4567!CS1010!IT3434!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Russland;Bond University;2010;Norwegian;2;2;MATH4567!TECH9870!MATH1123!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Sverige;Bond University;2014;Deutch;3;4;MATH4567!IT3434!IT1234!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Sverige;UCLA;2014;Deutch;3;1;CS3560!IT1234!IT1234!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Norge;Université Joseph Fourier;2012;French;3;1;TECH9870!TECH9870!CS1010!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Sverige;Université Joseph Fourier;2012;English;5;2;IT3434!MATH4567!TECH2020!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Norge;Flinders University;2012;Norwegian;1;5;IT1234!TECH9870!ECO9080!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Danmark;UCLA;2012;French;3;3;CS1010!ECO9080!TECH9870!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Norge;UCLA;2012;English;2;3;MATH4567!MATH1123!ECO9080!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Spania;Augsburg College;2010;Deutch;4;1;CS3560!CS3560!IT1234!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Spania;Bond University;2010;Spanish;2;2;CS4520!CS4520!CS3560!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Russland;Université Joseph Fourier;2011;Norwegian;4;1;ECO9080!CS1010!CS3560!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Frankrike;Flinders University;2015;French;3;1;IT3434!MATH4567!CS4520!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Frankrike;Université Joseph Fourier;2012;Spanish;1;2;ECO9080!CS1010!CS4520!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Australia;Flinders University;2010;French;2;5;MATH4567!IT1234!MATH4567!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Norge;Flinders University;2011;Deutch;4;2;TECH2020!TECH2020!ECO9080!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Sverige;Flinders University;2014;Spanish;2;1;MATH4567!TECH2020!MATH1123!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Danmark;Far Eastern Federal University;2010;Deutch;1;4;MATH4567!CS3560!CS3560!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;USA;Augsburg College;2014;English;2;3;ECO9080!IT3434!MATH4567!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Russland;Bond University;2011;French;4;2;MATH1123!TECH9870!IT1234!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Russland;Université Joseph Fourier;2012;French;5;1;CS3560!CS3560!CS1010!ECO9080
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Spania;Université Joseph Fourier;2011;French;1;4;MATH1123!IT1234!MATH4567!TECH9870
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Russland;UCLA;2014;Deutch;1;2;TECH2020!IT3434!TECH2020!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Norge;Universitat de Barcelona;2010;Portoguese;3;4;MATH4567!MATH4567!IT3434!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Spania;Universitat de Barcelona;2013;English;4;2;TECH2020!TECH2020!CS4520!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Danmark;Universitat de Barcelona;2011;English;5;4;MATH4567!MATH1123!CS3560!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Australia;UCLA;2011;French;4;4;ECO9080!CS1010!ECO9080!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Spania;Université Joseph Fourier;2011;Spanish;1;3;CS3560!TECH2020!CS4520!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Sverige;Far Eastern Federal University;2014;Deutch;4;4;MATH4567!MATH4567!TECH2020!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Portugal;Bond University;2010;Deutch;4;2;TECH2020!MATH1123!MATH1123!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;USA;Flinders University;2012;French;3;5;ECO9080!IT3434!CS4520!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Australia;Far Eastern Federal University;2010;Deutch;2;2;IT1234!MATH1123!CS1010!MATH4567
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Russland;Bond University;2013;Norwegian;3;4;CS1010!ECO9080!IT3434!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Norge;Augsburg College;2010;Portoguese;2;1;TECH2020!CS1010!CS4520!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Norge;Flinders University;2014;Deutch;5;1;TECH2020!MATH4567!CS1010!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Danmark;Augsburg College;2013;Deutch;1;3;MATH4567!CS1010!IT3434!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Danmark;Augsburg College;2014;Deutch;1;4;TECH9870!TECH2020!CS4520!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Spania;Bond University;2013;Norwegian;5;4;CS1010!CS3560!IT1234!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Frankrike;Bond University;2015;English;3;4;IT1234!CS4520!CS4520!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Augsburg College;2014;Spanish;3;5;MATH4567!MATH4567!ECO9080!CS3560
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Australia;Far Eastern Federal University;2015;English;1;5;ECO9080!IT1234!IT3434!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Australia;Far Eastern Federal University;2015;English;3;5;IT3434!CS3560!MATH4567!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Sverige;Université Joseph Fourier;2014;English;3;2;ECO9080!IT3434!TECH9870!ECO9080
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Sverige;Universitat de Barcelona;2014;Spanish;3;5;IT1234!TECH9870!ECO9080!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;USA;UCLA;2014;Portoguese;5;4;CS4520!IT1234!CS3560!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Australia;Far Eastern Federal University;2011;English;1;5;CS4520!TECH9870!CS1010!CS3560
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Australia;Bond University;2010;Spanish;4;2;MATH4567!CS3560!ECO9080!CS3560
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Russland;Far Eastern Federal University;2012;Portoguese;3;2;MATH4567!CS3560!CS4520!TECH9870
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;UCLA;2010;Portoguese;3;5;CS4520!IT1234!IT1234!IT3434
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Australia;Flinders University;2013;English;4;2;TECH9870!IT1234!MATH1123!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;USA;Flinders University;2013;English;4;2;CS3560!CS1010!TECH9870!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Frankrike;Augsburg College;2012;Spanish;2;5;TECH9870!CS3560!MATH4567!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Sverige;UCLA;2011;French;3;1;MATH4567!CS4520!CS3560!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Australia;Augsburg College;2011;French;3;2;MATH1123!IT3434!TECH2020!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Australia;Université Joseph Fourier;2013;Deutch;3;1;MATH4567!CS1010!IT1234!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Portugal;Bond University;2014;Norwegian;4;4;CS3560!MATH4567!IT3434!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Portugal;Bond University;2013;English;3;3;TECH2020!TECH2020!CS4520!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;South America;USA;UCLA;2012;French;5;4;CS1010!IT1234!CS4520!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;USA;Flinders University;2013;English;1;5;IT1234!ECO9080!CS4520!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Portugal;Universitat de Barcelona;2015;English;2;5;MATH4567!TECH9870!MATH4567!TECH2020
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Australia;Far Eastern Federal University;2010;French;4;2;TECH9870!MATH1123!TECH2020!IT1234
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Danmark;Universitat de Barcelona;2012;Portoguese;5;1;IT1234!MATH1123!CS3560!MATH4567
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;USA;Augsburg College;2011;Norwegian;1;1;IT3434!IT1234!IT1234!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Portugal;Université Joseph Fourier;2015;English;2;3;TECH2020!TECH9870!TECH9870!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;USA;Augsburg College;2012;Portoguese;1;3;CS4520!IT3434!CS3560!ECO9080
-HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Portugal;Far Eastern Federal University;2013;French;1;4;TECH2020!CS3560!CS3560!IT1234
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;USA;UCLA;2011;English;1;4;IT1234!MATH1123!CS3560!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Spania;Far Eastern Federal University;2010;Norwegian;5;1;TECH2020!TECH9870!TECH2020!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Frankrike;Bond University;2015;English;2;4;MATH4567!TECH9870!IT1234!CS3560
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Russland;UCLA;2010;Portoguese;4;4;MATH1123!CS4520!MATH4567!IT1234
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Portugal;Far Eastern Federal University;2014;French;3;2;TECH9870!IT1234!MATH1123!CS4520
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Sverige;Augsburg College;2010;Norwegian;1;2;IT3434!TECH9870!TECH9870!TECH9870
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Frankrike;Université Joseph Fourier;2012;French;5;2;ECO9080!TECH9870!MATH1123!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Australia;Université Joseph Fourier;2014;Norwegian;3;3;MATH1123!TECH9870!TECH9870!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Russland;UCLA;2015;English;3;3;IT3434!MATH1123!CS1010!TECH2020
-HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Russland;Flinders University;2010;Norwegian;4;5;IT1234!ECO9080!CS3560!MATH4567
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Frankrike;Flinders University;2015;French;2;2;MATH4567!MATH1123!IT1234!TECH2020
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Spania;UCLA;2015;Deutch;1;2;CS4520!MATH1123!IT3434!IT3434
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Frankrike;Far Eastern Federal University;2010;French;1;2;MATH1123!TECH9870!CS1010!CS1010
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Sverige;Bond University;2010;Spanish;2;1;CS3560!MATH1123!CS4520!CS1010
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Spania;Far Eastern Federal University;2015;Portoguese;3;1;TECH2020!IT3434!IT3434!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Portugal;Bond University;2014;Portoguese;3;2;TECH9870!TECH9870!CS1010!CS4520
-HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Spania;Far Eastern Federal University;2014;Portoguese;3;5;ECO9080!CS1010!ECO9080!CS4520
-DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Sverige;Bond University;2012;Spanish;3;1;ECO9080!ECO9080!CS1010!MATH1123
-IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Portugal;Flinders University;2012;French;1;2;IT3434!CS3560!CS1010!MATH1123
-HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Portugal;Bond University;2012;French;2;1;CS1010!MATH1123!CS1010!IT3434
-HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Danmark;Universitat de Barcelona;2011;French;4;4;CS1010!CS1010!TECH2020!IT1234
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Spania;Bond University;2012;Deutsch;4;2;TECH2030!CS101!DATA101!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;England;Augsburg College;2011;Portoguese;3;4;DATA5670!MATH5089!MATH202!TECH101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Danmark;UCLA;2015;French;3;1;MATH5089!MATH1212!CS202!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;England;Université Joseph Fourier;2012;Spanish;5;1;MATH5089!DATA2020!TECH2020!MATH202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;England;Université Joseph Fourier;2011;Spanish;2;2;MATH202!TECH101!DATA101!CS4210
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Frankrike;Universitat de Barcelona;2015;Spanish;5;4;TECH101!CS4210!DATA101!MATH1212
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Spania;Bond University;2010;English;3;2;MATH3220!DATA101!DATA4141!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Tyskland;Université Joseph Fourier;2012;English;1;2;TECH2030!CS3320!CS101!DATA5670
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Frankrike;Flinders University;2013;English;4;2;TECH2020!CS101!DATA2020!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;England;Augsburg College;2013;English;4;4;MATH202!DATA2020!TECH2030!MATH202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;England;Bond University;2013;French;3;4;DATA101!MATH5089!TECH2030!MATH5089
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;USA;Far Eastern Federal University;2012;Deutsch;1;1;TECH2030!MATH5089!TECH101!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;USA;Flinders University;2012;Portoguese;2;2;TECH101!DATA101!DATA4141!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Spania;Université Joseph Fourier;2015;English;1;3;TECH101!MATH1212!MATH202!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;UCLA;2014;English;2;3;TECH2020!DATA101!DATA101!MATH1212
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;USA;Augsburg College;2014;Spanish;5;4;TECH2020!DATA101!MATH202!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;Universitat de Barcelona;2013;English;2;4;TECH2030!MATH3220!CS4210!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;USA;Universitat de Barcelona;2010;French;3;5;DATA101!CS3320!CS4210!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;England;Augsburg College;2010;Portoguese;2;4;MATH1212!TECH2030!DATA5670!MATH1212
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;England;Flinders University;2011;Portoguese;5;2;TECH2020!TECH2020!DATA5670!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Spania;Flinders University;2011;Portoguese;5;1;TECH2020!MATH1212!MATH3220!TECH2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Tyskland;UCLA;2013;Portoguese;3;1;MATH202!TECH2020!DATA5670!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Spania;Augsburg College;2011;English;4;3;TECH2020!TECH2020!TECH2030!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Danmark;Augsburg College;2015;Portoguese;4;2;CS101!CS3320!CS202!CS101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Danmark;Flinders University;2011;Norwegian;5;5;MATH3220!MATH3220!TECH101!TECH101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Danmark;Far Eastern Federal University;2015;Spanish;2;1;MATH5089!DATA101!CS202!CS101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Spania;Bond University;2013;French;3;5;DATA5670!DATA2020!TECH101!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Sverige;Bond University;2013;Deutsch;4;1;CS202!MATH202!TECH101!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Frankrike;Augsburg College;2015;English;2;3;TECH2190!CS101!MATH3220!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Danmark;Bond University;2012;Spanish;4;3;CS3320!DATA5670!TECH2020!TECH2030
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Tyskland;Augsburg College;2010;French;2;5;CS4210!MATH3220!CS4210!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Tyskland;Bond University;2012;Portoguese;2;4;TECH2030!TECH2020!DATA5670!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Frankrike;UCLA;2015;English;1;2;TECH101!DATA101!MATH202!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;England;Université Joseph Fourier;2013;Norwegian;1;3;CS101!MATH202!CS4210!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;USA;Bond University;2012;French;2;2;TECH2020!CS101!CS3320!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Tyskland;Université Joseph Fourier;2013;Deutsch;5;4;TECH2030!DATA2020!MATH202!TECH101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Spania;Université Joseph Fourier;2012;English;3;4;MATH202!CS202!CS202!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Sverige;UCLA;2010;French;1;4;DATA4141!TECH2020!CS4210!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;England;Université Joseph Fourier;2011;English;3;2;CS4210!MATH1212!DATA4141!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Tyskland;UCLA;2013;Norwegian;4;5;MATH5089!MATH3220!MATH5089!TECH2030
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Danmark;Flinders University;2015;French;1;5;TECH101!DATA101!MATH3220!TECH2030
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Sverige;UCLA;2011;English;2;4;CS3320!DATA2020!TECH2190!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Tyskland;UCLA;2011;French;4;4;CS202!TECH2190!DATA101!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Frankrike;Universitat de Barcelona;2012;Norwegian;3;3;MATH5089!CS4210!MATH3220!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Spania;Bond University;2014;French;5;4;CS202!CS101!MATH5089!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Sverige;UCLA;2015;English;4;3;TECH2030!TECH2030!MATH202!DATA2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Spania;Universitat de Barcelona;2012;Deutsch;1;3;CS4210!DATA4141!TECH2030!DATA5670
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Frankrike;Université Joseph Fourier;2011;Deutsch;2;1;CS202!CS202!MATH3220!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Tyskland;Bond University;2015;Portoguese;5;5;MATH5089!CS3320!DATA2020!MATH202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;England;Université Joseph Fourier;2014;English;5;2;DATA2020!CS4210!TECH2190!CS4210
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;UCLA;2011;English;4;4;CS4210!CS4210!TECH2190!DATA2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;England;Far Eastern Federal University;2012;Deutsch;4;1;TECH101!CS4210!MATH3220!TECH2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Danmark;Flinders University;2015;English;1;2;DATA101!DATA2020!TECH2030!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Frankrike;Université Joseph Fourier;2012;Spanish;2;2;MATH5089!TECH2020!MATH5089!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Frankrike;Augsburg College;2010;Spanish;4;4;DATA101!DATA101!DATA5670!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Danmark;Bond University;2011;Spanish;4;5;TECH2030!DATA2020!CS4210!TECH101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;England;Augsburg College;2015;Portoguese;2;3;TECH101!MATH3220!MATH1212!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;England;Bond University;2013;Spanish;3;4;DATA4141!TECH2020!DATA101!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Spania;Bond University;2012;Portoguese;3;4;MATH202!MATH5089!CS4210!DATA101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Tyskland;Université Joseph Fourier;2011;French;2;4;DATA101!MATH1212!MATH1212!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Spania;Bond University;2014;French;5;3;TECH2030!DATA101!MATH202!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;USA;Far Eastern Federal University;2014;French;2;5;TECH101!CS101!DATA4141!MATH202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Danmark;Flinders University;2011;Deutsch;4;5;DATA101!CS4210!CS4210!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;Flinders University;2013;Portoguese;3;1;DATA5670!MATH1212!DATA101!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;England;Flinders University;2015;French;2;5;TECH101!MATH3220!DATA2020!TECH2190
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Frankrike;Universitat de Barcelona;2013;Norwegian;2;4;TECH2030!CS3320!TECH101!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Frankrike;Flinders University;2015;English;2;1;MATH1212!TECH2020!MATH1212!TECH2190
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Sverige;Universitat de Barcelona;2010;Deutsch;1;1;CS4210!DATA5670!DATA101!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Sverige;Flinders University;2014;Deutsch;4;1;TECH2190!DATA4141!DATA5670!MATH5089
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;USA;Augsburg College;2011;English;3;1;CS3320!DATA2020!CS101!TECH2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Danmark;Universitat de Barcelona;2010;English;1;2;TECH101!MATH202!DATA5670!TECH2030
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Danmark;Augsburg College;2011;English;4;3;DATA101!TECH2030!TECH2190!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;USA;Augsburg College;2011;Spanish;3;5;CS101!TECH2020!DATA2020!TECH2190
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;England;Augsburg College;2010;Portoguese;2;1;TECH2020!MATH3220!MATH1212!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;England;Universitat de Barcelona;2015;French;5;4;DATA2020!CS202!CS3320!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Sverige;Flinders University;2013;English;4;1;TECH2020!CS202!TECH2030!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Danmark;Far Eastern Federal University;2011;English;2;1;TECH2020!TECH101!TECH101!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;USA;Université Joseph Fourier;2011;Norwegian;4;4;MATH5089!CS101!DATA101!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;Bond University;2010;Spanish;5;2;MATH5089!TECH2030!MATH1212!CS101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Danmark;UCLA;2014;Deutsch;1;4;CS202!CS4210!CS4210!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Spania;Far Eastern Federal University;2014;Portoguese;4;5;DATA101!DATA4141!MATH5089!TECH2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Frankrike;Far Eastern Federal University;2010;French;4;2;CS4210!MATH3220!MATH3220!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;USA;UCLA;2012;Spanish;2;2;TECH2030!MATH5089!TECH101!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;USA;Bond University;2014;Portoguese;5;2;MATH1212!CS202!MATH202!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Danmark;Bond University;2013;English;4;1;CS101!TECH2020!MATH5089!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;England;Augsburg College;2011;Portoguese;1;3;CS202!MATH3220!MATH3220!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;England;UCLA;2011;Norwegian;2;1;CS4210!CS3320!MATH5089!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;USA;Augsburg College;2012;English;2;4;DATA2020!TECH2190!MATH202!CS101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Tyskland;Université Joseph Fourier;2013;French;1;5;DATA5670!CS202!DATA2020!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Danmark;Universitat de Barcelona;2012;Portoguese;3;3;TECH101!TECH2030!CS101!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Danmark;UCLA;2011;Norwegian;4;3;DATA101!CS101!MATH1212!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Frankrike;Flinders University;2013;Spanish;2;5;MATH202!DATA2020!MATH3220!DATA2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;USA;Augsburg College;2014;Spanish;3;2;CS3320!MATH3220!DATA2020!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;Flinders University;2012;French;1;4;TECH2190!TECH2030!CS101!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Tyskland;Universitat de Barcelona;2015;Deutsch;3;5;DATA101!TECH2190!MATH1212!TECH2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Tyskland;Far Eastern Federal University;2015;Deutsch;2;3;TECH2020!CS202!CS4210!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Sverige;Augsburg College;2012;Norwegian;1;1;TECH2020!CS202!TECH101!CS3320
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;England;Augsburg College;2014;Norwegian;1;5;DATA4141!TECH2190!DATA5670!MATH1212
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;England;UCLA;2012;French;4;4;DATA5670!CS3320!TECH2190!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Danmark;Bond University;2010;Deutsch;2;3;CS202!TECH2030!MATH202!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Tyskland;Flinders University;2014;English;2;5;DATA2020!DATA2020!DATA5670!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Tyskland;Université Joseph Fourier;2014;French;5;3;DATA5670!DATA2020!CS202!CS202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Tyskland;Augsburg College;2012;English;3;4;MATH3220!CS4210!MATH3220!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Tyskland;Flinders University;2011;Spanish;5;3;CS3320!MATH5089!DATA4141!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Frankrike;Flinders University;2015;Deutsch;2;5;TECH101!CS202!DATA2020!TECH2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Tyskland;Far Eastern Federal University;2014;French;4;3;CS202!MATH1212!CS202!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Frankrike;Bond University;2014;Portoguese;1;2;TECH2190!CS3320!DATA4141!CS202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;USA;Université Joseph Fourier;2015;Deutsch;2;4;MATH1212!TECH2020!TECH2190!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;England;Université Joseph Fourier;2012;Norwegian;3;2;MATH5089!CS101!CS4210!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Tyskland;Far Eastern Federal University;2011;Norwegian;4;5;MATH202!CS4210!MATH3220!TECH101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Tyskland;Flinders University;2012;English;1;1;TECH101!DATA2020!TECH2020!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Tyskland;UCLA;2012;Portoguese;4;3;DATA4141!MATH1212!CS3320!DATA101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Spania;Far Eastern Federal University;2014;Norwegian;1;5;MATH5089!CS101!MATH202!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Tyskland;Université Joseph Fourier;2014;Portoguese;2;5;CS3320!TECH2020!DATA5670!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Spania;Bond University;2011;Portoguese;1;5;MATH1212!DATA2020!TECH2190!TECH2030
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Danmark;Bond University;2015;Spanish;3;4;TECH101!DATA101!MATH5089!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Spania;Bond University;2011;Deutsch;3;4;TECH101!CS3320!CS101!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;Far Eastern Federal University;2015;Deutsch;2;5;DATA101!TECH101!DATA5670!DATA101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Sverige;Flinders University;2013;English;5;1;DATA101!DATA101!MATH1212!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Spania;Augsburg College;2013;Deutsch;3;4;DATA101!DATA101!TECH2030!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Sverige;Université Joseph Fourier;2014;Spanish;3;2;TECH2030!TECH2190!DATA4141!TECH101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;England;Augsburg College;2012;Spanish;1;3;MATH202!CS4210!DATA2020!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;England;Université Joseph Fourier;2010;English;5;4;CS3320!DATA4141!DATA2020!DATA4141
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Tyskland;Université Joseph Fourier;2010;Spanish;5;4;DATA5670!CS4210!DATA101!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Spania;Flinders University;2012;Portoguese;4;1;TECH101!DATA2020!MATH202!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Danmark;UCLA;2011;Spanish;1;2;CS101!MATH5089!TECH2030!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Tyskland;UCLA;2011;English;2;2;MATH3220!DATA4141!TECH101!CS101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;USA;Far Eastern Federal University;2015;Portoguese;1;4;CS202!TECH2020!DATA5670!TECH2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;USA;Augsburg College;2012;Norwegian;4;5;CS202!MATH3220!MATH1212!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Tyskland;Bond University;2010;Norwegian;2;3;MATH3220!MATH5089!CS101!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Spania;Flinders University;2015;Norwegian;5;5;DATA101!DATA5670!CS4210!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Spania;Bond University;2011;Norwegian;1;3;TECH2020!MATH1212!TECH101!TECH2030
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Spania;Bond University;2012;Spanish;5;3;TECH2020!DATA4141!DATA101!TECH2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;UCLA;2013;French;2;1;DATA4141!TECH101!TECH101!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;England;UCLA;2013;French;3;4;TECH2020!TECH2020!CS202!CS202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Frankrike;Augsburg College;2011;Deutsch;1;3;TECH2190!CS101!TECH2190!DATA2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Danmark;Université Joseph Fourier;2014;French;2;4;CS202!DATA2020!DATA4141!CS4210
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;England;Université Joseph Fourier;2012;English;4;1;MATH1212!TECH101!DATA2020!TECH2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Danmark;Universitat de Barcelona;2012;English;5;5;DATA4141!CS3320!TECH2030!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Danmark;Flinders University;2011;Norwegian;3;4;DATA5670!CS101!MATH5089!TECH2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Tyskland;Flinders University;2010;English;1;3;MATH1212!CS101!MATH3220!TECH2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Sverige;Universitat de Barcelona;2014;Deutsch;4;5;CS3320!MATH5089!MATH202!TECH2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;England;Bond University;2015;English;3;1;CS3320!TECH2190!DATA4141!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Danmark;UCLA;2012;Deutsch;1;3;MATH5089!TECH2020!DATA101!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;USA;Augsburg College;2014;Deutsch;3;2;DATA5670!MATH3220!TECH101!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Frankrike;Augsburg College;2012;French;3;3;TECH101!MATH202!TECH2030!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Sverige;Universitat de Barcelona;2014;French;5;4;TECH101!CS3320!CS3320!CS4210
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Frankrike;Université Joseph Fourier;2013;English;5;5;CS202!TECH101!MATH5089!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;England;UCLA;2011;Portoguese;3;3;TECH2030!DATA2020!DATA2020!CS4210
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Danmark;Université Joseph Fourier;2012;Deutsch;2;3;TECH2030!TECH2190!MATH3220!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Spania;Flinders University;2012;Portoguese;3;1;DATA2020!MATH202!MATH1212!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Danmark;Université Joseph Fourier;2013;Portoguese;2;5;CS202!CS3320!MATH3220!TECH101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Danmark;Augsburg College;2012;Portoguese;4;3;DATA2020!TECH101!TECH2030!MATH1212
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;USA;Université Joseph Fourier;2010;French;1;3;MATH202!CS4210!CS3320!MATH202
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Frankrike;Augsburg College;2015;French;4;4;CS202!TECH2020!MATH5089!TECH101
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Sverige;Augsburg College;2015;Norwegian;3;2;MATH5089!DATA101!MATH5089!DATA2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;England;Université Joseph Fourier;2015;Portoguese;4;5;DATA4141!CS3320!DATA2020!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;USA;Augsburg College;2013;Norwegian;4;2;DATA4141!TECH2190!MATH202!DATA101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Sverige;UCLA;2014;Norwegian;3;4;MATH3220!MATH3220!DATA4141!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Frankrike;Flinders University;2010;Portoguese;3;2;MATH5089!CS3320!DATA2020!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Danmark;UCLA;2010;Deutsch;1;2;DATA5670!MATH1212!MATH202!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Tyskland;UCLA;2014;Portoguese;1;5;DATA2020!MATH202!CS4210!TECH2030
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Sverige;Universitat de Barcelona;2011;French;4;5;MATH3220!TECH2190!TECH2190!CS101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;England;UCLA;2015;Norwegian;1;3;TECH101!DATA101!CS4210!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Frankrike;Far Eastern Federal University;2014;Norwegian;5;1;MATH3220!TECH2020!DATA2020!MATH1212
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;England;UCLA;2011;Norwegian;3;4;MATH202!DATA2020!DATA2020!DATA2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Tyskland;Université Joseph Fourier;2013;Deutsch;3;5;DATA5670!TECH101!DATA5670!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Spania;Université Joseph Fourier;2011;Deutsch;5;2;DATA101!MATH202!MATH3220!CS202
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Frankrike;Far Eastern Federal University;2014;Deutsch;1;2;MATH1212!MATH5089!MATH5089!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Frankrike;Flinders University;2015;Deutsch;3;3;CS202!CS3320!DATA101!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Danmark;UCLA;2015;Spanish;5;2;TECH2190!TECH2030!DATA101!TECH2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;USA;Far Eastern Federal University;2012;Norwegian;5;1;DATA5670!TECH2190!DATA4141!CS3320
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Sverige;UCLA;2014;Deutsch;2;2;CS202!MATH1212!MATH3220!TECH2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Sverige;Universitat de Barcelona;2011;Deutsch;5;5;TECH2030!MATH1212!DATA101!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Frankrike;Bond University;2014;Spanish;4;1;DATA2020!TECH2190!CS202!MATH5089
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Spania;Flinders University;2010;Spanish;3;5;MATH202!TECH101!MATH3220!DATA101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Frankrike;UCLA;2010;Spanish;2;4;CS101!MATH202!DATA101!CS3320
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;England;Université Joseph Fourier;2010;French;5;1;TECH2190!CS202!TECH2030!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Augsburg College;2013;Portoguese;4;3;CS101!CS4210!TECH101!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Spania;Far Eastern Federal University;2013;English;3;1;TECH2020!MATH1212!CS101!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Tyskland;Universitat de Barcelona;2012;English;3;3;CS3320!CS4210!DATA101!TECH101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Danmark;Bond University;2011;English;4;4;MATH3220!DATA5670!CS101!TECH2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Danmark;Augsburg College;2012;Portoguese;2;4;DATA5670!DATA2020!MATH3220!TECH2190
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Frankrike;Université Joseph Fourier;2010;Norwegian;3;2;DATA2020!TECH2190!TECH2190!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Sverige;Augsburg College;2011;French;5;1;CS202!TECH2030!TECH2020!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Tyskland;Université Joseph Fourier;2010;Norwegian;2;4;CS202!CS4210!TECH2030!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Spania;Universitat de Barcelona;2013;Norwegian;4;3;CS202!CS101!TECH2020!MATH202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Tyskland;Universitat de Barcelona;2010;Deutsch;4;5;CS3320!DATA4141!CS3320!DATA2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Danmark;Far Eastern Federal University;2011;English;4;3;TECH2020!CS4210!TECH2190!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Tyskland;Universitat de Barcelona;2011;Norwegian;2;5;DATA2020!TECH101!CS101!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Danmark;Augsburg College;2013;Portoguese;2;5;CS3320!TECH101!MATH202!MATH1212
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Tyskland;Université Joseph Fourier;2011;Norwegian;4;4;DATA2020!DATA4141!MATH1212!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Tyskland;Augsburg College;2010;Spanish;2;4;CS101!CS3320!DATA4141!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Danmark;UCLA;2013;Portoguese;4;3;TECH2190!DATA2020!DATA5670!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Spania;Augsburg College;2013;Norwegian;3;5;CS3320!TECH101!TECH2190!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Tyskland;Bond University;2015;French;1;4;TECH2190!TECH101!CS3320!CS202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Spania;Far Eastern Federal University;2015;Norwegian;5;1;CS3320!DATA4141!DATA4141!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Danmark;Bond University;2012;English;4;3;MATH3220!CS3320!CS202!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Frankrike;Far Eastern Federal University;2012;French;2;1;DATA4141!MATH5089!TECH2030!CS101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Sverige;UCLA;2012;French;4;5;CS202!MATH3220!TECH2030!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Spania;Far Eastern Federal University;2011;Deutsch;4;4;DATA2020!CS202!MATH202!MATH1212
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;England;Bond University;2015;Deutsch;4;1;MATH1212!MATH5089!MATH202!TECH101
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Danmark;Flinders University;2010;Norwegian;4;5;MATH202!TECH101!MATH1212!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Danmark;UCLA;2014;French;2;3;MATH1212!TECH2020!CS3320!TECH2190
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Tyskland;Universitat de Barcelona;2010;English;5;5;MATH202!TECH101!DATA101!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;USA;Augsburg College;2013;Spanish;5;2;TECH2190!DATA5670!MATH5089!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Frankrike;Universitat de Barcelona;2012;Portoguese;5;3;TECH2030!MATH5089!CS101!TECH2030
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Tyskland;Far Eastern Federal University;2010;Deutsch;4;3;CS3320!DATA2020!CS3320!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;USA;Augsburg College;2011;Deutsch;5;3;TECH2190!TECH101!TECH2030!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;England;Université Joseph Fourier;2014;Norwegian;3;4;DATA4141!DATA101!TECH101!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Danmark;Université Joseph Fourier;2013;English;2;2;TECH101!TECH101!TECH2030!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Danmark;Flinders University;2014;Spanish;3;5;TECH101!CS3320!MATH5089!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;Bond University;2013;Spanish;2;2;MATH202!CS202!MATH5089!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Tyskland;UCLA;2015;Norwegian;2;5;MATH1212!MATH3220!TECH101!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;USA;Bond University;2015;Spanish;2;2;TECH2030!CS202!CS4210!CS4210
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Spania;UCLA;2014;English;5;3;DATA5670!TECH2190!TECH2030!CS101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Danmark;Flinders University;2011;English;3;2;MATH3220!DATA2020!MATH5089!TECH2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Danmark;Far Eastern Federal University;2015;Portoguese;1;5;DATA2020!CS202!TECH101!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;USA;Bond University;2014;French;2;4;DATA2020!TECH2020!DATA2020!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Frankrike;Far Eastern Federal University;2014;French;5;5;DATA4141!CS202!TECH2020!TECH2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Spania;Flinders University;2011;Norwegian;5;5;DATA2020!TECH2190!TECH2190!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;England;Augsburg College;2010;Spanish;3;5;TECH101!DATA5670!CS101!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;USA;Bond University;2014;Deutsch;1;5;DATA4141!TECH2030!CS202!TECH101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;USA;UCLA;2010;Spanish;1;1;DATA2020!DATA4141!CS202!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Frankrike;UCLA;2012;English;1;4;TECH101!MATH3220!CS3320!CS101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;England;Augsburg College;2014;Norwegian;3;4;MATH5089!TECH2030!CS3320!TECH2030
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Tyskland;Far Eastern Federal University;2013;English;1;4;MATH202!MATH3220!MATH3220!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Frankrike;Universitat de Barcelona;2013;Spanish;3;1;CS4210!MATH1212!TECH2190!MATH1212
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;USA;Universitat de Barcelona;2011;Portoguese;5;3;CS202!MATH202!DATA2020!CS4210
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Spania;UCLA;2012;Norwegian;4;3;MATH1212!TECH2020!TECH2190!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Tyskland;Université Joseph Fourier;2013;Norwegian;5;2;DATA5670!DATA2020!MATH3220!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Sverige;Université Joseph Fourier;2010;Portoguese;1;5;MATH1212!MATH5089!DATA2020!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;USA;Flinders University;2014;Deutsch;4;3;TECH2020!DATA4141!MATH5089!MATH5089
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Danmark;Bond University;2015;Portoguese;2;1;MATH202!DATA4141!DATA2020!TECH2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Tyskland;UCLA;2012;Spanish;5;3;TECH2030!MATH202!DATA5670!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Frankrike;Université Joseph Fourier;2011;Spanish;2;5;CS101!TECH101!MATH5089!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;England;Augsburg College;2015;English;2;1;DATA2020!MATH3220!CS3320!CS101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;USA;Flinders University;2013;Spanish;4;3;DATA4141!TECH2190!CS101!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;England;Far Eastern Federal University;2015;English;3;4;DATA5670!CS3320!DATA101!CS202
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;England;Augsburg College;2015;Portoguese;4;1;CS101!DATA4141!DATA4141!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;England;UCLA;2015;Norwegian;1;4;CS101!TECH2030!CS4210!MATH1212
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Tyskland;Flinders University;2015;Portoguese;5;3;MATH1212!TECH2190!TECH2020!MATH5089
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;USA;Far Eastern Federal University;2011;Spanish;2;1;TECH2030!CS4210!DATA5670!TECH2030
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;USA;Flinders University;2015;Portoguese;2;5;TECH2030!DATA4141!CS4210!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Spania;Flinders University;2013;Norwegian;5;5;TECH101!CS101!TECH2020!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Tyskland;Far Eastern Federal University;2014;French;5;3;DATA4141!TECH101!TECH2190!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Danmark;Université Joseph Fourier;2013;English;2;3;CS4210!DATA101!DATA2020!DATA2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Spania;Bond University;2010;French;1;4;CS202!CS3320!DATA5670!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Spania;Flinders University;2011;Portoguese;3;2;MATH1212!CS3320!TECH2020!DATA2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Spania;Université Joseph Fourier;2011;Deutsch;1;1;DATA5670!CS4210!TECH2190!DATA101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;USA;Université Joseph Fourier;2015;Norwegian;1;2;CS202!DATA5670!TECH2030!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Spania;Universitat de Barcelona;2014;Portoguese;2;3;MATH202!MATH1212!DATA2020!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Sverige;Bond University;2014;French;3;3;TECH2030!DATA5670!TECH2020!TECH2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Danmark;Université Joseph Fourier;2011;English;4;5;CS202!MATH3220!CS4210!MATH1212
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Frankrike;Université Joseph Fourier;2013;Portoguese;1;5;CS202!DATA4141!CS202!TECH101
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;USA;Bond University;2011;Deutsch;3;3;TECH101!CS4210!DATA101!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Frankrike;Augsburg College;2015;English;4;1;CS202!DATA2020!DATA4141!TECH2190
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;USA;UCLA;2011;Norwegian;3;4;DATA4141!CS4210!CS202!MATH202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Spania;Bond University;2014;Portoguese;3;2;MATH5089!TECH101!TECH2190!DATA5670
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Frankrike;Far Eastern Federal University;2015;Portoguese;1;3;TECH2020!DATA4141!MATH202!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;Far Eastern Federal University;2012;Deutsch;2;4;DATA4141!DATA5670!MATH202!TECH2030
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Frankrike;Far Eastern Federal University;2010;English;4;2;DATA4141!TECH2020!MATH3220!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;Augsburg College;2015;Spanish;4;3;TECH101!DATA4141!CS4210!DATA5670
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;USA;Université Joseph Fourier;2014;Deutsch;4;1;CS3320!MATH1212!CS4210!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Spania;Augsburg College;2010;French;3;1;MATH202!DATA4141!DATA101!DATA101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Frankrike;UCLA;2010;Norwegian;5;4;TECH2190!TECH2020!DATA4141!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Frankrike;Augsburg College;2012;French;3;3;CS4210!MATH5089!MATH5089!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Spania;Augsburg College;2015;French;5;5;MATH3220!CS202!MATH1212!MATH202
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;Universitat de Barcelona;2013;Spanish;5;5;MATH1212!CS4210!DATA4141!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Tyskland;Université Joseph Fourier;2012;Norwegian;4;3;TECH2190!DATA2020!CS202!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Frankrike;Université Joseph Fourier;2014;English;4;1;MATH1212!MATH1212!DATA2020!MATH5089
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Tyskland;Universitat de Barcelona;2015;English;3;5;MATH202!CS4210!DATA2020!TECH2030
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;USA;Universitat de Barcelona;2015;English;5;1;TECH2190!DATA2020!DATA101!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;England;Bond University;2012;French;2;1;TECH2030!CS3320!DATA5670!TECH2190
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;USA;Universitat de Barcelona;2012;Spanish;4;5;DATA5670!DATA4141!MATH3220!CS4210
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;England;Bond University;2013;English;1;5;MATH3220!DATA4141!TECH2030!DATA5670
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;USA;UCLA;2010;Portoguese;4;1;DATA2020!TECH2030!TECH2030!TECH101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Tyskland;Flinders University;2013;Spanish;2;3;MATH202!DATA4141!DATA4141!TECH2030
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Danmark;Far Eastern Federal University;2015;Norwegian;5;2;MATH202!CS101!DATA5670!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Danmark;UCLA;2015;Norwegian;3;4;DATA5670!TECH2190!MATH3220!CS4210
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Danmark;Universitat de Barcelona;2015;Norwegian;3;2;DATA2020!DATA101!DATA2020!CS202
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Sverige;Université Joseph Fourier;2015;Portoguese;1;4;TECH2190!CS101!TECH2030!DATA5670
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Frankrike;Augsburg College;2011;French;1;4;CS3320!DATA2020!CS3320!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Frankrike;Augsburg College;2013;Norwegian;4;2;TECH2030!DATA5670!DATA101!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;USA;Far Eastern Federal University;2013;English;4;2;DATA101!CS4210!DATA2020!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Sverige;Far Eastern Federal University;2015;French;4;4;MATH3220!MATH1212!MATH5089!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Danmark;UCLA;2014;Portoguese;5;3;TECH2020!DATA101!DATA101!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Frankrike;UCLA;2015;Spanish;1;2;TECH2020!MATH3220!CS101!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;England;Universitat de Barcelona;2010;Portoguese;2;5;DATA4141!TECH2190!TECH2190!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Frankrike;Far Eastern Federal University;2012;Deutsch;5;4;DATA5670!DATA101!DATA4141!MATH5089
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Danmark;Flinders University;2010;Deutsch;1;2;TECH2020!TECH101!TECH2190!DATA5670
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;USA;Universitat de Barcelona;2014;Deutsch;2;3;DATA4141!CS3320!DATA5670!TECH2030
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Tyskland;Université Joseph Fourier;2012;Spanish;1;1;MATH5089!TECH2190!DATA101!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Frankrike;Université Joseph Fourier;2011;English;5;4;DATA101!DATA4141!MATH5089!MATH1212
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Tyskland;Augsburg College;2013;Norwegian;2;4;DATA101!TECH101!DATA2020!DATA2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Tyskland;Augsburg College;2010;French;5;3;CS101!MATH5089!TECH2190!DATA101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Tyskland;Augsburg College;2013;Spanish;3;2;MATH5089!TECH2020!MATH202!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Danmark;Université Joseph Fourier;2015;Spanish;2;4;DATA101!DATA4141!DATA4141!MATH1212
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;USA;Universitat de Barcelona;2012;Spanish;2;1;CS3320!CS3320!TECH2190!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;Université Joseph Fourier;2010;French;2;4;MATH3220!MATH202!DATA5670!DATA4141
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;England;Far Eastern Federal University;2014;Portoguese;1;4;CS3320!CS4210!MATH202!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;England;Flinders University;2010;French;4;3;MATH3220!MATH202!DATA5670!CS4210
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Spania;Augsburg College;2013;Deutsch;1;4;DATA4141!DATA101!CS4210!MATH1212
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Tyskland;Université Joseph Fourier;2011;Spanish;2;1;TECH2020!CS202!CS3320!DATA5670
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Frankrike;Université Joseph Fourier;2012;French;2;2;CS4210!CS202!TECH2190!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Université Joseph Fourier;2012;Norwegian;3;1;MATH1212!TECH2190!TECH101!DATA4141
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Danmark;UCLA;2014;English;2;4;MATH1212!DATA101!DATA5670!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Frankrike;Université Joseph Fourier;2015;Norwegian;3;3;DATA5670!CS101!MATH1212!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Tyskland;Far Eastern Federal University;2011;French;3;2;MATH202!CS3320!MATH3220!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Tyskland;Far Eastern Federal University;2015;Portoguese;5;3;TECH101!DATA4141!CS101!CS3320
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;England;Augsburg College;2011;English;1;2;MATH202!CS3320!CS101!DATA2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Frankrike;Augsburg College;2013;Portoguese;2;5;MATH3220!MATH202!TECH101!TECH2030
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;USA;Far Eastern Federal University;2015;French;1;3;DATA2020!MATH5089!MATH1212!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Frankrike;Universitat de Barcelona;2013;English;4;2;MATH3220!DATA2020!TECH2030!TECH2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;USA;Far Eastern Federal University;2015;French;2;5;TECH2020!TECH2020!CS3320!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Frankrike;Université Joseph Fourier;2013;Portoguese;4;3;MATH3220!MATH202!MATH3220!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Frankrike;Bond University;2014;Portoguese;5;3;MATH3220!MATH5089!MATH3220!DATA4141
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Bond University;2010;French;1;4;MATH5089!DATA101!CS4210!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Sverige;Universitat de Barcelona;2011;Norwegian;2;4;DATA101!CS4210!CS3320!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Tyskland;Université Joseph Fourier;2010;Norwegian;2;5;CS3320!MATH202!DATA5670!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Bond University;2013;Spanish;5;2;DATA4141!TECH2020!MATH202!DATA2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Tyskland;Universitat de Barcelona;2010;English;2;3;MATH3220!MATH1212!CS101!TECH2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Tyskland;Bond University;2014;English;4;3;CS202!TECH2030!TECH2190!DATA4141
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Tyskland;Augsburg College;2015;English;4;5;MATH5089!MATH3220!TECH2020!CS4210
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Tyskland;UCLA;2015;Portoguese;3;2;MATH1212!CS3320!MATH3220!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;USA;Universitat de Barcelona;2010;French;2;3;TECH2190!TECH2190!CS202!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Sverige;Université Joseph Fourier;2010;French;2;1;DATA4141!TECH2020!CS4210!CS4210
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;England;Universitat de Barcelona;2011;Portoguese;5;4;CS3320!DATA4141!TECH2190!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Danmark;UCLA;2015;Spanish;5;2;CS4210!CS101!TECH2030!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;USA;UCLA;2014;English;2;3;DATA2020!MATH202!TECH2190!CS4210
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;USA;Augsburg College;2011;Norwegian;5;1;CS101!MATH202!TECH2190!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Tyskland;Bond University;2013;English;5;1;MATH202!CS101!MATH202!MATH1212
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Tyskland;UCLA;2014;Portoguese;3;3;TECH101!DATA4141!DATA2020!TECH101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;England;Universitat de Barcelona;2015;Spanish;4;3;MATH3220!CS202!DATA5670!TECH101
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Tyskland;Far Eastern Federal University;2015;Deutsch;3;3;MATH202!TECH2190!DATA101!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Danmark;Université Joseph Fourier;2011;French;5;1;TECH2020!DATA4141!MATH5089!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Spania;Université Joseph Fourier;2015;Deutsch;5;4;DATA101!MATH202!MATH5089!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Spania;Augsburg College;2015;English;5;5;CS202!TECH2030!CS101!CS101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;USA;Université Joseph Fourier;2014;Spanish;5;2;CS202!TECH2190!TECH101!TECH2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Spania;Far Eastern Federal University;2011;Deutsch;5;3;MATH202!MATH3220!CS3320!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Frankrike;UCLA;2010;Spanish;5;2;DATA2020!CS202!TECH2030!TECH2030
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Tyskland;Bond University;2013;French;2;2;TECH101!CS202!DATA4141!CS101
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;USA;Bond University;2011;Norwegian;4;3;CS3320!DATA101!CS3320!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Spania;Flinders University;2010;Spanish;5;2;TECH2020!TECH2030!CS3320!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Danmark;Universitat de Barcelona;2013;Norwegian;2;5;MATH1212!CS3320!TECH2030!DATA5670
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Far Eastern Federal University;2013;Norwegian;5;1;MATH202!TECH2020!TECH2190!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Spania;Far Eastern Federal University;2011;Spanish;5;2;TECH2030!TECH101!TECH101!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Tyskland;Université Joseph Fourier;2015;Spanish;3;3;TECH2190!DATA4141!MATH3220!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Spania;Far Eastern Federal University;2014;Norwegian;4;4;TECH2030!CS3320!CS4210!DATA101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Frankrike;Flinders University;2011;Deutsch;1;1;MATH202!CS202!MATH1212!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Tyskland;Universitat de Barcelona;2014;French;2;5;DATA2020!DATA101!CS3320!DATA4141
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Universitat de Barcelona;2010;French;3;1;CS101!MATH1212!CS101!TECH2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Sverige;Flinders University;2014;Norwegian;4;4;TECH2020!TECH2030!TECH101!TECH2190
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Flinders University;2010;Deutsch;4;2;TECH2020!CS4210!MATH1212!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Frankrike;UCLA;2014;French;1;1;DATA101!DATA4141!CS4210!MATH1212
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Spania;Flinders University;2010;Norwegian;3;4;CS202!CS202!MATH5089!DATA2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Sverige;UCLA;2014;Deutsch;2;1;TECH2020!MATH3220!MATH5089!DATA5670
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Tyskland;Far Eastern Federal University;2010;Norwegian;4;4;MATH1212!TECH2030!CS4210!CS3320
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Danmark;Flinders University;2011;Portoguese;3;4;CS3320!CS202!DATA5670!MATH5089
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Tyskland;Université Joseph Fourier;2011;English;3;4;CS4210!DATA2020!TECH2030!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Danmark;UCLA;2015;Norwegian;1;4;DATA4141!CS4210!CS101!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Danmark;Universitat de Barcelona;2011;English;3;2;CS202!TECH2020!DATA5670!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Sverige;Flinders University;2011;French;4;1;DATA4141!CS4210!TECH2020!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Tyskland;Universitat de Barcelona;2011;Spanish;4;3;DATA101!CS4210!MATH5089!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;USA;Augsburg College;2012;Deutsch;4;4;DATA101!DATA4141!TECH101!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Frankrike;Far Eastern Federal University;2013;Deutsch;2;2;TECH2020!TECH2030!DATA5670!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Danmark;Flinders University;2013;English;1;5;DATA5670!DATA101!MATH3220!CS3320
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;Augsburg College;2011;Spanish;5;5;CS4210!TECH2030!TECH2190!TECH2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Danmark;Université Joseph Fourier;2014;Portoguese;4;3;CS4210!CS101!CS4210!TECH2030
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Danmark;Bond University;2013;French;1;3;TECH2190!DATA2020!CS202!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Spania;Université Joseph Fourier;2013;Norwegian;3;3;TECH2190!MATH5089!DATA5670!MATH202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;England;Flinders University;2013;English;5;2;CS101!DATA2020!DATA4141!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Frankrike;Flinders University;2013;Norwegian;5;4;TECH101!DATA5670!MATH3220!DATA2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Sverige;Bond University;2015;Spanish;5;4;DATA101!DATA5670!MATH5089!CS101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Tyskland;Universitat de Barcelona;2015;Deutsch;4;3;TECH2020!DATA2020!TECH2190!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Frankrike;Augsburg College;2010;English;2;4;MATH3220!MATH3220!DATA5670!CS101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;Bond University;2014;Spanish;2;2;TECH2020!DATA2020!TECH101!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Frankrike;Universitat de Barcelona;2011;Norwegian;1;4;MATH1212!MATH3220!TECH2190!TECH2190
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;England;Augsburg College;2015;Norwegian;2;2;DATA5670!MATH1212!CS3320!DATA101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;USA;Universitat de Barcelona;2013;Portoguese;5;1;MATH5089!TECH2020!DATA2020!TECH2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;USA;Far Eastern Federal University;2011;English;1;5;CS101!CS202!MATH1212!MATH1212
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Tyskland;Augsburg College;2012;Spanish;5;2;TECH101!DATA101!MATH202!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Tyskland;Université Joseph Fourier;2014;Spanish;3;4;DATA4141!TECH2030!DATA2020!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;USA;Université Joseph Fourier;2013;Norwegian;5;4;MATH5089!DATA2020!MATH202!MATH202
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Spania;UCLA;2013;French;5;3;CS101!MATH3220!CS101!CS3320
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Far Eastern Federal University;2012;English;3;3;MATH202!TECH2190!DATA2020!TECH2030
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;Flinders University;2012;French;2;4;MATH3220!TECH2190!CS101!DATA101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Spania;Bond University;2015;Norwegian;1;4;CS202!DATA4141!CS202!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Sverige;Université Joseph Fourier;2012;French;1;5;TECH2030!CS101!TECH2030!MATH1212
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;USA;Universitat de Barcelona;2011;French;5;1;MATH1212!CS4210!CS101!DATA2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Sverige;Universitat de Barcelona;2014;Norwegian;2;3;MATH5089!DATA4141!MATH5089!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Frankrike;Far Eastern Federal University;2010;Spanish;3;2;DATA4141!CS101!MATH3220!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Tyskland;Augsburg College;2015;Norwegian;2;3;DATA5670!CS3320!DATA101!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;England;Far Eastern Federal University;2014;Norwegian;4;3;CS3320!MATH5089!CS3320!TECH2030
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Danmark;Augsburg College;2010;English;2;1;MATH3220!MATH1212!DATA2020!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Danmark;Bond University;2010;Norwegian;3;5;CS202!MATH1212!CS202!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Sverige;Universitat de Barcelona;2011;French;5;1;DATA4141!MATH5089!MATH1212!TECH2030
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Sverige;Bond University;2012;Norwegian;2;3;MATH5089!TECH2030!TECH2020!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Bond University;2010;Deutsch;1;5;MATH1212!TECH2190!DATA101!TECH2190
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;UCLA;2013;French;2;5;DATA5670!DATA101!MATH3220!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;England;Bond University;2014;English;3;4;MATH1212!CS202!CS3320!DATA4141
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Frankrike;Far Eastern Federal University;2011;French;4;1;DATA101!CS202!CS101!MATH1212
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;UCLA;2013;Portoguese;1;5;MATH1212!MATH5089!MATH1212!MATH202
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;England;Augsburg College;2015;Portoguese;1;2;MATH202!CS101!TECH2020!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Frankrike;Flinders University;2015;Norwegian;4;4;MATH1212!MATH5089!CS202!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Sverige;Bond University;2011;French;4;3;TECH2020!MATH5089!TECH2030!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Tyskland;Flinders University;2014;French;4;3;TECH2190!DATA2020!TECH2020!DATA5670
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Spania;Universitat de Barcelona;2015;Portoguese;5;3;TECH2190!CS101!CS202!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;USA;Far Eastern Federal University;2015;English;2;4;TECH2020!DATA2020!TECH2190!MATH202
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Augsburg College;2014;Spanish;4;1;TECH2020!DATA101!MATH1212!DATA2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Frankrike;Université Joseph Fourier;2014;Norwegian;1;4;MATH1212!DATA2020!CS4210!TECH2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Sverige;Far Eastern Federal University;2012;Portoguese;1;1;MATH1212!TECH2030!DATA2020!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Tyskland;UCLA;2013;English;1;5;CS101!MATH202!MATH3220!TECH2030
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;USA;Far Eastern Federal University;2012;Portoguese;1;5;CS4210!CS4210!MATH202!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Tyskland;Far Eastern Federal University;2014;French;5;4;TECH2020!MATH5089!TECH2020!MATH1212
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Spania;Bond University;2014;Deutsch;5;4;CS202!MATH3220!TECH101!CS4210
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Danmark;Université Joseph Fourier;2010;Deutsch;5;3;DATA2020!MATH5089!DATA101!DATA2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Sverige;UCLA;2012;Portoguese;5;2;DATA5670!MATH1212!DATA2020!CS101
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Spania;Université Joseph Fourier;2014;Norwegian;3;4;DATA4141!MATH3220!TECH2020!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Tyskland;Far Eastern Federal University;2013;English;4;5;DATA2020!DATA2020!MATH202!CS3320
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Frankrike;Flinders University;2012;French;2;4;TECH2020!MATH5089!TECH2020!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;Université Joseph Fourier;2010;Portoguese;2;4;MATH5089!CS4210!CS101!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Spania;Bond University;2010;Norwegian;1;1;DATA4141!TECH101!TECH101!CS101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Danmark;Augsburg College;2014;Portoguese;3;3;MATH202!CS101!MATH5089!TECH2190
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Augsburg College;2014;Norwegian;3;3;DATA2020!MATH202!MATH202!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Université Joseph Fourier;2013;English;5;1;TECH2030!MATH202!MATH3220!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Sverige;Université Joseph Fourier;2015;English;5;1;CS3320!CS101!CS4210!TECH101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Sverige;Bond University;2013;Portoguese;1;3;MATH3220!CS202!TECH2030!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Danmark;Augsburg College;2010;Deutsch;1;3;MATH5089!MATH3220!CS202!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Spania;Universitat de Barcelona;2011;English;1;2;TECH101!MATH202!TECH2030!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;England;Bond University;2010;Portoguese;2;3;DATA101!MATH202!CS202!MATH202
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Augsburg College;2010;Portoguese;2;4;DATA4141!DATA5670!MATH5089!TECH2190
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;England;Bond University;2011;Portoguese;2;3;MATH3220!DATA4141!DATA5670!DATA101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;Far Eastern Federal University;2013;French;3;1;CS202!DATA2020!MATH202!CS3320
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Danmark;Flinders University;2012;Norwegian;4;1;DATA4141!DATA5670!TECH2020!CS202
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Tyskland;Universitat de Barcelona;2012;French;2;4;DATA4141!DATA2020!DATA4141!CS101
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;Far Eastern Federal University;2012;Norwegian;4;5;DATA2020!MATH3220!TECH2030!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Frankrike;Flinders University;2010;French;4;2;MATH5089!MATH202!MATH5089!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;Frankrike;Bond University;2014;Portoguese;2;4;DATA2020!CS202!TECH2030!DATA101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Frankrike;Universitat de Barcelona;2014;Deutsch;3;3;DATA4141!CS4210!MATH5089!MATH3220
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Frankrike;Bond University;2011;Spanish;5;5;TECH101!TECH2020!MATH1212!DATA4141
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Frankrike;Université Joseph Fourier;2012;English;3;5;DATA101!CS3320!TECH2020!CS4210
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Danmark;Bond University;2010;Deutsch;4;1;CS4210!CS202!MATH202!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Frankrike;Universitat de Barcelona;2010;Norwegian;5;1;DATA2020!DATA101!CS202!CS202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;Tyskland;Bond University;2013;English;5;3;DATA101!CS4210!DATA2020!CS3320
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;USA;UCLA;2010;English;4;2;DATA101!MATH5089!TECH2020!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Frankrike;Far Eastern Federal University;2012;Spanish;4;4;TECH2020!MATH1212!TECH2190!TECH2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;Sverige;UCLA;2013;French;3;1;DATA4141!TECH2030!MATH1212!TECH2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;Far Eastern Federal University;2015;Deutsch;2;5;MATH202!DATA4141!DATA2020!TECH2030
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;England;UCLA;2015;English;2;1;DATA2020!CS4210!TECH2020!CS202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;USA;Bond University;2012;Deutsch;1;4;DATA101!CS4210!MATH202!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Tyskland;Bond University;2010;French;2;1;CS101!TECH2030!MATH5089!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Frankrike;Bond University;2010;English;2;5;CS101!DATA5670!MATH202!CS202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;South America;Sverige;UCLA;2010;Deutsch;1;1;TECH2190!CS202!MATH202!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;England;Flinders University;2014;Deutsch;5;5;CS4210!CS4210!TECH2020!DATA101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Sverige;Flinders University;2012;Norwegian;5;2;CS101!TECH2190!TECH101!MATH202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;Flinders University;2012;Spanish;1;1;TECH2190!CS4210!MATH202!DATA2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Spania;Université Joseph Fourier;2015;Deutsch;3;1;DATA101!CS3320!DATA4141!MATH3220
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;Bond University;2010;Spanish;5;2;MATH3220!MATH202!CS202!TECH2030
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;England;Université Joseph Fourier;2012;Spanish;3;2;TECH2030!CS3320!MATH1212!TECH101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Frankrike;UCLA;2013;English;1;2;MATH5089!MATH202!MATH5089!DATA5670
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Danmark;Bond University;2015;Norwegian;3;5;CS4210!DATA5670!CS202!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Danmark;Augsburg College;2010;Portoguese;4;5;TECH101!TECH2190!TECH2030!MATH5089
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;Frankrike;Université Joseph Fourier;2011;Deutsch;5;3;TECH2030!TECH2030!MATH202!DATA2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;USA;Université Joseph Fourier;2010;English;3;2;DATA2020!CS101!DATA5670!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Sverige;Bond University;2015;Deutsch;4;5;TECH2030!DATA101!TECH101!CS202
+HF-IFR - Institutt for filosofi og religionsvitenskap;North America;USA;Augsburg College;2012;Deutsch;3;2;DATA2020!CS4210!TECH2030!CS4210
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;UCLA;2011;English;3;1;CS4210!DATA5670!MATH202!TECH2190
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Sverige;Universitat de Barcelona;2013;Portoguese;4;2;TECH101!TECH2020!DATA101!MATH202
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;USA;Université Joseph Fourier;2010;Deutsch;3;5;TECH2020!TECH2020!TECH101!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Frankrike;Bond University;2011;Norwegian;5;5;CS3320!CS202!TECH2020!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;Frankrike;Université Joseph Fourier;2011;Spanish;5;5;TECH2190!MATH202!MATH5089!CS4210
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;USA;Bond University;2010;Spanish;2;5;TECH101!MATH202!CS4210!CS3320
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Asia;Tyskland;Augsburg College;2013;Deutsch;1;4;TECH2030!DATA4141!DATA4141!TECH2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;South America;England;UCLA;2014;English;3;4;CS202!DATA4141!TECH2190!DATA101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;Sverige;Bond University;2014;English;4;1;DATA4141!MATH202!DATA2020!DATA101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Asia;USA;Far Eastern Federal University;2013;Spanish;2;3;CS202!TECH101!DATA101!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;England;Bond University;2011;French;1;1;TECH2190!CS101!TECH2030!TECH101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Spania;Bond University;2012;Portoguese;2;1;MATH3220!CS4210!CS4210!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;South America;USA;UCLA;2014;French;3;2;DATA2020!DATA2020!MATH3220!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Spania;Far Eastern Federal University;2014;Deutsch;5;2;MATH3220!DATA5670!TECH2020!DATA2020
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;North America;Spania;Far Eastern Federal University;2014;Spanish;4;4;DATA2020!TECH2030!MATH202!DATA101
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;England;Université Joseph Fourier;2012;French;4;3;DATA101!MATH202!CS3320!MATH202
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Danmark;UCLA;2012;Portoguese;1;4;CS3320!CS4210!DATA101!CS3320
+HF-IFR - Institutt for filosofi og religionsvitenskap;Oceania;Danmark;Augsburg College;2013;Deutsch;1;5;MATH1212!DATA2020!TECH2030!CS202
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;England;Bond University;2010;Norwegian;5;3;DATA2020!DATA2020!CS4210!TECH2190
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Spania;Flinders University;2012;French;2;2;CS202!TECH101!MATH5089!TECH101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Oceania;Frankrike;Augsburg College;2010;French;1;4;DATA5670!CS3320!DATA101!CS101
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Africa;England;Augsburg College;2015;French;5;4;MATH5089!CS101!CS4210!TECH2190
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Oceania;Frankrike;Flinders University;2012;Deutsch;5;4;TECH101!CS101!DATA101!DATA2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Danmark;Flinders University;2013;Deutsch;3;1;MATH3220!DATA5670!TECH2190!CS202
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Tyskland;Augsburg College;2015;Deutsch;5;2;CS202!MATH202!CS3320!CS4210
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Danmark;Augsburg College;2011;French;1;2;CS202!TECH2020!TECH2020!CS101
+HF-IFR - Institutt for filosofi og religionsvitenskap;Africa;Frankrike;Flinders University;2015;Spanish;2;5;DATA101!TECH101!MATH5089!CS3320
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Africa;England;Far Eastern Federal University;2015;Portoguese;1;3;MATH5089!DATA101!CS3320!MATH5089
+HF-IFR - Institutt for filosofi og religionsvitenskap;Asia;Frankrike;Bond University;2012;Spanish;2;3;DATA2020!TECH2020!DATA4141!MATH5089
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;Europe;Danmark;Université Joseph Fourier;2010;English;2;1;DATA101!DATA2020!CS101!DATA2020
+HF-IFR - Institutt for filosofi og religionsvitenskap;Europe;Tyskland;Flinders University;2012;French;5;2;MATH5089!DATA2020!DATA5670!TECH2020
+DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer;North America;Danmark;Bond University;2015;French;3;3;DATA101!DATA2020!MATH202!MATH3220
+IME-IDI - Institutt for datateknikk og informasjonsvitenskap;Europe;Frankrike;Augsburg College;2011;Deutsch;1;5;CS4210!TECH2030!TECH2030!DATA2020

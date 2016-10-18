@@ -119,6 +119,10 @@ public class Query {
                     SymbolDesc aSymbolAtt = (SymbolDesc) attdesc;
                     query.addAttribute(attdesc, (String) att.getValue());
                 }
+                if (attdesc.getClass().getSimpleName().equalsIgnoreCase("StringDesc")){
+                    StringDesc aSymbolAtt = (StringDesc) attdesc;
+                    query.addAttribute(attdesc, (String) att.getValue());
+                }
             }
 
             r.setRetrievalMethod(Retrieval.RetrievalMethod.RETRIEVE_SORTED);
