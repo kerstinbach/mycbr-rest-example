@@ -154,6 +154,7 @@ public class Query {
             counter++;
         }
 
+        System.out.println(reducedSortedResultList);
         return reducedSortedResultList;
 
     }

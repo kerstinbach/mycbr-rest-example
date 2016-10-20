@@ -4,3 +4,8 @@ French
 Norwegian
 Portoguese
 Spanish
+Chinese
+Japanese
+Swedish
+Danish
+Indian

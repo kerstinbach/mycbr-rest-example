@@ -1,15 +1,13 @@
 import json
+import random as r
 
-continents = ["Asia", "Europe", "Oceania", "Africa", "South America", "North America"]
-rating = [1, 2, 3, 4, 5]
-period = range(2010, 2016)
+conts = ["Asia", "Europe", "South America", "North America", "Oceania", "Africa"]
+file = open("attributes/countries.txt", 'w')
 
-with open('data/json/countries.json') as countries_json:
-	country_file = json.load(countries_json)
+with open("data/json/countries.json", 'r') as json_file:
+	data = json.load(json_file)
 
-	for continent, countries in country_file.items():
-		print(continent)
-		print(countries)
+	rand_land = r.choice(data[r.choice(conts)])
 
-file = []
+	print(rand_land["name"])
 

@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="study_exchange" author="" >
+<svs>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+  <sv name="_others_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_unknown_">
+</qsym>
+<qsym name="_undefined_">
+</qsym>
+<qsym name="_others_">
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="Trip">
+    <desc name="Continent" type="Symbol" mult="false" >
+      <symbol value="South America" />
+      <symbol value="Asia" />
+      <symbol value="North America" />
+      <symbol value="Europe" />
+      <symbol value="Africa" />
+      <symbol value="Oceania" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="South America">
+<csym name="North America" sim="0.5"/>
+</qsym>
+<qsym name="Asia">
+<csym name="Oceania" sim="0.3"/>
+</qsym>
+<qsym name="North America">
+<csym name="South America" sim="0.5"/>
+<csym name="Europe" sim="0.5"/>
+<csym name="Oceania" sim="0.3"/>
+</qsym>
+<qsym name="Europe">
+<csym name="North America" sim="0.5"/>
+<csym name="Oceania" sim="0.2"/>
+</qsym>
+<qsym name="Africa">
+</qsym>
+<qsym name="Oceania">
+<csym name="Asia" sim="0.3"/>
+<csym name="North America" sim="0.3"/>
+<csym name="Europe" sim="0.2"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="Language" type="Symbol" mult="false" >
+      <symbol value="Deutsch" />
+      <symbol value="English" />
+      <symbol value="French" />
+      <symbol value="Chinese" />
+      <symbol value="Danish" />
+      <symbol value="Indian" />
+      <symbol value="Spanish" />
+      <symbol value="Norwegian" />
+      <symbol value="Japanese" />
+      <symbol value="Portoguese" />
+      <symbol value="Swedish" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Deutsch">
+<csym name="English" sim="0.3"/>
+<csym name="Danish" sim="0.4"/>
+<csym name="Norwegian" sim="0.4"/>
+</qsym>
+<qsym name="English">
+<csym name="Deutsch" sim="0.3"/>
+</qsym>
+<qsym name="French">
+</qsym>
+<qsym name="Chinese">
+<csym name="Japanese" sim="0.5"/>
+</qsym>
+<qsym name="Danish">
+<csym name="Deutsch" sim="0.4"/>
+<csym name="Norwegian" sim="0.8"/>
+<csym name="Swedish" sim="0.6"/>
+</qsym>
+<qsym name="Indian">
+</qsym>
+<qsym name="Spanish">
+<csym name="Portoguese" sim="0.7"/>
+</qsym>
+<qsym name="Norwegian">
+<csym name="Deutsch" sim="0.4"/>
+<csym name="Danish" sim="0.8"/>
+</qsym>
+<qsym name="Japanese">
+<csym name="Chinese" sim="0.5"/>
+</qsym>
+<qsym name="Portoguese">
+<csym name="Spanish" sim="0.7"/>
+</qsym>
+<qsym name="Swedish">
+<csym name="Danish" sim="0.6"/>
+</qsym>
+</fct>
+    </desc>
+    <desc name="University" type="Symbol" mult="false" >
+      <symbol value="Universit&#233; Joseph Fourier" />
+      <symbol value="Far Eastern Federal University" />
+      <symbol value="UCLA" />
+      <symbol value="Bond University" />
+      <symbol value="Flinders University" />
+      <symbol value="Universitat de Barcelona" />
+      <symbol value="Augsburg College" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Université Joseph Fourier">
+</qsym>
+<qsym name="Far Eastern Federal University">
+</qsym>
+<qsym name="UCLA">
+</qsym>
+<qsym name="Bond University">
+</qsym>
+<qsym name="Flinders University">
+</qsym>
+<qsym name="Universitat de Barcelona">
+</qsym>
+<qsym name="Augsburg College">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Institute" type="Symbol" mult="false" >
+      <symbol value="IME-ITEM - Institutt for telematikk" />
+      <symbol value="IVT-IPT - Institutt for petroleumsteknologi og anvendt geofysikk" />
+      <symbol value="SVT-NOSEB - Norsk senter for barneforskning" />
+      <symbol value="DMF-ISB - Institutt for sirkulasjon og bildediagnostikk" />
+      <symbol value="IVT-IMT - Institutt for marin teknikk" />
+      <symbol value="NT-IKJ - Institutt for kjemi" />
+      <symbol value="NT-IFY - Institutt for fysikk" />
+      <symbol value="NT-IKP - Institutt for kjemisk prosessteknologi" />
+      <symbol value="HF-IHS - Institutt for historiske studier" />
+      <symbol value="DMF-INM - Institutt for nevromedisin" />
+      <symbol value="NT-IBI - Institutt for biologi" />
+      <symbol value="IVT-IPD - Institutt for produktdesign" />
+      <symbol value="IME-IMF - Institutt for matematiske fag" />
+      <symbol value="SVT-SANT - Sosialantropologisk institutt" />
+      <symbol value="AB-BKHT - Institutt for byggekunst, historie og teknologi" />
+      <symbol value="SVT-IVR - Institutt for voksnes l&#230;ring og r&#229;dgivningsvitenskap" />
+      <symbol value="AB-BYPLAN - Institutt for byforming og planlegging" />
+      <symbol value="IVT-KT - Institutt for konstruksjonsteknikk" />
+      <symbol value="HF-IFR - Institutt for filosofi og religionsvitenskap" />
+      <symbol value="IME-IET - Institutt for elektronikk og telekommunikasjon" />
+      <symbol value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+      <symbol value="IVT-EPT - Institutt for energi- og prosessteknikk" />
+      <symbol value="SVT-GEO - Geografisk institutt" />
+      <symbol value="IVT-IPK - Institutt for produksjons- og kvalitetsteknikk" />
+      <symbol value="SVT-PSY - Psykologisk institutt" />
+      <symbol value="AB-BKFF - Institutt for byggekunst, form og farge" />
+      <symbol value="AB-KIT - Institutt for billedkunst - Kunstakademiet i Trondheim" />
+      <symbol value="NT-IBT - Institutt for bioteknologi" />
+      <symbol value="IVT-BAT - Institutt for bygg, anlegg og transport" />
+      <symbol value="DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer" />
+      <symbol value="SVT-PED - Pedagogisk institutt" />
+      <symbol value="NT-IMTE - Institutt for materialteknologi" />
+      <symbol value="IVT-IVM - Institutt for vann- og milj&#248;teknikk" />
+      <symbol value="SVT-ISH - Institutt for sosialt arbeid og helsevitenskap" />
+      <symbol value="HF-IKM - Institutt for kunst- og medievitenskap" />
+      <symbol value="AB-BKPF - Institutt for byggekunst, prosjektering og forvaltning" />
+      <symbol value="IME-IDI - Institutt for datateknikk og informasjonsvitenskap" />
+      <symbol value="HF-KULT - Institutt for tverrfaglige kulturstudier" />
+      <symbol value="IVT-IGB - Institutt for geologi og bergteknikk" />
+      <symbol value="IME-ITK - Institutt for teknisk kybernetikk" />
+      <symbol value="SVT-IPL - Institutt for pedagogikk og livslang l&#230;ring" />
+      <symbol value="IME-ELKRAFT - Institutt for elkraftteknikk" />
+      <symbol value="IVT-IPM - Institutt for produktutvikling og materialer" />
+      <symbol value="DMF-IKMM - Institutt for kreftforskning og molekyl&#230;r medisin" />
+      <symbol value="SVT-IOT - Institutt for industriell &#248;konomi og teknologiledelse" />
+      <symbol value="DMF-ISM - Institutt for samfunnsmedisin" />
+      <symbol value="SVT-PLU - Program for l&#230;rerutdanning" />
+      <symbol value="HF-IM - Institutt for musikk" />
+      <symbol value="SVT-ISO - Institutt for samfunns&#248;konomi" />
+      <symbol value="SVT-ISS - Institutt for sosiologi og statsvitenskap" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="IME-ITEM - Institutt for telematikk">
+</qsym>
+<qsym name="IVT-IPT - Institutt for petroleumsteknologi og anvendt geofysikk">
+</qsym>
+<qsym name="SVT-NOSEB - Norsk senter for barneforskning">
+</qsym>
+<qsym name="DMF-ISB - Institutt for sirkulasjon og bildediagnostikk">
+</qsym>
+<qsym name="IVT-IMT - Institutt for marin teknikk">
+</qsym>
+<qsym name="NT-IKJ - Institutt for kjemi">
+</qsym>
+<qsym name="NT-IFY - Institutt for fysikk">
+</qsym>
+<qsym name="NT-IKP - Institutt for kjemisk prosessteknologi">
+</qsym>
+<qsym name="HF-IHS - Institutt for historiske studier">
+</qsym>
+<qsym name="DMF-INM - Institutt for nevromedisin">
+</qsym>
+<qsym name="NT-IBI - Institutt for biologi">
+</qsym>
+<qsym name="IVT-IPD - Institutt for produktdesign">
+</qsym>
+<qsym name="IME-IMF - Institutt for matematiske fag">
+</qsym>
+<qsym name="SVT-SANT - Sosialantropologisk institutt">
+</qsym>
+<qsym name="AB-BKHT - Institutt for byggekunst, historie og teknologi">
+</qsym>
+<qsym name="SVT-IVR - Institutt for voksnes læring og rådgivningsvitenskap">
+</qsym>
+<qsym name="AB-BYPLAN - Institutt for byforming og planlegging">
+</qsym>
+<qsym name="IVT-KT - Institutt for konstruksjonsteknikk">
+</qsym>
+<qsym name="HF-IFR - Institutt for filosofi og religionsvitenskap">
+</qsym>
+<qsym name="IME-IET - Institutt for elektronikk og telekommunikasjon">
+</qsym>
+<qsym name="HF-ISL - Institutt for språk og litteratur">
+</qsym>
+<qsym name="IVT-EPT - Institutt for energi- og prosessteknikk">
+</qsym>
+<qsym name="SVT-GEO - Geografisk institutt">
+</qsym>
+<qsym name="IVT-IPK - Institutt for produksjons- og kvalitetsteknikk">
+</qsym>
+<qsym name="SVT-PSY - Psykologisk institutt">
+</qsym>
+<qsym name="AB-BKFF - Institutt for byggekunst, form og farge">
+</qsym>
+<qsym name="AB-KIT - Institutt for billedkunst - Kunstakademiet i Trondheim">
+</qsym>
+<qsym name="NT-IBT - Institutt for bioteknologi">
+</qsym>
+<qsym name="IVT-BAT - Institutt for bygg, anlegg og transport">
+</qsym>
+<qsym name="DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer">
+</qsym>
+<qsym name="SVT-PED - Pedagogisk institutt">
+</qsym>
+<qsym name="NT-IMTE - Institutt for materialteknologi">
+</qsym>
+<qsym name="IVT-IVM - Institutt for vann- og miljøteknikk">
+</qsym>
+<qsym name="SVT-ISH - Institutt for sosialt arbeid og helsevitenskap">
+</qsym>
+<qsym name="HF-IKM - Institutt for kunst- og medievitenskap">
+</qsym>
+<qsym name="AB-BKPF - Institutt for byggekunst, prosjektering og forvaltning">
+</qsym>
+<qsym name="IME-IDI - Institutt for datateknikk og informasjonsvitenskap">
+</qsym>
+<qsym name="HF-KULT - Institutt for tverrfaglige kulturstudier">
+</qsym>
+<qsym name="IVT-IGB - Institutt for geologi og bergteknikk">
+</qsym>
+<qsym name="IME-ITK - Institutt for teknisk kybernetikk">
+</qsym>
+<qsym name="SVT-IPL - Institutt for pedagogikk og livslang læring">
+</qsym>
+<qsym name="IME-ELKRAFT - Institutt for elkraftteknikk">
+</qsym>
+<qsym name="IVT-IPM - Institutt for produktutvikling og materialer">
+</qsym>
+<qsym name="DMF-IKMM - Institutt for kreftforskning og molekylær medisin">
+</qsym>
+<qsym name="SVT-IOT - Institutt for industriell økonomi og teknologiledelse">
+</qsym>
+<qsym name="DMF-ISM - Institutt for samfunnsmedisin">
+</qsym>
+<qsym name="SVT-PLU - Program for lærerutdanning">
+</qsym>
+<qsym name="HF-IM - Institutt for musikk">
+</qsym>
+<qsym name="SVT-ISO - Institutt for samfunnsøkonomi">
+</qsym>
+<qsym name="SVT-ISS - Institutt for sosiologi og statsvitenskap">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Country" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="StudyPeriod" type="Integer" min="2010" max="2016" mult="false" >
+      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="SocialQuality" type="Integer" min="1" max="5" mult="false" >
+      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="AcademicQuality" type="Integer" min="1" max="5" mult="false" >
+      <fct name="ratingSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Subjects" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <amalgam name="default function" type="EUCLIDEAN" active="true" >
+      <entry name="Continent" active="true" fct="default function" weight="4.0"/>
+      <entry name="Language" active="true" fct="default function" weight="3.0"/>
+      <entry name="University" active="true" fct="default function" weight="1.0"/>
+      <entry name="Institute" active="true" fct="default function" weight="5.0"/>
+      <entry name="Country" active="true" fct="default function" weight="2.0"/>
+      <entry name="StudyPeriod" active="true" fct="default function" weight="1.0"/>
+      <entry name="SocialQuality" active="true" fct="default function" weight="2.0"/>
+      <entry name="AcademicQuality" active="true" fct="ratingSim" weight="2.0"/>
+      <entry name="Subjects" active="true" fct="default function" weight="1.0"/>
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="Trip" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="499" cb="main_case_base"/>
+</Project>

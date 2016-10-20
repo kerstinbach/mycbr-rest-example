@@ -1,8 +1,13 @@
 import random as r
+import json
 
 rating = [1,2,3,4,5]
-period = range(2010,2016)
-countries, continents, institutes, languages, universities, subjects = [], [], [], [], [], []
+period = range(2010,2017)
+continents = ["Asia", "Europe", "South America", "North America", "Oceania", "Africa"]
+institutes, languages, universities, subjects = [], [], [], []
+
+countries_json = open("data/json/countries.json", 'r')
+countries_data = json.load(countries_json)
 
 
 def generate_csv():
@@ -10,14 +15,14 @@ def generate_csv():
 
 	target.write("Institute;Continent;Country;University;StudyPeriod;Language;AcademicQuality;SocialQuality;Subjects" + '\n')
 
-	for i in range(0, 500):
-		country = r.choice(countries)
+	for i in range(1, 500):
+		continent = r.choice(continents)
+		country = r.choice(countries_data[continent])["name"]
 		university = r.choice(universities)
 		language = r.choice(languages)
 		academic_rating = r.choice(rating)
 		social_rating = r.choice(rating)
 		institute = r.choice(institutes)
-		continent = r.choice(continents)
 		subjects_chosen = r.choice(subjects) + '!' + r.choice(subjects) + '!' + r.choice(subjects) + '!' + r.choice(subjects)
 
 		target.write(institute + ';' + continent + ';' + country + ';' + 
@@ -52,11 +57,6 @@ def get_data():
 	for line in file5:
 		subjects.append(line.rstrip('\n'))
 	file5.close()
-
-	file6 = open("attributes/continents.txt", "r")
-	for line in file6:
-		continents.append(line.rstrip('\n'))
-	file6.close()
 
 
 if __name__ == "__main__":

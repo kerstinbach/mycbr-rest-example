@@ -4,65 +4,64 @@ import random as r
 
 countries = {}
 
-europe_countries = []
-na_countries = []
-sa_countries = []
-asia_countries = []
-oceania_countries = []
-africa_countries = []
-
-europe_languages = []
-na_languages = []
-sa_languages = []
-asia_languages = []
-oceania_languages = []
-africa_languages = []
-
-
 def fill_country_lists():
 	target_eu = open("../data/txt/europe.txt", "r")
+	eu_countries = []
 	for line in target_eu:
-		europe_countries.append(line.rstrip('\n'))
-	countries["Europe"] = europe_countries
-	countries["Europe"]["Languages"] = r.choice("English", "Deutsch", "French", "Spanish")
+		country = {}
+		country["name"] = line.rstrip('\n')
+		eu_countries.append(country)
+	countries["Europe"] = eu_countries
 	target_eu.close()
 
 	target_na = open("../data/txt/na.txt", "r")
+	na_countries = []
 	for line in target_na:
-		na_countries.append(line.rstrip('\n'))
+		country = {}
+		country["name"] = line.rstrip('\n')
+		na_countries.append(country)
 	countries["North America"] = na_countries
-	countries["Languages"] = r.choice(["English", "Canadian"])
 	target_eu.close()
 
 	target_sa = open("../data/txt/sa.txt", "r")
+	sa_countries = []
 	for line in target_sa:
-		sa_countries.append(line.rstrip('\n'))
+		country = {}
+		country["name"] = line.rstrip('\n')
+		sa_countries.append(country)
 	countries["South America"] = sa_countries
-	countries["Languages"] = r.choice("[English", "Spanish", "Portuguese]")
 	target_sa.close()
 
 	target_asia = open("../data/txt/asia.txt", "r")
+	asia_countries = []
 	for line in target_asia:
-		asia_countries.append(line.rstrip('\n'))
+		country = {}
+		country["name"] = line.rstrip('\n')
+		asia_countries.append(country)
 	countries["Asia"] = asia_countries
-	countries["Languages"] = r.choice("[English", "Chinese", "Japanese", "Indian]")
 	target_asia.close()
 
 	target_africa = open("../data/txt/africa.txt", "r")
+	africa_countries = []
 	for line in target_africa:
-		africa_countries.append(line.rstrip('\n'))
+		country = {}
+		country["name"] = line.rstrip('\n')
+		africa_countries.append(country)
 	countries["Africa"] = africa_countries
-	countries["Languages"] = r.choice(["English"])
 	target_africa.close()
 
 	target_oceania = open("../data/txt/oceania.txt", "r")
+	oceania_countries = []
 	for line in target_oceania:
-		oceania_countries.append(line.rstrip('\n'))
+		country = {}
+		country["name"] = line.rstrip('\n')
+		oceania_countries.append(country)
 	countries["Oceania"] = oceania_countries
-	countries["Languages"] = r.choice(["English"])
 	target_oceania.close()
 
-	print(countries)
+	for continent, values in countries.items():
+		print(continent)
+		print(values)
 
 def to_json():
 	json_data = json.dumps(countries)

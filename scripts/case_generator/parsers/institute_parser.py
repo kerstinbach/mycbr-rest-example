@@ -5,7 +5,7 @@ institutes = []
 
 def parse_api():
 	# stores the api as a json object
-	with open("org_units.json") as data_file:
+	with open("../data/json/org_units.json") as data_file:
 		data = json.load(data_file)
 
 	# defines the path to where the faculties start in the api
@@ -33,11 +33,17 @@ def to_json():
 
 	target.close()
 
-
+def write_all_institutes_to_file():
+	with open("../attributes/institutes.txt", 'w') as file:
+		for line in institutes:
+			institute = line["name"] +'\n'
+			file.write(institute)
+		file.close()
 
 
 parse_api()
 to_json()
+#write_all_institutes_to_file()
 
 
 
