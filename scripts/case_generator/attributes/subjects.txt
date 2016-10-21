@@ -14,3 +14,7 @@ DATA101
 DATA2020
 DATA5670
 DATA4141
+SDES6742 - Graphic design for the Web
+COMP9321 - Web Applications Engineering
+COMP1400 - Programming for Designers
+COMP1927 - Computing 2 (Syllabus)
