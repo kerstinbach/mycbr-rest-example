@@ -103,9 +103,12 @@
       <symbol value="Far Eastern Federal University" />
       <symbol value="UCLA" />
       <symbol value="Bond University" />
+      <symbol value="University of Minnesota" />
       <symbol value="Flinders University" />
       <symbol value="Universitat de Barcelona" />
+      <symbol value="UCSB" />
       <symbol value="Augsburg College" />
+      <symbol value="UC Berkeley" />
 <fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
 <qsym name="Université Joseph Fourier">
 </qsym>
@@ -115,11 +118,17 @@
 </qsym>
 <qsym name="Bond University">
 </qsym>
+<qsym name="University of Minnesota">
+</qsym>
 <qsym name="Flinders University">
 </qsym>
 <qsym name="Universitat de Barcelona">
 </qsym>
+<qsym name="UCSB">
+</qsym>
 <qsym name="Augsburg College">
+</qsym>
+<qsym name="UC Berkeley">
 </qsym>
 </fct>
     </desc>
@@ -280,7 +289,7 @@
     <desc name="Country" type="String" mult="false" >
       <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
-    <desc name="StudyPeriod" type="Integer" min="2010" max="2016" mult="false" >
+    <desc name="StudyPeriod" type="Integer" min="2009" max="2016" mult="false" >
       <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <desc name="SocialQuality" type="Integer" min="1" max="5" mult="false" >
