@@ -321,5 +321,5 @@
     <node name="Trip" sim="1.0" parent="inheritanceDesc" />
   </fct>
 </hierarchy>
-<cases no="499" cb="main_case_base"/>
+<cases no="5" cb="main_case_base"/>
 </Project>
