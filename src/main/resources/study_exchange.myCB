@@ -2,66 +2,42 @@
 <Project name="study_exchange" author="" >
 <instances name="Trip">
   <instance id="Trip2" >
-    <att name="Institute" value="IME-ITK - Institutt for teknisk kybernetikk" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
     <att name="AcademicQuality" value="2" />
-    <att name="University" value="UCSB" />
-    <att name="Country" value="USA" />
-    <att name="Language" value="English" />
-    <att name="SocialQuality" value="5" />
-    <att name="Continent" value="North America" />
-    <att name="StudyPeriod" value="2015" />
-    <att name="Subjects" value="ECE248 KALMAN FILTERING!ECE251 MOBILE EMBED SYSTEM!CMPSC595G GP STD: SECURITY!ECE295 GP STD: CONTROLS!MARSC595 SEM MARINE SCIENCE!ECE594D SPECIAL TOPICS ECE!ME179L ROBOTICS: DESIGN!ME179P ROBOTICS: PLANNING" />
+    <att name="University" value="charles university" />
+    <att name="Country" value="Tsjekkia" />
+    <att name="Language" value="Engelsk" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="StudyPeriod" value="201516" />
+    <att name="Subjects" value="Environmental geologi!hydrogeology!groundwater hydrolics!waste geochemistry!microscopy of rock-forming minerals!deformation microstructuress!population ecology and spieces protection!regional geology" />
   </instance>
   <instance id="Trip1" >
-    <att name="Institute" value="IME-ITK - Institutt for teknisk kybernetikk" />
-    <att name="AcademicQuality" value="4" />
-    <att name="University" value="UCSB" />
-    <att name="Country" value="USA" />
-    <att name="Language" value="English" />
-    <att name="SocialQuality" value="5" />
-    <att name="Continent" value="North America" />
-    <att name="StudyPeriod" value="2015" />
-    <att name="Subjects" value="TMP242 ENTREPRENEURSHIP!CMPSC290G SP TOP: SECURITY!ECE256 Intro to Design automation" />
-  </instance>
-  <instance id="Trip4" >
-    <att name="Institute" value="IME-IDI - Institutt for datateknikk og informasjonsvitenskap" />
-    <att name="AcademicQuality" value="4" />
-    <att name="University" value="UC Berkeley" />
-    <att name="Country" value="USA" />
-    <att name="Language" value="English" />
-    <att name="SocialQuality" value="3" />
-    <att name="Continent" value="North America" />
-    <att name="StudyPeriod" value="2015" />
-    <att name="Subjects" value="MATH222A Partial Differential Equations!MATH206 Banach Algebraes and Spectral Theory!STAT210A Theoretical Statistics" />
-  </instance>
-  <instance id="Trip3" >
-    <att name="Institute" value="IME-IMF - Institutt for matematiske fag" />
+    <att name="Institute" value="IME-ITEM - Institutt for telematikk" />
     <att name="AcademicQuality" value="3" />
-    <att name="University" value="University of Minnesota" />
-    <att name="Country" value="USA" />
-    <att name="Language" value="English" />
-    <att name="SocialQuality" value="4" />
-    <att name="Continent" value="North America" />
-    <att name="StudyPeriod" value="2011" />
-    <att name="Subjects" value="MATH5076 Mathematical Finance 2!MATH8402 Mathematical Modelling 2!PHIL3601 Philosophy of Science (Quantum Mechanics)" />
+    <att name="University" value="Technische Universit&#228;t M&#252;nchen" />
+    <att name="Country" value="Tyskland" />
+    <att name="Language" value="Engelsk" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="Europe" />
+    <att name="StudyPeriod" value="201516" />
+    <att name="Subjects" value="Volkwirtschaftslehre 1!Investment and Financial Management !Modellierung und Optimierung im Operations Management !Simulierung und Optimierung im Operations Management !Organizational Psychology !Thermodynamik II!Thermodynamics in Energy Conversion!Technology and Innovation Management: Introduction" />
   </instance>
   <instance id="Trip0" >
-    <att name="Institute" value="IME-ITK - Institutt for teknisk kybernetikk" />
-    <att name="AcademicQuality" value="4" />
-    <att name="University" value="UCSB" />
+    <att name="Institute" value="NT-IFY - Institutt for fysikk" />
+    <att name="AcademicQuality" value="5" />
+    <att name="University" value="UC Berkeley" />
     <att name="Country" value="USA" />
-    <att name="Language" value="English" />
+    <att name="Language" value="Engelsk" />
     <att name="SocialQuality" value="5" />
     <att name="Continent" value="North America" />
-    <att name="StudyPeriod" value="2015" />
-    <att name="Subjects" value="COMM169 Social Networks!ECE257 A Fault Tolerant Computing!ECE277 Pattern Recognition!ECE179 D Robotics: Control!CS165 A Artificial Intelligence!ECE594 Game Theory!ECE236 Nonlinear Control Systems!ECE179 Robotics: Planning" />
+    <att name="StudyPeriod" value="2016" />
+    <att name="Subjects" value="Quantum Field Theory II!Standard Model and Beyond I!General Relativity" />
   </instance>
 </instances>
 <cb name="main_case_base">
      <case name="Trip2" />
      <case name="Trip1" />
-     <case name="Trip4" />
-     <case name="Trip3" />
      <case name="Trip0" />
 </cb>
 </Project>

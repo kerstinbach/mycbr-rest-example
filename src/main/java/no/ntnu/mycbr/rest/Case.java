@@ -8,7 +8,7 @@ import no.ntnu.mycbr.CBREngine;
 
 import java.util.HashMap;
 import java.util.Map;
-
+W
 /**
  * Created by kerstin on 05/08/16.
  */

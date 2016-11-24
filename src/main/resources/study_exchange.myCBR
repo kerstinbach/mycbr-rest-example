@@ -51,6 +51,7 @@
       <symbol value="Deutsch" />
       <symbol value="English" />
       <symbol value="French" />
+      <symbol value="Engelsk" />
       <symbol value="Chinese" />
       <symbol value="Danish" />
       <symbol value="Indian" />
@@ -69,6 +70,8 @@
 <csym name="Deutsch" sim="0.3"/>
 </qsym>
 <qsym name="French">
+</qsym>
+<qsym name="Engelsk">
 </qsym>
 <qsym name="Chinese">
 <csym name="Japanese" sim="0.5"/>
@@ -101,18 +104,22 @@
     <desc name="University" type="Symbol" mult="false" >
       <symbol value="Universit&#233; Joseph Fourier" />
       <symbol value="Far Eastern Federal University" />
+      <symbol value="Technische Universit&#228;t M&#252;nchen" />
       <symbol value="UCLA" />
       <symbol value="Bond University" />
       <symbol value="University of Minnesota" />
       <symbol value="Flinders University" />
       <symbol value="Universitat de Barcelona" />
       <symbol value="UCSB" />
+      <symbol value="charles university" />
       <symbol value="Augsburg College" />
       <symbol value="UC Berkeley" />
 <fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
 <qsym name="Université Joseph Fourier">
 </qsym>
 <qsym name="Far Eastern Federal University">
+</qsym>
+<qsym name="Technische Universität München">
 </qsym>
 <qsym name="UCLA">
 </qsym>
@@ -125,6 +132,8 @@
 <qsym name="Universitat de Barcelona">
 </qsym>
 <qsym name="UCSB">
+</qsym>
+<qsym name="charles university">
 </qsym>
 <qsym name="Augsburg College">
 </qsym>
@@ -289,7 +298,7 @@
     <desc name="Country" type="String" mult="false" >
       <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
-    <desc name="StudyPeriod" type="Integer" min="2009" max="2016" mult="false" >
+    <desc name="StudyPeriod" type="Integer" min="2009" max="201516" mult="false" >
       <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
       <fct name="yearSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
@@ -321,5 +330,5 @@
     <node name="Trip" sim="1.0" parent="inheritanceDesc" />
   </fct>
 </hierarchy>
-<cases no="5" cb="main_case_base"/>
+<cases no="3" cb="main_case_base"/>
 </Project>

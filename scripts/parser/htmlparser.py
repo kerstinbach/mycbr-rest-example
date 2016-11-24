@@ -1,14 +1,20 @@
 import urllib.request as urllib
 from html.parser import HTMLParser
-import countryinfo as ci
+import data.countryinfo as ci
+import data.universityinfo as ui
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
+import json
+import glob
+from titlecase import titlecase
+import re
+
 
 data_list = []
 star_list = []
-data_object = {}
-data_object["courses"] = []
 institutes = []
+
+cases = []
 
 
 class Parser(HTMLParser):
@@ -17,7 +23,7 @@ class Parser(HTMLParser):
         data_list.append(data)
 
     def handle_starttag(self, tag, attrs):
-        if attrs == [('class', 'fa fa-star-o'), ('aria-hidden', 'true')] or attrs == [('class', 'fa fa-star'), ('aria-hidden', 'true')]:
+        if attrs == [('class', 'fa fa-star-o'), ('aria-hidden', 'true')] or attrs == [('class', 'fa fa-star'), ('aria-hidden', 'true')] or attrs == [('class', 'fa fa-star')] or attrs == [('class', 'fa fa-star-o')]:
             star_list.append(attrs)
 
 
@@ -26,12 +32,10 @@ def get_html():
     result = urllib.urlopen(url)
     return result.read().decode("utf-8").replace('\r\n', ' ')
 
-def get_html_local():
-    file = open("Internasjonal Seksjon.html", 'r').read()
-    return file
 
-
-def parse_html():
+def parse_html(o):
+    data_object = o
+    data_object["courses"] = []
     for i in range(0, len(data_list)):
         element = data_list[i]
         if element == "Land:":
@@ -41,7 +45,7 @@ def parse_html():
 
         if element == "Vertsinstitusjon:":
             next_element = data_list[i+1]
-            data_object['university'] = next_element
+            data_object['university'] = format_university(next_element)
 
         if element == "Institutt hjemme:":
             next_element = data_list[i+1]
@@ -63,32 +67,32 @@ def parse_html():
         if element == "Fag 2:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
-                data_object["courses"].append(next_element)
+                data_object["courses"].append(format_course(next_element))
 
         if element == "Fag 3:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
-                data_object["courses"].append(next_element)
+                data_object["courses"].append(format_course(next_element))
 
         if element == "Fag 4:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
-                data_object["courses"].append(next_element)
+                data_object["courses"].append(format_course(next_element))
 
         if element == "Fag 5:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
-                data_object["courses"].append(next_element)
+                data_object["courses"].append(format_course(next_element))
 
         if element == "Fag 6:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
-                data_object["courses"].append(next_element)
+                data_object["courses"].append(format_course(next_element))
 
         if element == "Fag 7:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
-                data_object["courses"].append(next_element)
+                data_object["courses"].append(format_course(next_element))
 
         if element == "Fag 8:":
             next_element = data_list[i+1]
@@ -98,14 +102,11 @@ def parse_html():
         data_object["academic_quality"] = get_rating("academic")
         data_object["social_quality"] = get_rating("social")
 
+    return data_object
+
 
 def format_study_period(s):
-    formated_study_period = ""
-    for char in s:
-        if char.isdigit():
-            formated_study_period += char
-    formated_study_period = int(formated_study_period)
-    return(formated_study_period)
+    return int(re.match(r'.*([1-3][0-9]{3})', s).group(1))
 
 
 def format_language(s):
@@ -125,7 +126,7 @@ def get_continent(s):
 
 
 def get_institutes():
-    file = open("institutes.txt", 'r')
+    file = open("data/institutes.txt", 'r')
     for line in file.readlines():
         institutes.append(line.strip())
     file.close()
@@ -140,8 +141,22 @@ def format_institute(s):
     return best_match['name']
 
 
+def format_university(s):
+    if s.isupper():
+        for u in ui.universities:
+            if u['acronym'].lower() == s.lower():
+                return titlecase(u['name'])
+        return s
+    else:
+        return titlecase(s)
+
+
 def format_course(s):
-    return s
+    first_part = s.split()[0]
+    for char in first_part:
+        if char.isdigit():
+            return s
+    return "XXXX" + " " + s
 
 
 def get_rating(s):
@@ -170,14 +185,52 @@ def get_rating(s):
     else:
         return None
 
+def run(s):
+    html = open(s, 'r')
+    P = Parser()
+    P.feed(html.read())
+    html.close()
+
+    data_object = {}
+    return parse_html(data_object)
+
+
+def make_json():
+    output = open('output/cases.json', 'w')
+    with open('output/cases.json', 'w') as output:
+        json.dump(cases, output)
+    output.close()
+
+
+def print_cases():
+    for case in cases:
+        for k, v in case.items():
+            print(k + ':', v)
+        print('-'*100)
+
+def test_run():
+    test_file_list = ["file1.html", "file2.html", "file3.html"]
+
+    for file in test_file_list:
+        cases.append(run("test_html_files/" + file))
+        data_list = []
+        star_list = []
+
+
+def real_run():
+    file_list = glob.glob("retrieved_html_files/*.html")
+
+    for file in file_list:
+        cases.append(run(file))
+        data_list = []
+        star_list = []    
 
 
 if __name__ == "__main__":
     get_institutes()
-    format_institute("Institutt for Fysik")
-    html = get_html_local()
-    P = Parser()
-    P.feed(html)
-    parse_html()
-    print(data_object)
+    real_run()
+    #test_run()
+    #print_cases()
+    make_json()
+
     
