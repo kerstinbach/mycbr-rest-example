@@ -2,46 +2,46 @@
 <Project name="study_exchange" author="" >
 <exp obj="Trip" type="Concept" >
   <desc>
-&#10;                                        </desc>
+                                          </desc>
+</exp>
+<exp obj="University" c="Trip" type="AttributeDesc" >
+  <desc>
+                                      </desc>
+</exp>
+<exp obj="Country" c="Trip" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Subjects" c="Trip" type="AttributeDesc" >
+  <desc>
+                                          </desc>
 </exp>
 <exp obj="Institute" c="Trip" type="AttributeDesc" >
+  <desc>
+&#10;                                </desc>
+</exp>
+<exp obj="Language" c="Trip" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="SocialQuality" c="Trip" type="AttributeDesc" >
+  <desc>
+&#10;                                    </desc>
+</exp>
+<exp obj="StudyPeriod" c="Trip" type="AttributeDesc" >
+  <desc>
+&#10;                </desc>
+</exp>
+<exp obj="Continent" c="Trip" type="AttributeDesc" >
   <desc>
                               </desc>
 </exp>
 <exp obj="AcademicQuality" c="Trip" type="AttributeDesc" >
   <desc>
-                                  </desc>
-</exp>
-<exp obj="University" c="Trip" type="AttributeDesc" >
-  <desc>
 &#10;                                    </desc>
-</exp>
-<exp obj="Country" c="Trip" type="AttributeDesc" >
-  <desc>
-&#10;                                        </desc>
-</exp>
-<exp obj="Language" c="Trip" type="AttributeDesc" >
-  <desc>
-&#10;                                        </desc>
-</exp>
-<exp obj="SocialQuality" c="Trip" type="AttributeDesc" >
-  <desc>
-                                  </desc>
-</exp>
-<exp obj="Continent" c="Trip" type="AttributeDesc" >
-  <desc>
-&#10;                            </desc>
-</exp>
-<exp obj="StudyPeriod" c="Trip" type="AttributeDesc" >
-  <desc>
-              </desc>
-</exp>
-<exp obj="Subjects" c="Trip" type="AttributeDesc" >
-  <desc>
-&#10;                                        </desc>
 </exp>
 <exp obj="IME-ITEM - Institutt for telematikk" c="Trip" desc="Institute" type="SimpleAttribute" >
   <desc>
-&#10;                </desc>
+                  </desc>
 </exp>
 </Project>

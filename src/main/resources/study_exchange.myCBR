@@ -18,9 +18,10 @@
     <desc name="Continent" type="Symbol" mult="false" >
       <symbol value="South America" />
       <symbol value="Asia" />
-      <symbol value="North America" />
       <symbol value="Europe" />
       <symbol value="Africa" />
+      <symbol value="North America" />
+      <symbol value="None" />
       <symbol value="Oceania" />
 <fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
 <qsym name="South America">
@@ -29,38 +30,52 @@
 <qsym name="Asia">
 <csym name="Oceania" sim="0.3"/>
 </qsym>
-<qsym name="North America">
-<csym name="South America" sim="0.5"/>
-<csym name="Europe" sim="0.5"/>
-<csym name="Oceania" sim="0.3"/>
-</qsym>
 <qsym name="Europe">
 <csym name="North America" sim="0.5"/>
 <csym name="Oceania" sim="0.2"/>
 </qsym>
 <qsym name="Africa">
 </qsym>
+<qsym name="North America">
+<csym name="South America" sim="0.5"/>
+<csym name="Europe" sim="0.5"/>
+<csym name="Oceania" sim="0.3"/>
+</qsym>
+<qsym name="None">
+</qsym>
 <qsym name="Oceania">
 <csym name="Asia" sim="0.3"/>
-<csym name="North America" sim="0.3"/>
 <csym name="Europe" sim="0.2"/>
+<csym name="North America" sim="0.3"/>
 </qsym>
 </fct>
     </desc>
     <desc name="Language" type="Symbol" mult="false" >
+      <symbol value="Engelsk" />
+      <symbol value="Japanese" />
+      <symbol value="Swedish" />
       <symbol value="Deutsch" />
       <symbol value="English" />
       <symbol value="French" />
-      <symbol value="Engelsk" />
+      <symbol value="Ukjent" />
       <symbol value="Chinese" />
       <symbol value="Danish" />
       <symbol value="Indian" />
       <symbol value="Spanish" />
+      <symbol value="Diplom" />
+      <symbol value="Hovedfag" />
       <symbol value="Norwegian" />
-      <symbol value="Japanese" />
       <symbol value="Portoguese" />
-      <symbol value="Swedish" />
+      <symbol value="Undervisningsspr&#227;&#165;K" />
 <fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Engelsk">
+</qsym>
+<qsym name="Japanese">
+<csym name="Chinese" sim="0.5"/>
+</qsym>
+<qsym name="Swedish">
+<csym name="Danish" sim="0.6"/>
+</qsym>
 <qsym name="Deutsch">
 <csym name="English" sim="0.3"/>
 <csym name="Danish" sim="0.4"/>
@@ -71,71 +86,326 @@
 </qsym>
 <qsym name="French">
 </qsym>
-<qsym name="Engelsk">
+<qsym name="Ukjent">
 </qsym>
 <qsym name="Chinese">
 <csym name="Japanese" sim="0.5"/>
 </qsym>
 <qsym name="Danish">
+<csym name="Swedish" sim="0.6"/>
 <csym name="Deutsch" sim="0.4"/>
 <csym name="Norwegian" sim="0.8"/>
-<csym name="Swedish" sim="0.6"/>
 </qsym>
 <qsym name="Indian">
 </qsym>
 <qsym name="Spanish">
 <csym name="Portoguese" sim="0.7"/>
 </qsym>
+<qsym name="Diplom">
+</qsym>
+<qsym name="Hovedfag">
+</qsym>
 <qsym name="Norwegian">
 <csym name="Deutsch" sim="0.4"/>
 <csym name="Danish" sim="0.8"/>
 </qsym>
-<qsym name="Japanese">
-<csym name="Chinese" sim="0.5"/>
-</qsym>
 <qsym name="Portoguese">
 <csym name="Spanish" sim="0.7"/>
 </qsym>
-<qsym name="Swedish">
-<csym name="Danish" sim="0.6"/>
+<qsym name="Undervisningssprã¥K">
 </qsym>
 </fct>
     </desc>
     <desc name="University" type="Symbol" mult="false" >
+      <symbol value="University of Zimbabwe" />
+      <symbol value="Albert-Ludwigs-Universit&#195;&#164;t" />
+      <symbol value="University of Hawaii, Hilo" />
+      <symbol value="Lancaster University" />
+      <symbol value="Universit&#233; Lumi&#232;re Lyon 2" />
+      <symbol value="Harvard University" />
       <symbol value="Universit&#233; Joseph Fourier" />
-      <symbol value="Far Eastern Federal University" />
-      <symbol value="Technische Universit&#228;t M&#252;nchen" />
-      <symbol value="UCLA" />
+      <symbol value="Universidad De Granada" />
+      <symbol value="University of Southampton" />
       <symbol value="Bond University" />
+      <symbol value="University of Southampton " />
+      <symbol value="Universit&#233; De Pau Et Des Pays De l'Adour" />
+      <symbol value="Technische Universit&#228;t" />
+      <symbol value="University of Melbourne" />
+      <symbol value="University of Newcastle" />
+      <symbol value="Ruprecht-Karls-Universit&#228;t Heidelberg" />
+      <symbol value="EURECOM" />
+      <symbol value="Instituto Superior T&#233;cnico" />
+      <symbol value="University of Dundee" />
+      <symbol value="Metropolitan University College&#254;" />
+      <symbol value="University of Cape Town" />
+      <symbol value="University of Huleva" />
+      <symbol value="Universit&#233; De Caen Basse-Normandie" />
+      <symbol value="University of Queensland" />
+      <symbol value="Metropolitan University " />
       <symbol value="University of Minnesota" />
-      <symbol value="Flinders University" />
-      <symbol value="Universitat de Barcelona" />
+      <symbol value="University of Strathclyde" />
+      <symbol value="    Ruprecht-Karls Universit&#228;t Heidelberg" />
+      <symbol value="Goldsmiths University of London" />
+      <symbol value="K&#248;benhavns Universitet" />
+      <symbol value="Universisad De Granada" />
+      <symbol value="Universit&#228;t" />
+      <symbol value="Popakademie" />
+      <symbol value="TU Delft" />
+      <symbol value="Universit&#228;t Hamburg" />
+      <symbol value="University of York" />
+      <symbol value="University of New South Wales" />
+      <symbol value="University of Nicosia" />
+      <symbol value="UBA" />
+      <symbol value="SDSU" />
+      <symbol value="Escola Superior De Danca" />
+      <symbol value="UBC" />
+      <symbol value="San Diego State University" />
+      <symbol value="Universitat Polit&#232;cnica De Val&#232;ncia (UPV)" />
+      <symbol value="UNAM (Universidad Nacional Autonoma De Mexico)" />
+      <symbol value="University of California San Diego" />
+      <symbol value="Universidad Politecnica De Valencia" />
+      <symbol value="Ucc " />
+      <symbol value="Universitetet I Granada" />
+      <symbol value="Nanyang Technological University" />
+      <symbol value="Concordia College" />
+      <symbol value="Seoul National University" />
+      <symbol value="UCA" />
+      <symbol value="ETH" />
+      <symbol value="Karolinska Institutet" />
       <symbol value="UCSB" />
+      <symbol value="University of Limerick " />
       <symbol value="charles university" />
       <symbol value="Augsburg College" />
+      <symbol value="Universidade Aut&#243;noma" />
+      <symbol value="Far Eastern Federal University" />
+      <symbol value="Fontys Hogeschool Voor De Kunsten" />
+      <symbol value="Univeristetet I Warwick" />
+      <symbol value="FACHHOCHSCHULE VORARLBERG" />
+      <symbol value="UCT" />
+      <symbol value="University College London" />
+      <symbol value="University of British Columbia" />
+      <symbol value="KTH Royal Institute of Technology" />
+      <symbol value="University of Roehampton " />
+      <symbol value="Technische Universit&#228;t M&#252;nchen" />
+      <symbol value="School of Nursing" />
+      <symbol value="University of Auckland" />
+      <symbol value="AAU " />
+      <symbol value="Politecnico Di Milano" />
+      <symbol value="Hvidore Hospital, Strandmarkshave Pleiehjem." />
+      <symbol value="Queen Mary University of London" />
+      <symbol value="UCLA" />
+      <symbol value="Freie Universit&#228;t" />
+      <symbol value="Aarhus Universitet" />
+      <symbol value="Hof University of Applied Science" />
+      <symbol value="Syddansk Universitet " />
+      <symbol value="Flinders University" />
+      <symbol value="Cardiff University" />
+      <symbol value="University of California, Berkeley" />
+      <symbol value="University of Valencia " />
+      <symbol value="Arkitekskolen Aarhus" />
+      <symbol value="TU M&#252;nchen" />
+      <symbol value="Universitat de Barcelona" />
+      <symbol value="University of Roehampton" />
+      <symbol value="Pusan National University" />
+      <symbol value="UWA" />
+      <symbol value="TU Braunschweig" />
+      <symbol value="Tum" />
+      <symbol value="Makerere University" />
+      <symbol value="Kungliga Tekniska H&#246;gskolan" />
+      <symbol value="TU Bergakademie Freiberg" />
       <symbol value="UC Berkeley" />
 <fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="University of Zimbabwe">
+</qsym>
+<qsym name="Albert-Ludwigs-UniversitÃ¤t">
+</qsym>
+<qsym name="University of Hawaii, Hilo">
+</qsym>
+<qsym name="Lancaster University">
+</qsym>
+<qsym name="Université Lumière Lyon 2">
+</qsym>
+<qsym name="Harvard University">
+</qsym>
 <qsym name="Université Joseph Fourier">
 </qsym>
-<qsym name="Far Eastern Federal University">
+<qsym name="Universidad De Granada">
 </qsym>
-<qsym name="Technische Universität München">
-</qsym>
-<qsym name="UCLA">
+<qsym name="University of Southampton">
 </qsym>
 <qsym name="Bond University">
 </qsym>
+<qsym name="University of Southampton ">
+</qsym>
+<qsym name="Université De Pau Et Des Pays De l'Adour">
+</qsym>
+<qsym name="Technische Universität">
+</qsym>
+<qsym name="University of Melbourne">
+</qsym>
+<qsym name="University of Newcastle">
+</qsym>
+<qsym name="Ruprecht-Karls-Universität Heidelberg">
+</qsym>
+<qsym name="EURECOM">
+</qsym>
+<qsym name="Instituto Superior Técnico">
+</qsym>
+<qsym name="University of Dundee">
+</qsym>
+<qsym name="Metropolitan University Collegeþ">
+</qsym>
+<qsym name="University of Cape Town">
+</qsym>
+<qsym name="University of Huleva">
+</qsym>
+<qsym name="Université De Caen Basse-Normandie">
+</qsym>
+<qsym name="University of Queensland">
+</qsym>
+<qsym name="Metropolitan University ">
+</qsym>
 <qsym name="University of Minnesota">
 </qsym>
-<qsym name="Flinders University">
+<qsym name="University of Strathclyde">
 </qsym>
-<qsym name="Universitat de Barcelona">
+<qsym name="    Ruprecht-Karls Universität Heidelberg">
+</qsym>
+<qsym name="Goldsmiths University of London">
+</qsym>
+<qsym name="Københavns Universitet">
+</qsym>
+<qsym name="Universisad De Granada">
+</qsym>
+<qsym name="Universität">
+</qsym>
+<qsym name="Popakademie">
+</qsym>
+<qsym name="TU Delft">
+</qsym>
+<qsym name="Universität Hamburg">
+</qsym>
+<qsym name="University of York">
+</qsym>
+<qsym name="University of New South Wales">
+</qsym>
+<qsym name="University of Nicosia">
+</qsym>
+<qsym name="UBA">
+</qsym>
+<qsym name="SDSU">
+</qsym>
+<qsym name="Escola Superior De Danca">
+</qsym>
+<qsym name="UBC">
+</qsym>
+<qsym name="San Diego State University">
+</qsym>
+<qsym name="Universitat Politècnica De València (UPV)">
+</qsym>
+<qsym name="UNAM (Universidad Nacional Autonoma De Mexico)">
+</qsym>
+<qsym name="University of California San Diego">
+</qsym>
+<qsym name="Universidad Politecnica De Valencia">
+</qsym>
+<qsym name="Ucc ">
+</qsym>
+<qsym name="Universitetet I Granada">
+</qsym>
+<qsym name="Nanyang Technological University">
+</qsym>
+<qsym name="Concordia College">
+</qsym>
+<qsym name="Seoul National University">
+</qsym>
+<qsym name="UCA">
+</qsym>
+<qsym name="ETH">
+</qsym>
+<qsym name="Karolinska Institutet">
 </qsym>
 <qsym name="UCSB">
+</qsym>
+<qsym name="University of Limerick ">
 </qsym>
 <qsym name="charles university">
 </qsym>
 <qsym name="Augsburg College">
+</qsym>
+<qsym name="Universidade Autónoma">
+</qsym>
+<qsym name="Far Eastern Federal University">
+</qsym>
+<qsym name="Fontys Hogeschool Voor De Kunsten">
+</qsym>
+<qsym name="Univeristetet I Warwick">
+</qsym>
+<qsym name="FACHHOCHSCHULE VORARLBERG">
+</qsym>
+<qsym name="UCT">
+</qsym>
+<qsym name="University College London">
+</qsym>
+<qsym name="University of British Columbia">
+</qsym>
+<qsym name="KTH Royal Institute of Technology">
+</qsym>
+<qsym name="University of Roehampton ">
+</qsym>
+<qsym name="Technische Universität München">
+</qsym>
+<qsym name="School of Nursing">
+</qsym>
+<qsym name="University of Auckland">
+</qsym>
+<qsym name="AAU ">
+</qsym>
+<qsym name="Politecnico Di Milano">
+</qsym>
+<qsym name="Hvidore Hospital, Strandmarkshave Pleiehjem.">
+</qsym>
+<qsym name="Queen Mary University of London">
+</qsym>
+<qsym name="UCLA">
+</qsym>
+<qsym name="Freie Universität">
+</qsym>
+<qsym name="Aarhus Universitet">
+</qsym>
+<qsym name="Hof University of Applied Science">
+</qsym>
+<qsym name="Syddansk Universitet ">
+</qsym>
+<qsym name="Flinders University">
+</qsym>
+<qsym name="Cardiff University">
+</qsym>
+<qsym name="University of California, Berkeley">
+</qsym>
+<qsym name="University of Valencia ">
+</qsym>
+<qsym name="Arkitekskolen Aarhus">
+</qsym>
+<qsym name="TU München">
+</qsym>
+<qsym name="Universitat de Barcelona">
+</qsym>
+<qsym name="University of Roehampton">
+</qsym>
+<qsym name="Pusan National University">
+</qsym>
+<qsym name="UWA">
+</qsym>
+<qsym name="TU Braunschweig">
+</qsym>
+<qsym name="Tum">
+</qsym>
+<qsym name="Makerere University">
+</qsym>
+<qsym name="Kungliga Tekniska Högskolan">
+</qsym>
+<qsym name="TU Bergakademie Freiberg">
 </qsym>
 <qsym name="UC Berkeley">
 </qsym>
@@ -302,10 +572,10 @@
       <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
       <fct name="yearSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
-    <desc name="SocialQuality" type="Integer" min="1" max="5" mult="false" >
+    <desc name="SocialQuality" type="Integer" min="0" max="5" mult="false" >
       <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
-    <desc name="AcademicQuality" type="Integer" min="1" max="5" mult="false" >
+    <desc name="AcademicQuality" type="Integer" min="0" max="5" mult="false" >
       <fct name="ratingSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
       <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
@@ -330,5 +600,5 @@
     <node name="Trip" sim="1.0" parent="inheritanceDesc" />
   </fct>
 </hierarchy>
-<cases no="3" cb="main_case_base"/>
+<cases no="100" cb="main_case_base"/>
 </Project>

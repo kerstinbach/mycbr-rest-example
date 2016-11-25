@@ -1,43 +1,1207 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <Project name="study_exchange" author="" >
 <instances name="Trip">
-  <instance id="Trip2" >
-    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
-    <att name="AcademicQuality" value="2" />
-    <att name="University" value="charles university" />
-    <att name="Country" value="Tsjekkia" />
+  <instance id="Trip69" >
+    <att name="University" value="University of Queensland" />
+    <att name="Country" value="Australia" />
+    <att name="Subjects" value="MECH3300 Finite Element Method (greit, litt vanskelig, mye hjelp til datamodelleringen, bli venn med noen i klassen)!REDE1300 Building and constr. management &#38; economics (ganske lett)!MARS2005 Australia's Marine Environment (litt mye &#229; gj&#248;re, men field trips var veldig bra! Bare utvekslingsstudenter som tar faget)" />
+    <att name="Institute" value="IVT-KT - Institutt for konstruksjonsteknikk" />
     <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Oceania" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip67" >
+    <att name="University" value="University of Dundee" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="XXXX child health!XXXX obstetric/gynaecology!XXXX rheumatology!XXXX orthopaedics!XXXX acute care!XXXX anaesthesia" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2011" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip68" >
+    <att name="University" value="Instituto Superior T&#233;cnico" />
+    <att name="Country" value="Portugal" />
+    <att name="Subjects" value="XXXX Environmental Policies!XXXX Quality, Safety and Environment in Construction!XXXX Built Environment and Impacts" />
+    <att name="Institute" value="IVT-EPT - Institutt for energi- og prosessteknikk" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2014" />
     <att name="SocialQuality" value="4" />
     <att name="Continent" value="Europe" />
-    <att name="StudyPeriod" value="201516" />
-    <att name="Subjects" value="Environmental geologi!hydrogeology!groundwater hydrolics!waste geochemistry!microscopy of rock-forming minerals!deformation microstructuress!population ecology and spieces protection!regional geology" />
+    <att name="AcademicQuality" value="4" />
   </instance>
-  <instance id="Trip1" >
-    <att name="Institute" value="IME-ITEM - Institutt for telematikk" />
-    <att name="AcademicQuality" value="3" />
-    <att name="University" value="Technische Universit&#228;t M&#252;nchen" />
+  <instance id="Trip65" >
+    <att name="University" value="University of New South Wales" />
+    <att name="Country" value="Australia" />
+    <att name="Subjects" value="XXXX Semantics and Pragmatics!XXXX Modernism: Text and Screen!XXXX Australian Literature!XXXX Shakespearean Drama" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2016" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Oceania" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip66" >
+    <att name="University" value="Ruprecht-Karls-Universit&#228;t Heidelberg" />
     <att name="Country" value="Tyskland" />
-    <att name="Language" value="Engelsk" />
+    <att name="Subjects" value="XXXX Zivilrecht I!XXXX Handelsrecht!XXXX Gesellschaftsrecht!XXXX IPR I und II!XXXX EU-Recht I/1, I/2 und II!XXXX Kapitalgesellschaftsrecht!XXXX Personengesellschaftsrecht!Kapitalmarktrecht" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip63" >
+    <att name="University" value="Syddansk Universitet " />
+    <att name="Country" value="Danmark" />
+    <att name="Subjects" value="K8: Mor og barn!K9: Kvinnesykdommer og reproduksjon " />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2015" />
     <att name="SocialQuality" value="3" />
     <att name="Continent" value="Europe" />
-    <att name="StudyPeriod" value="201516" />
-    <att name="Subjects" value="Volkwirtschaftslehre 1!Investment and Financial Management !Modellierung und Optimierung im Operations Management !Simulierung und Optimierung im Operations Management !Organizational Psychology !Thermodynamik II!Thermodynamics in Energy Conversion!Technology and Innovation Management: Introduction" />
+    <att name="AcademicQuality" value="4" />
   </instance>
-  <instance id="Trip0" >
-    <att name="Institute" value="NT-IFY - Institutt for fysikk" />
-    <att name="AcademicQuality" value="5" />
-    <att name="University" value="UC Berkeley" />
-    <att name="Country" value="USA" />
+  <instance id="Trip64" >
+    <att name="University" value="University of Auckland" />
+    <att name="Country" value="New Zealand" />
+    <att name="Subjects" value="XXXX PHYSICS 326!XXXX PHYSICS 350!XXXX PHYSICS 754!XXXX CHEMMAT 753!XXXX CHEMMAT 724!XXXX ECON 101!XXXX ECON 111!SCIGEN 201" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
     <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Oceania" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip61" >
+    <att name="University" value="University of British Columbia" />
+    <att name="Country" value="Canada" />
+    <att name="Subjects" value="PSYC302!PSYC315!PSYC208!PSYC308A!PSYC312A" />
+    <att name="Institute" value="SVT-PSY - Psykologisk institutt" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
     <att name="SocialQuality" value="5" />
     <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip62" >
+    <att name="University" value="School of Nursing" />
+    <att name="Country" value="Andre" />
+    <att name="Subjects" value="" />
+    <att name="Institute" value="AB-BKFF - Institutt for byggekunst, form og farge" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2011" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip70" >
+    <att name="University" value="SDSU" />
+    <att name="Country" value="USA" />
+    <att name="Subjects" value="XXXX CIV E-444 Applied hydraulics!XXXX GEOG 353 Economic geography!XXXX PSY 351 Psychology of personality!XXXX ENV E-320 Design solutions for environmental problems!XXXX GEOL 303 Natural disasters" />
+    <att name="Institute" value="IVT-IVM - Institutt for vann- og milj&#248;teknikk" />
+    <att name="Language" value="Engelsk" />
     <att name="StudyPeriod" value="2016" />
-    <att name="Subjects" value="Quantum Field Theory II!Standard Model and Beyond I!General Relativity" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip71" >
+    <att name="University" value="Seoul National University" />
+    <att name="Country" value="Korea" />
+    <att name="Subjects" value="XXXX Artifal Intelligence!XXXX Elementary Korean!XXXX Information Visualization!XXXX Knowledge Representation and Reasoning!XXXX Management Science!XXXX Beginners Snowboarding!XXXX Skiing" />
+    <att name="Institute" value="IME-IDI - Institutt for datateknikk og informasjonsvitenskap" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="2" />
+  </instance>
+  <instance id="Trip78" >
+    <att name="University" value="EURECOM" />
+    <att name="Country" value="Frankrike" />
+    <att name="Subjects" value="XXXX SecAppli!XXXX Forencics!XXXX Clouds!XXXX Mobserv!XXXX MobIP!XXXX GameTheory!XXXX Network Economics!Web semantics" />
+    <att name="Institute" value="IME-ITEM - Institutt for telematikk" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip79" >
+    <att name="University" value="University of Strathclyde" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="XXXX Advanced Marine Design!XXXX Waterborne Transportation Systems!XXXX Maritime Law Contracts!XXXX Design and Construction of FPOs!XXXX Marine Engineering Simulation&#38;Modelling!XXXX Yacht and High Speed Craft PER!XXXX System Availabilty and Maintenance!Case Studies in Engineering" />
+    <att name="Institute" value="IVT-IMT - Institutt for marin teknikk" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip76" >
+    <att name="University" value="UCSB" />
+    <att name="Country" value="USA" />
+    <att name="Subjects" value="TMP246: New Venture Finance!ME210B: Numerical Simulations!ME252A: Computational Fluid Dynamics!GEOG263: Physical Oceanography!ME275: Fracture mechanics" />
+    <att name="Institute" value="IME-ITEM - Institutt for telematikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip77" >
+    <att name="University" value="Makerere University" />
+    <att name="Country" value="Uganda" />
+    <att name="Subjects" value="XXXX Marketing Management!XXXX International Business Finance!XXXX International Marketing!XXXX Introduction to Digital Electronics!XXXX Innovation and Entrepreneurship!XXXX Elementary Statistics and Probability!XXXX Data Warehousing and Business Intelligence" />
+    <att name="Institute" value="SVT-IOT - Institutt for industriell &#248;konomi og teknologiledelse" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2016" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="Africa" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip74" >
+    <att name="University" value="Technische Universit&#228;t" />
+    <att name="Country" value="Tyskland" />
+    <att name="Subjects" value="XXXX Audiokommunikation!XXXX Channel Coding!XXXX Statistical Signalprocessing!XXXX Deutsch als Fremdsprache B.1.2" />
+    <att name="Institute" value="IME-IET - Institutt for elektronikk og telekommunikasjon" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip75" >
+    <att name="University" value="Universit&#233; De Caen Basse-Normandie" />
+    <att name="Country" value="Frankrike" />
+    <att name="Subjects" value="SLE52A Pragmatique linguistique!LM345 S&#233;mantique!LM33C Grammaire du francais moderne III!XXXX La presse au quotidien" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Diplom" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip72" >
+    <att name="University" value="University of Cape Town" />
+    <att name="Country" value="S&#248;r Afrika" />
+    <att name="Subjects" value="AST1000F: Introduction to astronomy.!MEC3045F: Experimental Methods.!CHE4042F: Intro to Environmental Process Engineering.!CIV4042F: Wastewater Treatment." />
+    <att name="Institute" value="IVT-IMT - Institutt for marin teknikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="2" />
+  </instance>
+  <instance id="Trip73" >
+    <att name="University" value="Aarhus Universitet" />
+    <att name="Country" value="Danmark" />
+    <att name="Subjects" value="XXXX Udviklinspsykologi!XXXX P&#230;dagogisk Psykologi" />
+    <att name="Institute" value="SVT-PSY - Psykologisk institutt" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip81" >
+    <att name="University" value="Concordia College" />
+    <att name="Country" value="USA" />
+    <att name="Subjects" value="XXXX Independent study in Norwegian!XXXX Social Psychology!XXXX Cognitive Psychology!XXXX Forensic Psychology!XXXX Abnormal Psychology!XXXX Psychotherapy" />
+    <att name="Institute" value="DMF-INM - Institutt for nevromedisin" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip82" >
+    <att name="University" value="FACHHOCHSCHULE VORARLBERG" />
+    <att name="Country" value="&#216;sterrike" />
+    <att name="Subjects" value="" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip80" >
+    <att name="University" value="    Ruprecht-Karls Universit&#228;t Heidelberg" />
+    <att name="Country" value="Tyskland" />
+    <att name="Subjects" value="XXXX Medical Physics I (MVMP1)!XXXX Medical Physics II (MVMP2)!XXXX Computational Physics!XXXX Einf&#252;hrung in die Astronomie I!XXXX Einf&#252;hrung in die Astronomie III!XXXX Quantenphysik und Optik (PEP3)!XXXX Physics of Imaging!Statistical Methods (UKstat)" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip9" >
+    <att name="University" value="Politecnico Di Milano" />
+    <att name="Country" value="Italia" />
+    <att name="Subjects" value="XXXX Engineering Seismology!XXXX Structural Fasteners!XXXX Structural Rehabilitation!XXXX Operations Management" />
+    <att name="Institute" value="IVT-KT - Institutt for konstruksjonsteknikk" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip6" >
+    <att name="University" value="UC Berkeley" />
+    <att name="Country" value="USA" />
+    <att name="Subjects" value="XXXX Comparative cultures!XXXX Sexual cultures!XXXX Social media!XXXX Writing seminar" />
+    <att name="Institute" value="SVT-ISS - Institutt for sosiologi og statsvitenskap" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip49" >
+    <att name="University" value="University of Roehampton" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="XXXX Victorian Poetry!XXXX The Shakespearean Stage: Theatre, Text, Society!XXXX Postmodern Plunder: Rewriting Classic Narratives" />
+    <att name="Institute" value="DMF-INM - Institutt for nevromedisin" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip5" >
+    <att name="University" value="San Diego State University" />
+    <att name="Country" value="USA" />
+    <att name="Subjects" value="" />
+    <att name="Institute" value="IVT-BAT - Institutt for bygg, anlegg og transport" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="0" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="0" />
+  </instance>
+  <instance id="Trip8" >
+    <att name="University" value="University of California San Diego" />
+    <att name="Country" value="USA" />
+    <att name="Subjects" value="SE276A Finite Element Method I!SE222 Geotechnical Earthquake Eng.!SE233 Computational Techniques in FEM (lett fag!)!SE203 Structural Dynamics!SE276B Finite Element Method II!MGT181 Enterprise Finance" />
+    <att name="Institute" value="IVT-KT - Institutt for konstruksjonsteknikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip47" >
+    <att name="University" value="University College London" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="XXXX Theory and Policy!XXXX Cognitive development psychology" />
+    <att name="Institute" value="SVT-PED - Pedagogisk institutt" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip7" >
+    <att name="University" value="Univeristetet I Warwick" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="XXXX Vigilant State!XXXX Middle Eastern Regional Relations!XXXX Britain and the War on Terror!XXXX Critical Security Studies" />
+    <att name="Institute" value="DMF-ISB - Institutt for sirkulasjon og bildediagnostikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip48" >
+    <att name="University" value="Tum" />
+    <att name="Country" value="Tyskland" />
+    <att name="Subjects" value="XXXX Studio Krucker Bates (9 poeng)!XXXX Lichtgestaltung (6 poeng)!XXXX BIM (6 poeng)!XXXX Deutsch als Fremdsprache (6 poeng)!XXXX Urban Habitat (3 poeng)" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip45" >
+    <att name="University" value="Universidade Aut&#243;noma" />
+    <att name="Country" value="Portugal" />
+    <att name="Subjects" value="XXXX Historia da Cidade!XXXX Patrim&#243;nio!XXXX Pensamento e Comunicacao!XXXX Projecto!XXXX Tecnologia!XXXX Lingua Portuguesa" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2016" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip46" >
+    <att name="University" value="Lancaster University" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="SCC.130 - Information Systems!SCC.201 - Databases!SCC.204 - Software Design!SCC.203 - Computer Networks!MAT.104 - Probability!Mat.105 - Statistics!SCC.241 - Animation and Computer Graphics!SCC.140 - Creative Technology" />
+    <att name="Institute" value="HF-IM - Institutt for musikk" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="2" />
+  </instance>
+  <instance id="Trip43" >
+    <att name="University" value="UWA" />
+    <att name="Country" value="Australia" />
+    <att name="Subjects" value="LAWS1110!ANTH2407!ASIA1001!HUMA1901" />
+    <att name="Institute" value="SVT-ISS - Institutt for sosiologi og statsvitenskap" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Oceania" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip44" >
+    <att name="University" value="K&#248;benhavns Universitet" />
+    <att name="Country" value="Danmark" />
+    <att name="Subjects" value="XXXX Socialpsykologi II!XXXX Utviklingspsykopatologi!XXXX Forebyggelse og Sundhedsfremme (ved det Sundhedsvidenskabelige fakultet)!XXXX Semesteroppgave i Sosialpsykologi (ved UiB, fjernveiledning)" />
+    <att name="Institute" value="SVT-GEO - Geografisk institutt" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2011" />
+    <att name="SocialQuality" value="2" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip41" >
+    <att name="University" value="University of Melbourne" />
+    <att name="Country" value="Australia" />
+    <att name="Subjects" value="XXXX International Politics!XXXX Anthropology of Gender and Sexuality!XXXX Language, Society and Culture!XXXX Australian Indigenous Politics" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Oceania" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip42" >
+    <att name="University" value="University of California, Berkeley" />
+    <att name="Country" value="USA" />
+    <att name="Subjects" value="XXXX UGBA 101A: Microeconomics for business decisions!XXXX IND ENG 162: Linear programming and Network Flow!XXXX STAT 2: Introduction to Statistics!XXXX ENE RES 254: Electric Power Systems!XXXX BUS ADM X460.1: Introduction to Marketing!XXXX EL ENG 137 B: Introduction to Electric Power Systems (v&#229;r)!XXXX UGBA 151: Human Resources (v&#229;r)!UGBA 101B: Macroeconomics for business decisions" />
+    <att name="Institute" value="IME-ITEM - Institutt for telematikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip40" >
+    <att name="University" value="Aarhus Universitet" />
+    <att name="Country" value="Danmark" />
+    <att name="Subjects" value="XXXX Personal development in Adulthood!XXXX Clinical , cognitive and social aspects of autobiographical memory!XXXX Arbejds- og organisationspsykologi" />
+    <att name="Institute" value="SVT-PSY - Psykologisk institutt" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip2" >
+    <att name="University" value="UCT" />
+    <att name="Country" value="S&#248;r Afrika" />
+    <att name="Subjects" value="EEE4089F!EEE3063F!ECO1010F!FTX2020F!MEC2043F" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip1" >
+    <att name="University" value="Lancaster University" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="SCC.130 Information Systems!SCC.140 Creative Technology!SCC.201 Databases!SCC.203 Computer Networks!SCC.204 Software Design!SCC.205 Professional Issues and Research Methods!SCC.241 Animation and Computer Graphics" />
+    <att name="Institute" value="IME-ITEM - Institutt for telematikk" />
+    <att name="Language" value="Hovedfag" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip4" >
+    <att name="University" value="Universisad De Granada" />
+    <att name="Country" value="Spania" />
+    <att name="Subjects" value="XXXX Microeconom&#237;a I!XXXX T&#233;cnicas Cuantitativas I!XXXX Direcci&#243;n De Recursos Humanos I!XXXX Introducci&#243;n Al Marketing!XXXX An&#225;lisis Matem&#225;tico I!XXXX Organizaci&#243;n de empresas!XXXX Direcci&#243;n Comercial I!Direcci&#243;n estrat&#233;gica de empresas " />
+    <att name="Institute" value="SVT-IOT - Institutt for industriell &#248;konomi og teknologiledelse" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip3" >
+    <att name="University" value="University of Southampton" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="XXXX oceanography!XXXX introduction to statistics and probability!XXXX geohazards!XXXX petroleum and mineral resources" />
+    <att name="Institute" value="HF-IFR - Institutt for filosofi og religionsvitenskap" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip0" >
+    <att name="University" value="University of Hawaii, Hilo" />
+    <att name="Country" value="USA" />
+    <att name="Subjects" value="XXXX Biology of Marine Mammals!XXXX Biology of Marine Mammals Lab!XXXX Statistical Applications in Marine Science!XXXX World History from 1500s until today!XXXX Avian Biology!XXXX Life in the Universe" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2016" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip58" >
+    <att name="University" value="AAU " />
+    <att name="Country" value="Danmark" />
+    <att name="Subjects" value="XXXX Utviklingspsykologi!XXXX Klinisk psykologi!XXXX Pedagogisk psykologi!XXXX Basic danish!XXXX psycholgical coaching" />
+    <att name="Institute" value="SVT-PSY - Psykologisk institutt" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2011" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip59" >
+    <att name="University" value="Popakademie" />
+    <att name="Country" value="Germany" />
+    <att name="Subjects" value="XXXX Music Business Models!XXXX Music Business II" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="English" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip56" >
+    <att name="University" value="Escola Superior De Danca" />
+    <att name="Country" value="Portugal" />
+    <att name="Subjects" value="XXXX Contemporary I!XXXX Contemporary III!XXXX Contemporary V!XXXX Classiscal V!XXXX Portuguese Reportory!XXXX Music Editing!XXXX Interpretation III!Project V (performance)" />
+    <att name="Institute" value="HF-IM - Institutt for musikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip57" >
+    <att name="University" value="Freie Universit&#228;t" />
+    <att name="Country" value="Tyskland" />
+    <att name="Subjects" value="XXXX EU foreign and security policy in comparative perspective: Explaining achievements and shortcomings!XXXX European Integration Theory!XXXX Acting Green? Environmental Policy-Making in the EU!XXXX Internationale Organisationen!XXXX Transatlantische Beziehungen seit 1989!XXXX Governance in Areas of Limited Satehood" />
+    <att name="Institute" value="SVT-ISS - Institutt for sosiologi og statsvitenskap" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip54" >
+    <att name="University" value="Universit&#228;t Hamburg" />
+    <att name="Country" value="Tyskland" />
+    <att name="Subjects" value="XXXX European integration theories!XXXX Risk &#38; security!XXXX European migration!XXXX European energy security!XXXX Negotiation and decision-making in the EU!XXXX Monetary policy and monetary institutions" />
+    <att name="Institute" value="NT-IKJ - Institutt for kjemi" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip55" >
+    <att name="University" value="UC Berkeley" />
+    <att name="Country" value="USA" />
+    <att name="Subjects" value="UGBA101A - Microeconomic Analysis for Business Decisions!XXXX UGBA 151 - Management of Human Resources!XXXX IEOR 162 - Linear Programming!XXXX BUS ADM X460 - Introduction to Marketing!XXXX Statistics 131A - Introduction to Probability and Statistics for Life Scientists!XXXX COMPSCI 164 - Programming Languages and Compilers!XXXX INFO 234 - Information Technology Economics, Strategy, and Policy!COMPCSCI 198 &#8211; Directed Group Studies for Advanced Undergraduates" />
+    <att name="Institute" value="IME-ITEM - Institutt for telematikk" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip52" >
+    <att name="University" value="Universitetet I Granada" />
+    <att name="Country" value="Spania" />
+    <att name="Subjects" value="XXXX Politica comparada!XXXX Politica exterior de Espa&#241;a!XXXX Relaciones Internacionales!XXXX Estructura Social de Espa&#241;a y Andalucia!XXXX Pensamiento politico" />
+    <att name="Institute" value="DMF-INM - Institutt for nevromedisin" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip53" >
+    <att name="University" value="University of Southampton " />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="XXXX Econometrics 2!XXXX Industrial economics 2!XXXX International trade theory &#38; policy!XXXX Accounting &#38; finance for non-specialists" />
+    <att name="Institute" value="SVT-ISO - Institutt for samfunns&#248;konomi" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip50" >
+    <att name="University" value="UWA" />
+    <att name="Country" value="Australia" />
+    <att name="Subjects" value="XXXX Programming and systems!XXXX Microeconomics!XXXX Project management and Risk engineering!XXXX Operations Research!XXXX Human Resource Management!XXXX Management and Organisation!XXXX Mathematical Methods!Material Behaviour from Atoms to Bridges" />
+    <att name="Institute" value="SVT-IOT - Institutt for industriell &#248;konomi og teknologiledelse" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Oceania" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip51" >
+    <att name="University" value="KTH Royal Institute of Technology" />
+    <att name="Country" value="Sverige" />
+    <att name="Subjects" value="MF2019 3D modellering och visualisering!ME2603 Entrepreneurship!ME2818 Design Thinking!ME2817 Growth - Managing your own firm!XXXX Execution - Running your own company!XXXX Ideation - Creating your own company!XXXX Negotiation for start-ups!Finance for start-ups" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip60" >
+    <att name="University" value="Metropolitan University " />
+    <att name="Country" value="Tsjekkia" />
+    <att name="Subjects" value="XXXX Multiculturalism in International Relations!XXXX Human Rights in International Relations!XXXX Asian-Pacific Security !XXXX Current Events in the Middle East and Northern Africa!XXXX Philosophy of the Everyday !XXXX Theory of International Relations 2 " />
+    <att name="Institute" value="HF-IHS - Institutt for historiske studier" />
+    <att name="Language" value="Hovedfag" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip29" >
+    <att name="University" value="University of Limerick " />
+    <att name="Country" value="Irland" />
+    <att name="Subjects" value="XXXX Psychology and everyday life!XXXX introduction to sociology !XXXX Gender and popular culture!XXXX European cinema!XXXX film introduction !XXXX literary theory !XXXX British fiction from 1945!Feminist literary theory" />
+    <att name="Institute" value="IME-IMF - Institutt for matematiske fag" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip27" >
+    <att name="University" value="TU M&#252;nchen" />
+    <att name="Country" value="Tyskland" />
+    <att name="Subjects" value="XXXX Ma&#223;-und Integrtiontheorie!XXXX Markovketten!XXXX Volkswirtschaftslehre II!XXXX Numerik gew&#246;hnliche differentialgleichungen!XXXX Deutsch B1.1!XXXX Deutsch B2.1!XXXX Wahrscheinlichkeitstheorie" />
+    <att name="Institute" value="SVT-GEO - Geografisk institutt" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="2" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip28" >
+    <att name="University" value="University of Nicosia" />
+    <att name="Country" value="Hellas" />
+    <att name="Subjects" value="XXXX Contract Law!XXXX Law of Torts!XXXX International Human Rights!XXXX Business Law!XXXX Company Law" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2011" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip25" >
+    <att name="University" value="Harvard University" />
+    <att name="Country" value="USA" />
+    <att name="Subjects" value="Ec1011a!Ec1723!AM121!CS181!CS182!CS171" />
+    <att name="Institute" value="SVT-GEO - Geografisk institutt" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip26" >
+    <att name="University" value="UBC" />
+    <att name="Country" value="Canada" />
+    <att name="Subjects" value="XXXX civl 580 earthquake engineering!XXXX civl 518 probability analysis!XXXX EOSC 433 geotechnical  engineering practice!XXXX Econ 101 microeconomies!XXXX civl 520 project management" />
+    <att name="Institute" value="IVT-KT - Institutt for konstruksjonsteknikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip23" >
+    <att name="University" value="Cardiff University" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="XXXX Poverty, Social Pol &#38; Income Maintenance !XXXX Crime Control Regulation &#38; Policing !XXXX Cities!XXXX Society, Diversity and Planning" />
+    <att name="Institute" value="SVT-ISS - Institutt for sosiologi og statsvitenskap" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip24" >
+    <att name="University" value="University of Auckland" />
+    <att name="Country" value="New Zealand" />
+    <att name="Subjects" value="ENVSCI101 Enviromental science and management!ELECTENG309 Power systems and apparatus!ELECTENG703 Advanced Power Systems!COMPSYS202 Object oriented design!ELECTENG722 Control Systems!ELECTENG731 Power Systems!ELECTENG734 Power electronics!ENERGY721 Energy rescources" />
+    <att name="Institute" value="IME-ELKRAFT - Institutt for elkraftteknikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Oceania" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip21" >
+    <att name="University" value="Goldsmiths University of London" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="" />
+    <att name="Institute" value="IVT-IPD - Institutt for produktdesign" />
+    <att name="Language" value="Hovedfag" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip22" >
+    <att name="University" value="UNAM (Universidad Nacional Autonoma De Mexico)" />
+    <att name="Country" value="Mexico" />
+    <att name="Subjects" value="XXXX Arkitektur 7 (taller de arquitectura 7)!XXXX Ac&#250;stica en arquitectura (Akustikk)!XXXX Dise&#241;o de iluminacion (Lysdesign)!XXXX Arquitectura Maya (Maya arkitektur)" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip20" >
+    <att name="University" value="Albert-Ludwigs-Universit&#195;&#164;t" />
+    <att name="Country" value="Tyskland" />
+    <att name="Subjects" value="XXXX Theorien Internationale Beziehungen im Praxistest.!XXXX Das Beteiligungsversprechen der Demokratie.!XXXX Macht und Herrschaft.!XXXX Europ&#195;&#164;ische Integration- Akteure, Institutionen und Politiken.!XXXX &#195;&#339;berblicksvorlesung Neueste Geschichte II (20. Jh.).!XXXX Deutschland und die Wiedervereinigung." />
+    <att name="Institute" value="SVT-ISS - Institutt for sosiologi og statsvitenskap" />
+    <att name="Language" value="Undervisningsspr&#227;&#165;K" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip38" >
+    <att name="University" value="Fontys Hogeschool Voor De Kunsten" />
+    <att name="Country" value="Nederland" />
+    <att name="Subjects" value="XXXX Danseteater med Eddy!XXXX Danseteater med Dirk!XXXX Kreativ danseartist med Raymond!XXXX Kreativ danseartist med Eddy!XXXX Klassisk ballett!XXXX Heddan contemporary!XXXX Limon!Cunningham" />
+    <att name="Institute" value="HF-IM - Institutt for musikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip39" >
+    <att name="University" value="UC Berkeley" />
+    <att name="Country" value="USA" />
+    <att name="Subjects" value="" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="North America" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip36" >
+    <att name="University" value="University of Newcastle" />
+    <att name="Country" value="Australia" />
+    <att name="Subjects" value="XXXX Pediatri!XXXX Obstetrikk og gynekologi" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="Oceania" />
+    <att name="AcademicQuality" value="2" />
+  </instance>
+  <instance id="Trip37" >
+    <att name="University" value="University of Zimbabwe" />
+    <att name="Country" value="Zimbabwe" />
+    <att name="Subjects" value="" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="Africa" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip34" >
+    <att name="University" value="Seoul National University" />
+    <att name="Country" value="Korea" />
+    <att name="Subjects" value="XXXX International Business Management!XXXX Marketing Management!XXXX Management Science!XXXX Financial Management!XXXX Microeconomics!XXXX Management Information System!XXXX Elementary Korean!Human Interface Design" />
+    <att name="Institute" value="IME-ITEM - Institutt for telematikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip35" >
+    <att name="University" value="TU Delft" />
+    <att name="Country" value="Nederland" />
+    <att name="Subjects" value="XXXX design of advanced vehichles!XXXX Naval ship design!XXXX Maritime business game!XXXX Maritime law!XXXX Floating offshore structures!XXXX Shipping management!XXXX Diesel A" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Diplom" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="2" />
+  </instance>
+  <instance id="Trip32" >
+    <att name="University" value="University of Roehampton " />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="XXXX Ballet!XXXX Cunningham !XXXX Investigating Dance Practice !XXXX Dance in Cultures !XXXX Introduction to the London Stage " />
+    <att name="Institute" value="HF-IKM - Institutt for kunst- og medievitenskap" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip33" >
+    <att name="University" value="Hof University of Applied Science" />
+    <att name="Country" value="Tyskland" />
+    <att name="Subjects" value="XXXX International Human Resource Management!XXXX International Strategies!XXXX Culture and Management!XXXX The Asian Dragon - Doing business in China !XXXX Tysk for fremmedspr&#229;klige!XXXX Intercultural Training" />
+    <att name="Institute" value="SVT-ISO - Institutt for samfunns&#248;konomi" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip30" >
+    <att name="University" value="Nanyang Technological University" />
+    <att name="Country" value="Singapore" />
+    <att name="Subjects" value="CZ4016 Advanced Algorithms!CZ4032 Data analytics and mining!CZ4042 Neural Networks!CZ4045 Natural Language Processing!CZ4062 Computer Security!CZ8003 Human Resource Management and Entrepreneurship!CZ4041 Machine Learning!CZ4046 Intelligent Agents" />
+    <att name="Institute" value="IVT-IPD - Institutt for produktdesign" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Asia" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip31" >
+    <att name="University" value="Karolinska Institutet" />
+    <att name="Country" value="Sverige" />
+    <att name="Subjects" value="" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip89" >
+    <att name="University" value="UCA" />
+    <att name="Country" value="Spania" />
+    <att name="Subjects" value="XXXX Morfolog&#237;a!XXXX INTRODUCCI&#211;N A LA HISTORIA!XXXX LITERATURA EN LENGUA ESPA&#209;OLA Y CINE!XXXX COMUNICACI&#211;N Y TIPOS DE DISCURSO EN ESPA&#209;OL!XXXX Espa&#241;ol como Lengua Extranjera. Nivel B2" />
+    <att name="Institute" value="SVT-GEO - Geografisk institutt" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2016" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip87" >
+    <att name="University" value="Universit&#233; De Pau Et Des Pays De l'Adour" />
+    <att name="Country" value="Frankrike" />
+    <att name="Subjects" value="XXXX Langue Fran&#231;ais!XXXX Grammaire Descriptive!XXXX Orthographe" />
+    <att name="Institute" value="DMF-ISM - Institutt for samfunnsmedisin" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="2" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="2" />
+  </instance>
+  <instance id="Trip88" >
+    <att name="University" value="Metropolitan University College&#254;" />
+    <att name="Country" value="Danmark" />
+    <att name="Subjects" value="XXXX Ergoterapi gjennom praksis!XXXX internasjonal uke" />
+    <att name="Institute" value="SVT-PLU - Program for l&#230;rerutdanning" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip85" >
+    <att name="University" value="Kungliga Tekniska H&#246;gskolan" />
+    <att name="Country" value="Sverige" />
+    <att name="Subjects" value="AH1021 &#9;Stads- och trafikplanering, grundkurs!AH2026 &#9;T&#229;gtrafik - marknad och planering, grundkurs!AH1024 &#9;Styrning av trafiksystem" />
+    <att name="Institute" value="IVT-BAT - Institutt for bygg, anlegg og transport" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip86" >
+    <att name="University" value="UWA" />
+    <att name="Country" value="Australia" />
+    <att name="Subjects" value="CIVL5501 Structural Dynamics!GENG5507 Risk, Reliability and Safety!CIVL3170 Introduction to Offshore Engineering!ECON1101 Microeconomics" />
+    <att name="Institute" value="IVT-KT - Institutt for konstruksjonsteknikk" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="Oceania" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip83" >
+    <att name="University" value="University of Cape Town" />
+    <att name="Country" value="S&#248;r Afrika" />
+    <att name="Subjects" value="" />
+    <att name="Institute" value="DMF-ISM - Institutt for samfunnsmedisin" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="0" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="0" />
+  </instance>
+  <instance id="Trip84" >
+    <att name="University" value="Universit&#233; Lumi&#232;re Lyon 2" />
+    <att name="Country" value="Frankrike" />
+    <att name="Subjects" value="XXXX Droit international public!XXXX Droit communautaire!XXXX Sources du droit anglo-saxon!XXXX Droit du commerce international!XXXX M&#233;canismes fondamentaux du droit anglo-am&#233;ricain!XXXX El&#233;ments du droit des affaires anglo-saxon!XXXX Droit des groupes de soci&#233;t&#233;s!Droit des transports" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip92" >
+    <att name="University" value="University of York" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="XXXX Paranormal in Society!XXXX Governing the Global Economy" />
+    <att name="Institute" value="DMF-ISB - Institutt for sirkulasjon og bildediagnostikk" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip93" >
+    <att name="University" value="University of Valencia " />
+    <att name="Country" value="Spania" />
+    <att name="Subjects" value="" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="0" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="0" />
+  </instance>
+  <instance id="Trip90" >
+    <att name="University" value="ETH" />
+    <att name="Country" value="Sveits" />
+    <att name="Subjects" value="XXXX Rock Mechanics and Rock Engineering!XXXX Soil Mechanics and Foundation Engneering!XXXX Engineering Seismology!XXXX Groundwater I!XXXX Numerical Modelling og Rock Deformation!XXXX Numerical Modelling I &#38; II!XXXX Geological Site Investigation!Landslide Analysis" />
+    <att name="Institute" value="IVT-IGB - Institutt for geologi og bergteknikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip91" >
+    <att name="University" value="Arkitekskolen Aarhus" />
+    <att name="Country" value="Danmark" />
+    <att name="Subjects" value="XXXX Approaching sustainable architecture" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip18" >
+    <att name="University" value="K&#248;benhavns Universitet" />
+    <att name="Country" value="Danmark" />
+    <att name="Subjects" value="XXXX Sociology of the welfare state: Comparative perspectives!XXXX Globalization and Employment relations in Europe - the crises and the trade union challenges!XXXX Criminology" />
+    <att name="Institute" value="SVT-PSY - Psykologisk institutt" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip19" >
+    <att name="University" value="TU Braunschweig" />
+    <att name="Country" value="Tyskland" />
+    <att name="Subjects" value="XXXX Plastizit&#228;tstheorie und Bruchmechanik!XXXX Finite-Elemente-Methode 1!XXXX Kontinuumsmechanik un Materialtheorie mit Labor!XXXX Industrieroboter!XXXX Polymere - Experiment und Simulation!XXXX Faserverbundwerkstoffe!XXXX Getriebe/Mechanismen!Modellierung mechatronischer Systeme 2" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip16" >
+    <att name="University" value="University of Huleva" />
+    <att name="Country" value="Spania" />
+    <att name="Subjects" value="XXXX criminal cases!XXXX history of european intigration!XXXX sustanible economy!XXXX kultural bases of education!XXXX environmental inpact asessment" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="2" />
+  </instance>
+  <instance id="Trip17" >
+    <att name="University" value="Bond University" />
+    <att name="Country" value="Australia" />
+    <att name="Subjects" value="" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Oceania" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip14" >
+    <att name="University" value="TU Bergakademie Freiberg" />
+    <att name="Country" value="Tyskland" />
+    <att name="Subjects" value="XXXX Tagebautechnik Steine, Erde, Erzen!XXXX Grundlagen der Tagebautechnik!XXXX Tagebautechnik Festgestein!XXXX Tagebauprojektierung!XXXX Auslandsbergbau!XXXX Tiefbau I!XXXX Tiefbau II!Tiefbau III" />
+    <att name="Institute" value="IVT-IGB - Institutt for geologi og bergteknikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip15" >
+    <att name="University" value="Pusan National University" />
+    <att name="Country" value="Korea" />
+    <att name="Subjects" value="XXXX Accounting Principles!XXXX Invetsments!XXXX Organic Chemistry!XXXX Solid State Physics!XXXX Physical electronics!XXXX C++" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip12" >
+    <att name="University" value="Ucc " />
+    <att name="Country" value="Danmark" />
+    <att name="Subjects" value="XXXX UMD- Musik, utryk og drama" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip13" >
+    <att name="University" value="Queen Mary University of London" />
+    <att name="Country" value="Storbritannia" />
+    <att name="Subjects" value="ECS601U Control Systems!ECS638U Design for Human Interaction!MTH4107 Introduction to Probability!BUS011 Marketing!BUS014 Human Resource Management!BUS017 Economics for Business!ECS419U Information System Analysis!ECN124 Mathematical Methods in Economics and Business II (MMEB II)" />
+    <att name="Institute" value="SVT-IOT - Institutt for industriell &#248;konomi og teknologiledelse" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="3" />
+    <att name="Continent" value="None" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip10" >
+    <att name="University" value="UBA" />
+    <att name="Country" value="Argentina" />
+    <att name="Subjects" value="XXXX Gynekologi!XXXX Obstetrikk!XXXX Pediatri" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="South America" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip98" >
+    <att name="University" value="Hvidore Hospital, Strandmarkshave Pleiehjem." />
+    <att name="Country" value="Danmark" />
+    <att name="Subjects" value="" />
+    <att name="Institute" value="HF-ISL - Institutt for spr&#229;k og litteratur" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2011" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip11" >
+    <att name="University" value="Universidad Politecnica De Valencia" />
+    <att name="Country" value="Spania" />
+    <att name="Subjects" value="XXXX Entorno economico de la empresa!XXXX Sistemos integrados de informacion de gestion!XXXX economia de la empresa!XXXX espanol B1!XXXX Servidores de Web!XXXX Creacion de documentos hipertestos!XXXX comportamiento de organisazion y derecho" />
+    <att name="Institute" value="IME-ITEM - Institutt for telematikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2012" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="2" />
+  </instance>
+  <instance id="Trip99" >
+    <att name="University" value="Universit&#228;t" />
+    <att name="Country" value="Tyskland" />
+    <att name="Subjects" value="XXXX Governing Sustainable Cities!XXXX Theories of Public Policy Making!XXXX Israel's Democracy Under Stress!XXXX Nationalism, Citizenship, Identity and Welfare!XXXX Public Management 1/2!XXXX Der Kalte Krieg" />
+    <att name="Institute" value="IVT-IPT - Institutt for petroleumsteknologi og anvendt geofysikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip96" >
+    <att name="University" value="Kungliga Tekniska H&#246;gskolan" />
+    <att name="Country" value="Sverige" />
+    <att name="Subjects" value="XXXX Prosjekledelse!XXXX B&#230;rekraftig kraftproduksjon!XXXX Power system analysis, to fag!XXXX System planlegging!XXXX Bedrifts&#248;konomi!XXXX H&#248;yspenningsteknikk" />
+    <att name="Institute" value="IME-ELKRAFT - Institutt for elkraftteknikk" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="2" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="4" />
+  </instance>
+  <instance id="Trip97" >
+    <att name="University" value="Universidad De Granada" />
+    <att name="Country" value="Spania" />
+    <att name="Subjects" value="XXXX sociologia de consumo!XXXX sociologia de la familia!XXXX sociologia urbana!XXXX sociologia rural!XXXX procesos de cambio social" />
+    <att name="Institute" value="SVT-PSY - Psykologisk institutt" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2014" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="3" />
+  </instance>
+  <instance id="Trip94" >
+    <att name="University" value="University of Melbourne" />
+    <att name="Country" value="Australia" />
+    <att name="Subjects" value="XXXX AI and autonomous planning!XXXX Advanced Software architechture and design!XXXX Principles of management!XXXX Declarative programming!XXXX Artificial intelligence!XXXX Shaping the enterprise with ICT!XXXX Knowledge technologies!Computer systems" />
+    <att name="Institute" value="IVT-IPD - Institutt for produktdesign" />
+    <att name="Language" value="Engelsk" />
+    <att name="StudyPeriod" value="2015" />
+    <att name="SocialQuality" value="5" />
+    <att name="Continent" value="Oceania" />
+    <att name="AcademicQuality" value="5" />
+  </instance>
+  <instance id="Trip95" >
+    <att name="University" value="Universitat Polit&#232;cnica De Val&#232;ncia (UPV)" />
+    <att name="Country" value="Spania" />
+    <att name="Subjects" value="XXXX Mikro&#248;konomi!XXXX Industrial statistics!XXXX Spansk!XXXX Fornybar Energi!XXXX Energiledelse!XXXX Elektriske kraftsystemer!XXXX Financial Economics!Prosjektledelse" />
+    <att name="Institute" value="IME-ITEM - Institutt for telematikk" />
+    <att name="Language" value="Ukjent" />
+    <att name="StudyPeriod" value="2013" />
+    <att name="SocialQuality" value="4" />
+    <att name="Continent" value="Europe" />
+    <att name="AcademicQuality" value="2" />
   </instance>
 </instances>
 <cb name="main_case_base">
+     <case name="Trip69" />
+     <case name="Trip67" />
+     <case name="Trip68" />
+     <case name="Trip65" />
+     <case name="Trip66" />
+     <case name="Trip63" />
+     <case name="Trip64" />
+     <case name="Trip61" />
+     <case name="Trip62" />
+     <case name="Trip70" />
+     <case name="Trip71" />
+     <case name="Trip78" />
+     <case name="Trip79" />
+     <case name="Trip76" />
+     <case name="Trip77" />
+     <case name="Trip74" />
+     <case name="Trip75" />
+     <case name="Trip72" />
+     <case name="Trip73" />
+     <case name="Trip81" />
+     <case name="Trip82" />
+     <case name="Trip80" />
+     <case name="Trip9" />
+     <case name="Trip6" />
+     <case name="Trip49" />
+     <case name="Trip5" />
+     <case name="Trip8" />
+     <case name="Trip47" />
+     <case name="Trip7" />
+     <case name="Trip48" />
+     <case name="Trip45" />
+     <case name="Trip46" />
+     <case name="Trip43" />
+     <case name="Trip44" />
+     <case name="Trip41" />
+     <case name="Trip42" />
+     <case name="Trip40" />
      <case name="Trip2" />
      <case name="Trip1" />
+     <case name="Trip4" />
+     <case name="Trip3" />
      <case name="Trip0" />
+     <case name="Trip58" />
+     <case name="Trip59" />
+     <case name="Trip56" />
+     <case name="Trip57" />
+     <case name="Trip54" />
+     <case name="Trip55" />
+     <case name="Trip52" />
+     <case name="Trip53" />
+     <case name="Trip50" />
+     <case name="Trip51" />
+     <case name="Trip60" />
+     <case name="Trip29" />
+     <case name="Trip27" />
+     <case name="Trip28" />
+     <case name="Trip25" />
+     <case name="Trip26" />
+     <case name="Trip23" />
+     <case name="Trip24" />
+     <case name="Trip21" />
+     <case name="Trip22" />
+     <case name="Trip20" />
+     <case name="Trip38" />
+     <case name="Trip39" />
+     <case name="Trip36" />
+     <case name="Trip37" />
+     <case name="Trip34" />
+     <case name="Trip35" />
+     <case name="Trip32" />
+     <case name="Trip33" />
+     <case name="Trip30" />
+     <case name="Trip31" />
+     <case name="Trip89" />
+     <case name="Trip87" />
+     <case name="Trip88" />
+     <case name="Trip85" />
+     <case name="Trip86" />
+     <case name="Trip83" />
+     <case name="Trip84" />
+     <case name="Trip92" />
+     <case name="Trip93" />
+     <case name="Trip90" />
+     <case name="Trip91" />
+     <case name="Trip18" />
+     <case name="Trip19" />
+     <case name="Trip16" />
+     <case name="Trip17" />
+     <case name="Trip14" />
+     <case name="Trip15" />
+     <case name="Trip12" />
+     <case name="Trip13" />
+     <case name="Trip10" />
+     <case name="Trip98" />
+     <case name="Trip11" />
+     <case name="Trip99" />
+     <case name="Trip96" />
+     <case name="Trip97" />
+     <case name="Trip94" />
+     <case name="Trip95" />
 </cb>
 </Project>

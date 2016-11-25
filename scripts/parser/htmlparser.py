@@ -9,7 +9,6 @@ import glob
 from titlecase import titlecase
 import re
 
-
 data_list = []
 star_list = []
 institutes = []
@@ -19,7 +18,14 @@ cases = []
 
 class Parser(HTMLParser):
 
+    def __init__(self):
+        HTMLParser.__init__(self)
+
+    def destroy(self):
+        del self
+
     def handle_data(self, data):
+        global data_list
         data_list.append(data)
 
     def handle_starttag(self, tag, attrs):
@@ -33,8 +39,8 @@ def get_html():
     return result.read().decode("utf-8").replace('\r\n', ' ')
 
 
-def parse_html(o):
-    data_object = o
+def parse_html():
+    data_object = {}
     data_object["courses"] = []
     for i in range(0, len(data_list)):
         element = data_list[i]
@@ -43,58 +49,58 @@ def parse_html(o):
             data_object['country'] = next_element
             data_object['continent'] = get_continent(next_element)
 
-        if element == "Vertsinstitusjon:":
+        elif element == "Vertsinstitusjon:":
             next_element = data_list[i+1]
             data_object['university'] = format_university(next_element)
 
-        if element == "Institutt hjemme:":
+        elif element == "Institutt hjemme:":
             next_element = data_list[i+1]
             data_object['institute'] = format_institute(next_element)
 
-        if element == "Utvekslingsperiode:":
+        elif element == "Utvekslingsperiode:":
             next_element = data_list[i+1]
             data_object['study_period'] = format_study_period(next_element)
 
-        if element == "Studietype:":
+        elif element == "Studietype:":
             next_element = data_list[i+1]
             data_object['language'] = format_language(next_element)
 
-        if element == "Fag 1:":
+        elif element == "Fag 1:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
                 data_object["courses"].append(format_course(next_element))
 
-        if element == "Fag 2:":
+        elif element == "Fag 2:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
                 data_object["courses"].append(format_course(next_element))
 
-        if element == "Fag 3:":
+        elif element == "Fag 3:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
                 data_object["courses"].append(format_course(next_element))
 
-        if element == "Fag 4:":
+        elif element == "Fag 4:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
                 data_object["courses"].append(format_course(next_element))
 
-        if element == "Fag 5:":
+        elif element == "Fag 5:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
                 data_object["courses"].append(format_course(next_element))
 
-        if element == "Fag 6:":
+        elif element == "Fag 6:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
                 data_object["courses"].append(format_course(next_element))
 
-        if element == "Fag 7:":
+        elif element == "Fag 7:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
                 data_object["courses"].append(format_course(next_element))
 
-        if element == "Fag 8:":
+        elif element == "Fag 8:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
                 data_object["courses"].append(next_element)
@@ -111,6 +117,8 @@ def format_study_period(s):
 
 def format_language(s):
     if s == "Fag på vertsinstitusjonens undervisningsspråk":
+        return "Ukjent"
+    elif not s[0].isalpha() or s == "":
         return "Ukjent"
     else:
         return s.split()[-1].title()
@@ -186,13 +194,18 @@ def get_rating(s):
         return None
 
 def run(s):
+    global data_list
+    global star_list
     html = open(s, 'r')
     P = Parser()
     P.feed(html.read())
     html.close()
-
-    data_object = {}
-    return parse_html(data_object)
+    obj = parse_html()
+    P.destroy()
+    P.close()
+    data_list = []
+    star_list = []
+    return obj
 
 
 def make_json():
@@ -213,17 +226,21 @@ def test_run():
 
     for file in test_file_list:
         cases.append(run("test_html_files/" + file))
-        data_list = []
-        star_list = []
 
 
 def real_run():
+    data_list = []
+    star_list = []
     file_list = glob.glob("retrieved_html_files/*.html")
-
+    counter = 0
+    stopper = 0
     for file in file_list:
-        cases.append(run(file))
-        data_list = []
-        star_list = []    
+        print("Parsing: " + str(file))
+        cases.append(run(file)) 
+        counter += 1
+        stopper += 1
+        print("Finished: " + str(file) + " (" + str(counter) + '/' + "7000)")
+
 
 
 if __name__ == "__main__":
