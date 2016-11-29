@@ -126,9 +126,15 @@ def format_language(s):
 def get_continent(s):
     if s.lower() == "usa":
         return "North America"
+    elif s.lower() == "sør afrika":
+        return "Afrika"
+    elif s.lower() == "korea":
+        return "Asia"
     else :
         for c in ci.countries:
             if c['name'].lower() == s.lower():
+                if c['continent'] == None:
+                    return "Ukjent"
                 return c['continent'].title()
         return "Ukjent"
 
@@ -160,15 +166,34 @@ def format_university(s):
 
 
 def format_course(s):
+    words = s.split()
+
+    # Checking if there are any (comments) in the course, and eventually removes it
+    for word in words:
+        if word[0] == '(':
+            s = s.replace(word, '')
+
+    # Checking if the course contains a '!' or ';', which will break the formating
     for c in s:
-        if c == '!':
+        if c == '!' or c == ';':
             s.replace(c, '')
 
-    first_part = s.split()[0]
+    first_part = words[0]
+
+    if len(words) > 1:
+        second_part = words[1]
+
+        for char in second_part:
+            if char.isdigit():
+                words.pop(0)
+                words.pop(0)
+                return first_part + second_part + ' ' + " ".join(str(x) for x in words)
 
     for char in first_part:
         if char.isdigit():
             return s
+
+    
 
     return "XXXX" + " " + s
 

@@ -24,6 +24,7 @@
       <symbol value="None" />
       <symbol value="North America" />
       <symbol value="Oceania" />
+      <symbol value="Afrika" />
 <fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
 <qsym name="South America">
 </qsym>
@@ -40,6 +41,8 @@
 <qsym name="North America">
 </qsym>
 <qsym name="Oceania">
+</qsym>
+<qsym name="Afrika">
 </qsym>
 </fct>
     </desc>
@@ -81,12 +84,15 @@
       <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <desc name="StudyPeriod" type="Integer" min="1999" max="2016" mult="false" >
-      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="yearSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <desc name="SocialQuality" type="Integer" min="0" max="5" mult="false" >
+      <fct name="ratingSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
       <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <desc name="AcademicQuality" type="Integer" min="0" max="5" mult="false" >
+      <fct name="ratingSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
       <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <desc name="Subjects" type="String" mult="true" >
@@ -94,13 +100,13 @@
     </desc>
     <amalgam name="default function" type="EUCLIDEAN" active="true" >
       <entry name="Continent" active="true" fct="default function" weight="1"/>
-      <entry name="Institute" active="true" fct="default function" weight="1"/>
+      <entry name="Institute" active="true" fct="default function" weight="5.0"/>
       <entry name="University" active="true" fct="default function" weight="1"/>
-      <entry name="Language" active="true" fct="default function" weight="1"/>
-      <entry name="Country" active="true" fct="default function" weight="1"/>
-      <entry name="StudyPeriod" active="true" fct="default function" weight="1"/>
-      <entry name="SocialQuality" active="true" fct="default function" weight="1"/>
-      <entry name="AcademicQuality" active="true" fct="default function" weight="1"/>
+      <entry name="Language" active="true" fct="default function" weight="2.0"/>
+      <entry name="Country" active="true" fct="default function" weight="3.0"/>
+      <entry name="StudyPeriod" active="true" fct="yearSim" weight="1"/>
+      <entry name="SocialQuality" active="true" fct="ratingSim" weight="1"/>
+      <entry name="AcademicQuality" active="true" fct="ratingSim" weight="1"/>
       <entry name="Subjects" active="true" fct="default function" weight="1"/>
     </amalgam>
   </concept>
@@ -110,5 +116,5 @@
     <node name="Trip" sim="1.0" parent="inheritanceDesc" />
   </fct>
 </hierarchy>
-<cases no="3047" cb="main_case_base"/>
+<cases no="2289" cb="main_case_base"/>
 </Project>
