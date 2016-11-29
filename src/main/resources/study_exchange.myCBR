@@ -19,9 +19,10 @@
       <symbol value="South America" />
       <symbol value="Asia" />
       <symbol value="Europe" />
+      <symbol value="Ukjent" />
       <symbol value="Africa" />
-      <symbol value="North America" />
       <symbol value="None" />
+      <symbol value="North America" />
       <symbol value="Oceania" />
 <fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
 <qsym name="South America">
@@ -30,11 +31,13 @@
 </qsym>
 <qsym name="Europe">
 </qsym>
+<qsym name="Ukjent">
+</qsym>
 <qsym name="Africa">
 </qsym>
-<qsym name="North America">
-</qsym>
 <qsym name="None">
+</qsym>
+<qsym name="North America">
 </qsym>
 <qsym name="Oceania">
 </qsym>
@@ -47,28 +50,18 @@
       <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <desc name="Language" type="Symbol" mult="false" >
-      <symbol value="English" />
       <symbol value="Project" />
       <symbol value="Engelsk" />
-      <symbol value="Majoring" />
-      <symbol value="Undervisningsspr&#38;#229" />
       <symbol value="Ukjent" />
       <symbol value="Hovedoppgave" />
       <symbol value="Diplom" />
       <symbol value="Hovedfag" />
-      <symbol value="Instruction" />
       <symbol value="Prosjekt" />
       <symbol value="Undervisningsspr&#227;&#165;K" />
 <fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
-<qsym name="English">
-</qsym>
 <qsym name="Project">
 </qsym>
 <qsym name="Engelsk">
-</qsym>
-<qsym name="Majoring">
-</qsym>
-<qsym name="Undervisningsspr&#229">
 </qsym>
 <qsym name="Ukjent">
 </qsym>
@@ -77,8 +70,6 @@
 <qsym name="Diplom">
 </qsym>
 <qsym name="Hovedfag">
-</qsym>
-<qsym name="Instruction">
 </qsym>
 <qsym name="Prosjekt">
 </qsym>
@@ -95,30 +86,8 @@
     <desc name="SocialQuality" type="Integer" min="0" max="5" mult="false" >
       <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
-    <desc name="AcademicQuality" type="Symbol" mult="false" >
-      <symbol value="0" />
-      <symbol value="1" />
-      <symbol value="2" />
-      <symbol value="3" />
-      <symbol value="4" />
-      <symbol value="5" />
-      <symbol value="K" />
-<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
-<qsym name="0">
-</qsym>
-<qsym name="1">
-</qsym>
-<qsym name="2">
-</qsym>
-<qsym name="3">
-</qsym>
-<qsym name="4">
-</qsym>
-<qsym name="5">
-</qsym>
-<qsym name="K">
-</qsym>
-</fct>
+    <desc name="AcademicQuality" type="Integer" min="0" max="5" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <desc name="Subjects" type="String" mult="true" >
       <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
@@ -141,5 +110,5 @@
     <node name="Trip" sim="1.0" parent="inheritanceDesc" />
   </fct>
 </hierarchy>
-<cases no="3046" cb="main_case_base"/>
+<cases no="3047" cb="main_case_base"/>
 </Project>

@@ -2,6 +2,6 @@
 <Project name="study_exchange" author="" >
 <exp obj="Trip" type="Concept" >
   <desc>
-                                                                  </desc>
+&#10;                                                                    </desc>
 </exp>
 </Project>

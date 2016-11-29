@@ -103,7 +103,7 @@ def parse_html():
         elif element == "Fag 8:":
             next_element = data_list[i+1]
             if next_element[0].isalpha():
-                data_object["courses"].append(next_element)
+                data_object["courses"].append(format_course(next_element))
 
         data_object["academic_quality"] = get_rating("academic")
         data_object["social_quality"] = get_rating("social")
@@ -116,15 +116,12 @@ def format_study_period(s):
 
 
 def format_language(s):
-    if s == "Fag på vertsinstitusjonens undervisningsspråk":
-        return "Ukjent"
-    elif not s[0].isalpha() or s == "":
-        return "Ukjent"
-    else:
-        return s.split()[-1].title()
-    
-    return "Engelsk"
+    for word in s.split():
+        if word.lower() == "english" or word.lower() == "engelsk":
+            return "Engelsk"
 
+    return "Ukjent"
+    
 
 def get_continent(s):
     if s.lower() == "usa":
@@ -133,6 +130,7 @@ def get_continent(s):
         for c in ci.countries:
             if c['name'].lower() == s.lower():
                 return c['continent'].title()
+        return "Ukjent"
 
 
 def get_institutes():
@@ -155,18 +153,23 @@ def format_university(s):
     if s.isupper():
         for u in ui.universities:
             if u['acronym'].lower() == s.lower():
-                return decodeString(titlecase(u['name']))
-        return decodeString(s)
+                return titlecase(u['name'])
+        return s
     else:
-        return decodeString(titlecase(s))
+        return titlecase(s)
 
 
 def format_course(s):
-    s = s.replace('!', '')
+    for c in s:
+        if c == '!':
+            s.replace(c, '')
+
     first_part = s.split()[0]
+
     for char in first_part:
         if char.isdigit():
             return s
+
     return "XXXX" + " " + s
 
 
@@ -211,13 +214,6 @@ def run(s):
     return obj
 
 
-def make_json():
-    output = open('output/cases.json', 'w')
-    with open('output/cases.json', 'w') as output:
-        json.dump(cases, output)
-    output.close()
-
-
 def print_cases():
     for case in cases:
         for k, v in case.items():
@@ -231,10 +227,6 @@ def test_run():
         cases.append(run("test_html_files/" + file))
 
 
-def decodeString(s):
-    return s.encode('utf-8').decode('utf-8')
-
-
 def real_run():
     data_list = []
     star_list = []
@@ -245,12 +237,47 @@ def real_run():
         case = run(file)
         if not case["courses"]:
             continue
-        #if stopper >= 50:
-        #    return
+        if stopper >= 10000:
+            return
         cases.append(case) 
         counter += 1
         stopper += 1
         print("Finished: " + str(file) + " (" + str(counter) + '/' + "3644)")
+
+
+def make_csv():
+
+    output = open('../../src/main/resources/cases.csv', 'w')
+    output.write("Institute;Continent;Country;University;StudyPeriod;Language;AcademicQuality;SocialQuality;Subjects" + '\n')
+
+    for case in cases:
+        courses = ""
+        final_course = len(case['courses'])
+        counter = 1
+        for course in case['courses']:
+            courses += course
+            if counter == final_course:
+                break
+            else:
+                courses += '!'
+                counter += 1
+        
+
+        output.write(
+            case['institute'] + ';' +
+            str(case['continent']) + ';' +
+            case['country'] + ';' +
+            case['university'] + ';' +
+            str(case['study_period']) + ';' +
+            case['language'] + ';' +
+            str(case['academic_quality']) + ';' +
+            str(case['social_quality']) + ';' +
+            courses + '\n'
+            )
+
+    output.close()
+
+    print("Finished CSV file")
 
 
 
@@ -259,6 +286,6 @@ if __name__ == "__main__":
     real_run()
     #test_run()
     #print_cases()
-    make_json()
+    make_csv()
 
     
