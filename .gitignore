@@ -1,5 +1,7 @@
 *.class
 
+scripts/parser/retrieved_html_files/*
+
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 

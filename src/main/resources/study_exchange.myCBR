@@ -25,573 +25,114 @@
       <symbol value="Oceania" />
 <fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
 <qsym name="South America">
-<csym name="North America" sim="0.5"/>
 </qsym>
 <qsym name="Asia">
-<csym name="Oceania" sim="0.3"/>
 </qsym>
 <qsym name="Europe">
-<csym name="North America" sim="0.5"/>
-<csym name="Oceania" sim="0.2"/>
 </qsym>
 <qsym name="Africa">
 </qsym>
 <qsym name="North America">
-<csym name="South America" sim="0.5"/>
-<csym name="Europe" sim="0.5"/>
-<csym name="Oceania" sim="0.3"/>
 </qsym>
 <qsym name="None">
 </qsym>
 <qsym name="Oceania">
-<csym name="Asia" sim="0.3"/>
-<csym name="Europe" sim="0.2"/>
-<csym name="North America" sim="0.3"/>
 </qsym>
 </fct>
     </desc>
+    <desc name="Institute" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="University" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
     <desc name="Language" type="Symbol" mult="false" >
-      <symbol value="Engelsk" />
-      <symbol value="Japanese" />
-      <symbol value="Swedish" />
-      <symbol value="Deutsch" />
       <symbol value="English" />
-      <symbol value="French" />
+      <symbol value="Project" />
+      <symbol value="Engelsk" />
+      <symbol value="Majoring" />
+      <symbol value="Undervisningsspr&#38;#229" />
       <symbol value="Ukjent" />
-      <symbol value="Chinese" />
-      <symbol value="Danish" />
-      <symbol value="Indian" />
-      <symbol value="Spanish" />
+      <symbol value="Hovedoppgave" />
       <symbol value="Diplom" />
       <symbol value="Hovedfag" />
-      <symbol value="Norwegian" />
-      <symbol value="Portoguese" />
+      <symbol value="Instruction" />
+      <symbol value="Prosjekt" />
       <symbol value="Undervisningsspr&#227;&#165;K" />
 <fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="English">
+</qsym>
+<qsym name="Project">
+</qsym>
 <qsym name="Engelsk">
 </qsym>
-<qsym name="Japanese">
-<csym name="Chinese" sim="0.5"/>
+<qsym name="Majoring">
 </qsym>
-<qsym name="Swedish">
-<csym name="Danish" sim="0.6"/>
-</qsym>
-<qsym name="Deutsch">
-<csym name="English" sim="0.3"/>
-<csym name="Danish" sim="0.4"/>
-<csym name="Norwegian" sim="0.4"/>
-</qsym>
-<qsym name="English">
-<csym name="Deutsch" sim="0.3"/>
-</qsym>
-<qsym name="French">
+<qsym name="Undervisningsspr&#229">
 </qsym>
 <qsym name="Ukjent">
 </qsym>
-<qsym name="Chinese">
-<csym name="Japanese" sim="0.5"/>
-</qsym>
-<qsym name="Danish">
-<csym name="Swedish" sim="0.6"/>
-<csym name="Deutsch" sim="0.4"/>
-<csym name="Norwegian" sim="0.8"/>
-</qsym>
-<qsym name="Indian">
-</qsym>
-<qsym name="Spanish">
-<csym name="Portoguese" sim="0.7"/>
+<qsym name="Hovedoppgave">
 </qsym>
 <qsym name="Diplom">
 </qsym>
 <qsym name="Hovedfag">
 </qsym>
-<qsym name="Norwegian">
-<csym name="Deutsch" sim="0.4"/>
-<csym name="Danish" sim="0.8"/>
+<qsym name="Instruction">
 </qsym>
-<qsym name="Portoguese">
-<csym name="Spanish" sim="0.7"/>
+<qsym name="Prosjekt">
 </qsym>
 <qsym name="Undervisningssprã¥K">
-</qsym>
-</fct>
-    </desc>
-    <desc name="University" type="Symbol" mult="false" >
-      <symbol value="University of Zimbabwe" />
-      <symbol value="Albert-Ludwigs-Universit&#195;&#164;t" />
-      <symbol value="University of Hawaii, Hilo" />
-      <symbol value="Lancaster University" />
-      <symbol value="Universit&#233; Lumi&#232;re Lyon 2" />
-      <symbol value="Harvard University" />
-      <symbol value="Universit&#233; Joseph Fourier" />
-      <symbol value="Universidad De Granada" />
-      <symbol value="University of Southampton" />
-      <symbol value="Bond University" />
-      <symbol value="University of Southampton " />
-      <symbol value="Universit&#233; De Pau Et Des Pays De l'Adour" />
-      <symbol value="Technische Universit&#228;t" />
-      <symbol value="University of Melbourne" />
-      <symbol value="University of Newcastle" />
-      <symbol value="Ruprecht-Karls-Universit&#228;t Heidelberg" />
-      <symbol value="EURECOM" />
-      <symbol value="Instituto Superior T&#233;cnico" />
-      <symbol value="University of Dundee" />
-      <symbol value="Metropolitan University College&#254;" />
-      <symbol value="University of Cape Town" />
-      <symbol value="University of Huleva" />
-      <symbol value="Universit&#233; De Caen Basse-Normandie" />
-      <symbol value="University of Queensland" />
-      <symbol value="Metropolitan University " />
-      <symbol value="University of Minnesota" />
-      <symbol value="University of Strathclyde" />
-      <symbol value="    Ruprecht-Karls Universit&#228;t Heidelberg" />
-      <symbol value="Goldsmiths University of London" />
-      <symbol value="K&#248;benhavns Universitet" />
-      <symbol value="Universisad De Granada" />
-      <symbol value="Universit&#228;t" />
-      <symbol value="Popakademie" />
-      <symbol value="TU Delft" />
-      <symbol value="Universit&#228;t Hamburg" />
-      <symbol value="University of York" />
-      <symbol value="University of New South Wales" />
-      <symbol value="University of Nicosia" />
-      <symbol value="UBA" />
-      <symbol value="SDSU" />
-      <symbol value="Escola Superior De Danca" />
-      <symbol value="UBC" />
-      <symbol value="San Diego State University" />
-      <symbol value="Universitat Polit&#232;cnica De Val&#232;ncia (UPV)" />
-      <symbol value="UNAM (Universidad Nacional Autonoma De Mexico)" />
-      <symbol value="University of California San Diego" />
-      <symbol value="Universidad Politecnica De Valencia" />
-      <symbol value="Ucc " />
-      <symbol value="Universitetet I Granada" />
-      <symbol value="Nanyang Technological University" />
-      <symbol value="Concordia College" />
-      <symbol value="Seoul National University" />
-      <symbol value="UCA" />
-      <symbol value="ETH" />
-      <symbol value="Karolinska Institutet" />
-      <symbol value="UCSB" />
-      <symbol value="University of Limerick " />
-      <symbol value="charles university" />
-      <symbol value="Augsburg College" />
-      <symbol value="Universidade Aut&#243;noma" />
-      <symbol value="Far Eastern Federal University" />
-      <symbol value="Fontys Hogeschool Voor De Kunsten" />
-      <symbol value="Univeristetet I Warwick" />
-      <symbol value="FACHHOCHSCHULE VORARLBERG" />
-      <symbol value="UCT" />
-      <symbol value="University College London" />
-      <symbol value="University of British Columbia" />
-      <symbol value="KTH Royal Institute of Technology" />
-      <symbol value="University of Roehampton " />
-      <symbol value="Technische Universit&#228;t M&#252;nchen" />
-      <symbol value="School of Nursing" />
-      <symbol value="University of Auckland" />
-      <symbol value="AAU " />
-      <symbol value="Politecnico Di Milano" />
-      <symbol value="Hvidore Hospital, Strandmarkshave Pleiehjem." />
-      <symbol value="Queen Mary University of London" />
-      <symbol value="UCLA" />
-      <symbol value="Freie Universit&#228;t" />
-      <symbol value="Aarhus Universitet" />
-      <symbol value="Hof University of Applied Science" />
-      <symbol value="Syddansk Universitet " />
-      <symbol value="Flinders University" />
-      <symbol value="Cardiff University" />
-      <symbol value="University of California, Berkeley" />
-      <symbol value="University of Valencia " />
-      <symbol value="Arkitekskolen Aarhus" />
-      <symbol value="TU M&#252;nchen" />
-      <symbol value="Universitat de Barcelona" />
-      <symbol value="University of Roehampton" />
-      <symbol value="Pusan National University" />
-      <symbol value="UWA" />
-      <symbol value="TU Braunschweig" />
-      <symbol value="Tum" />
-      <symbol value="Makerere University" />
-      <symbol value="Kungliga Tekniska H&#246;gskolan" />
-      <symbol value="TU Bergakademie Freiberg" />
-      <symbol value="UC Berkeley" />
-<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
-<qsym name="University of Zimbabwe">
-</qsym>
-<qsym name="Albert-Ludwigs-UniversitÃ¤t">
-</qsym>
-<qsym name="University of Hawaii, Hilo">
-</qsym>
-<qsym name="Lancaster University">
-</qsym>
-<qsym name="Université Lumière Lyon 2">
-</qsym>
-<qsym name="Harvard University">
-</qsym>
-<qsym name="Université Joseph Fourier">
-</qsym>
-<qsym name="Universidad De Granada">
-</qsym>
-<qsym name="University of Southampton">
-</qsym>
-<qsym name="Bond University">
-</qsym>
-<qsym name="University of Southampton ">
-</qsym>
-<qsym name="Université De Pau Et Des Pays De l'Adour">
-</qsym>
-<qsym name="Technische Universität">
-</qsym>
-<qsym name="University of Melbourne">
-</qsym>
-<qsym name="University of Newcastle">
-</qsym>
-<qsym name="Ruprecht-Karls-Universität Heidelberg">
-</qsym>
-<qsym name="EURECOM">
-</qsym>
-<qsym name="Instituto Superior Técnico">
-</qsym>
-<qsym name="University of Dundee">
-</qsym>
-<qsym name="Metropolitan University Collegeþ">
-</qsym>
-<qsym name="University of Cape Town">
-</qsym>
-<qsym name="University of Huleva">
-</qsym>
-<qsym name="Université De Caen Basse-Normandie">
-</qsym>
-<qsym name="University of Queensland">
-</qsym>
-<qsym name="Metropolitan University ">
-</qsym>
-<qsym name="University of Minnesota">
-</qsym>
-<qsym name="University of Strathclyde">
-</qsym>
-<qsym name="    Ruprecht-Karls Universität Heidelberg">
-</qsym>
-<qsym name="Goldsmiths University of London">
-</qsym>
-<qsym name="Københavns Universitet">
-</qsym>
-<qsym name="Universisad De Granada">
-</qsym>
-<qsym name="Universität">
-</qsym>
-<qsym name="Popakademie">
-</qsym>
-<qsym name="TU Delft">
-</qsym>
-<qsym name="Universität Hamburg">
-</qsym>
-<qsym name="University of York">
-</qsym>
-<qsym name="University of New South Wales">
-</qsym>
-<qsym name="University of Nicosia">
-</qsym>
-<qsym name="UBA">
-</qsym>
-<qsym name="SDSU">
-</qsym>
-<qsym name="Escola Superior De Danca">
-</qsym>
-<qsym name="UBC">
-</qsym>
-<qsym name="San Diego State University">
-</qsym>
-<qsym name="Universitat Politècnica De València (UPV)">
-</qsym>
-<qsym name="UNAM (Universidad Nacional Autonoma De Mexico)">
-</qsym>
-<qsym name="University of California San Diego">
-</qsym>
-<qsym name="Universidad Politecnica De Valencia">
-</qsym>
-<qsym name="Ucc ">
-</qsym>
-<qsym name="Universitetet I Granada">
-</qsym>
-<qsym name="Nanyang Technological University">
-</qsym>
-<qsym name="Concordia College">
-</qsym>
-<qsym name="Seoul National University">
-</qsym>
-<qsym name="UCA">
-</qsym>
-<qsym name="ETH">
-</qsym>
-<qsym name="Karolinska Institutet">
-</qsym>
-<qsym name="UCSB">
-</qsym>
-<qsym name="University of Limerick ">
-</qsym>
-<qsym name="charles university">
-</qsym>
-<qsym name="Augsburg College">
-</qsym>
-<qsym name="Universidade Autónoma">
-</qsym>
-<qsym name="Far Eastern Federal University">
-</qsym>
-<qsym name="Fontys Hogeschool Voor De Kunsten">
-</qsym>
-<qsym name="Univeristetet I Warwick">
-</qsym>
-<qsym name="FACHHOCHSCHULE VORARLBERG">
-</qsym>
-<qsym name="UCT">
-</qsym>
-<qsym name="University College London">
-</qsym>
-<qsym name="University of British Columbia">
-</qsym>
-<qsym name="KTH Royal Institute of Technology">
-</qsym>
-<qsym name="University of Roehampton ">
-</qsym>
-<qsym name="Technische Universität München">
-</qsym>
-<qsym name="School of Nursing">
-</qsym>
-<qsym name="University of Auckland">
-</qsym>
-<qsym name="AAU ">
-</qsym>
-<qsym name="Politecnico Di Milano">
-</qsym>
-<qsym name="Hvidore Hospital, Strandmarkshave Pleiehjem.">
-</qsym>
-<qsym name="Queen Mary University of London">
-</qsym>
-<qsym name="UCLA">
-</qsym>
-<qsym name="Freie Universität">
-</qsym>
-<qsym name="Aarhus Universitet">
-</qsym>
-<qsym name="Hof University of Applied Science">
-</qsym>
-<qsym name="Syddansk Universitet ">
-</qsym>
-<qsym name="Flinders University">
-</qsym>
-<qsym name="Cardiff University">
-</qsym>
-<qsym name="University of California, Berkeley">
-</qsym>
-<qsym name="University of Valencia ">
-</qsym>
-<qsym name="Arkitekskolen Aarhus">
-</qsym>
-<qsym name="TU München">
-</qsym>
-<qsym name="Universitat de Barcelona">
-</qsym>
-<qsym name="University of Roehampton">
-</qsym>
-<qsym name="Pusan National University">
-</qsym>
-<qsym name="UWA">
-</qsym>
-<qsym name="TU Braunschweig">
-</qsym>
-<qsym name="Tum">
-</qsym>
-<qsym name="Makerere University">
-</qsym>
-<qsym name="Kungliga Tekniska Högskolan">
-</qsym>
-<qsym name="TU Bergakademie Freiberg">
-</qsym>
-<qsym name="UC Berkeley">
-</qsym>
-</fct>
-    </desc>
-    <desc name="Institute" type="Symbol" mult="false" >
-      <symbol value="IME-ITEM - Institutt for telematikk" />
-      <symbol value="IVT-IPT - Institutt for petroleumsteknologi og anvendt geofysikk" />
-      <symbol value="SVT-NOSEB - Norsk senter for barneforskning" />
-      <symbol value="DMF-ISB - Institutt for sirkulasjon og bildediagnostikk" />
-      <symbol value="IVT-IMT - Institutt for marin teknikk" />
-      <symbol value="NT-IKJ - Institutt for kjemi" />
-      <symbol value="NT-IFY - Institutt for fysikk" />
-      <symbol value="NT-IKP - Institutt for kjemisk prosessteknologi" />
-      <symbol value="HF-IHS - Institutt for historiske studier" />
-      <symbol value="DMF-INM - Institutt for nevromedisin" />
-      <symbol value="NT-IBI - Institutt for biologi" />
-      <symbol value="IVT-IPD - Institutt for produktdesign" />
-      <symbol value="IME-IMF - Institutt for matematiske fag" />
-      <symbol value="SVT-SANT - Sosialantropologisk institutt" />
-      <symbol value="AB-BKHT - Institutt for byggekunst, historie og teknologi" />
-      <symbol value="SVT-IVR - Institutt for voksnes l&#230;ring og r&#229;dgivningsvitenskap" />
-      <symbol value="AB-BYPLAN - Institutt for byforming og planlegging" />
-      <symbol value="IVT-KT - Institutt for konstruksjonsteknikk" />
-      <symbol value="HF-IFR - Institutt for filosofi og religionsvitenskap" />
-      <symbol value="IME-IET - Institutt for elektronikk og telekommunikasjon" />
-      <symbol value="HF-ISL - Institutt for spr&#229;k og litteratur" />
-      <symbol value="IVT-EPT - Institutt for energi- og prosessteknikk" />
-      <symbol value="SVT-GEO - Geografisk institutt" />
-      <symbol value="IVT-IPK - Institutt for produksjons- og kvalitetsteknikk" />
-      <symbol value="SVT-PSY - Psykologisk institutt" />
-      <symbol value="AB-BKFF - Institutt for byggekunst, form og farge" />
-      <symbol value="AB-KIT - Institutt for billedkunst - Kunstakademiet i Trondheim" />
-      <symbol value="NT-IBT - Institutt for bioteknologi" />
-      <symbol value="IVT-BAT - Institutt for bygg, anlegg og transport" />
-      <symbol value="DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer" />
-      <symbol value="SVT-PED - Pedagogisk institutt" />
-      <symbol value="NT-IMTE - Institutt for materialteknologi" />
-      <symbol value="IVT-IVM - Institutt for vann- og milj&#248;teknikk" />
-      <symbol value="SVT-ISH - Institutt for sosialt arbeid og helsevitenskap" />
-      <symbol value="HF-IKM - Institutt for kunst- og medievitenskap" />
-      <symbol value="AB-BKPF - Institutt for byggekunst, prosjektering og forvaltning" />
-      <symbol value="IME-IDI - Institutt for datateknikk og informasjonsvitenskap" />
-      <symbol value="HF-KULT - Institutt for tverrfaglige kulturstudier" />
-      <symbol value="IVT-IGB - Institutt for geologi og bergteknikk" />
-      <symbol value="IME-ITK - Institutt for teknisk kybernetikk" />
-      <symbol value="SVT-IPL - Institutt for pedagogikk og livslang l&#230;ring" />
-      <symbol value="IME-ELKRAFT - Institutt for elkraftteknikk" />
-      <symbol value="IVT-IPM - Institutt for produktutvikling og materialer" />
-      <symbol value="DMF-IKMM - Institutt for kreftforskning og molekyl&#230;r medisin" />
-      <symbol value="SVT-IOT - Institutt for industriell &#248;konomi og teknologiledelse" />
-      <symbol value="DMF-ISM - Institutt for samfunnsmedisin" />
-      <symbol value="SVT-PLU - Program for l&#230;rerutdanning" />
-      <symbol value="HF-IM - Institutt for musikk" />
-      <symbol value="SVT-ISO - Institutt for samfunns&#248;konomi" />
-      <symbol value="SVT-ISS - Institutt for sosiologi og statsvitenskap" />
-<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
-<qsym name="IME-ITEM - Institutt for telematikk">
-</qsym>
-<qsym name="IVT-IPT - Institutt for petroleumsteknologi og anvendt geofysikk">
-</qsym>
-<qsym name="SVT-NOSEB - Norsk senter for barneforskning">
-</qsym>
-<qsym name="DMF-ISB - Institutt for sirkulasjon og bildediagnostikk">
-</qsym>
-<qsym name="IVT-IMT - Institutt for marin teknikk">
-</qsym>
-<qsym name="NT-IKJ - Institutt for kjemi">
-</qsym>
-<qsym name="NT-IFY - Institutt for fysikk">
-</qsym>
-<qsym name="NT-IKP - Institutt for kjemisk prosessteknologi">
-</qsym>
-<qsym name="HF-IHS - Institutt for historiske studier">
-</qsym>
-<qsym name="DMF-INM - Institutt for nevromedisin">
-</qsym>
-<qsym name="NT-IBI - Institutt for biologi">
-</qsym>
-<qsym name="IVT-IPD - Institutt for produktdesign">
-</qsym>
-<qsym name="IME-IMF - Institutt for matematiske fag">
-</qsym>
-<qsym name="SVT-SANT - Sosialantropologisk institutt">
-</qsym>
-<qsym name="AB-BKHT - Institutt for byggekunst, historie og teknologi">
-</qsym>
-<qsym name="SVT-IVR - Institutt for voksnes læring og rådgivningsvitenskap">
-</qsym>
-<qsym name="AB-BYPLAN - Institutt for byforming og planlegging">
-</qsym>
-<qsym name="IVT-KT - Institutt for konstruksjonsteknikk">
-</qsym>
-<qsym name="HF-IFR - Institutt for filosofi og religionsvitenskap">
-</qsym>
-<qsym name="IME-IET - Institutt for elektronikk og telekommunikasjon">
-</qsym>
-<qsym name="HF-ISL - Institutt for språk og litteratur">
-</qsym>
-<qsym name="IVT-EPT - Institutt for energi- og prosessteknikk">
-</qsym>
-<qsym name="SVT-GEO - Geografisk institutt">
-</qsym>
-<qsym name="IVT-IPK - Institutt for produksjons- og kvalitetsteknikk">
-</qsym>
-<qsym name="SVT-PSY - Psykologisk institutt">
-</qsym>
-<qsym name="AB-BKFF - Institutt for byggekunst, form og farge">
-</qsym>
-<qsym name="AB-KIT - Institutt for billedkunst - Kunstakademiet i Trondheim">
-</qsym>
-<qsym name="NT-IBT - Institutt for bioteknologi">
-</qsym>
-<qsym name="IVT-BAT - Institutt for bygg, anlegg og transport">
-</qsym>
-<qsym name="DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer">
-</qsym>
-<qsym name="SVT-PED - Pedagogisk institutt">
-</qsym>
-<qsym name="NT-IMTE - Institutt for materialteknologi">
-</qsym>
-<qsym name="IVT-IVM - Institutt for vann- og miljøteknikk">
-</qsym>
-<qsym name="SVT-ISH - Institutt for sosialt arbeid og helsevitenskap">
-</qsym>
-<qsym name="HF-IKM - Institutt for kunst- og medievitenskap">
-</qsym>
-<qsym name="AB-BKPF - Institutt for byggekunst, prosjektering og forvaltning">
-</qsym>
-<qsym name="IME-IDI - Institutt for datateknikk og informasjonsvitenskap">
-</qsym>
-<qsym name="HF-KULT - Institutt for tverrfaglige kulturstudier">
-</qsym>
-<qsym name="IVT-IGB - Institutt for geologi og bergteknikk">
-</qsym>
-<qsym name="IME-ITK - Institutt for teknisk kybernetikk">
-</qsym>
-<qsym name="SVT-IPL - Institutt for pedagogikk og livslang læring">
-</qsym>
-<qsym name="IME-ELKRAFT - Institutt for elkraftteknikk">
-</qsym>
-<qsym name="IVT-IPM - Institutt for produktutvikling og materialer">
-</qsym>
-<qsym name="DMF-IKMM - Institutt for kreftforskning og molekylær medisin">
-</qsym>
-<qsym name="SVT-IOT - Institutt for industriell økonomi og teknologiledelse">
-</qsym>
-<qsym name="DMF-ISM - Institutt for samfunnsmedisin">
-</qsym>
-<qsym name="SVT-PLU - Program for lærerutdanning">
-</qsym>
-<qsym name="HF-IM - Institutt for musikk">
-</qsym>
-<qsym name="SVT-ISO - Institutt for samfunnsøkonomi">
-</qsym>
-<qsym name="SVT-ISS - Institutt for sosiologi og statsvitenskap">
 </qsym>
 </fct>
     </desc>
     <desc name="Country" type="String" mult="false" >
       <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
-    <desc name="StudyPeriod" type="Integer" min="2009" max="201516" mult="false" >
-      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
-      <fct name="yearSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    <desc name="StudyPeriod" type="Integer" min="1999" max="2016" mult="false" >
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <desc name="SocialQuality" type="Integer" min="0" max="5" mult="false" >
-      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
-    <desc name="AcademicQuality" type="Integer" min="0" max="5" mult="false" >
-      <fct name="ratingSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
-      <fct name="default function" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    <desc name="AcademicQuality" type="Symbol" mult="false" >
+      <symbol value="0" />
+      <symbol value="1" />
+      <symbol value="2" />
+      <symbol value="3" />
+      <symbol value="4" />
+      <symbol value="5" />
+      <symbol value="K" />
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="0">
+</qsym>
+<qsym name="1">
+</qsym>
+<qsym name="2">
+</qsym>
+<qsym name="3">
+</qsym>
+<qsym name="4">
+</qsym>
+<qsym name="5">
+</qsym>
+<qsym name="K">
+</qsym>
+</fct>
     </desc>
-    <desc name="Subjects" type="String" mult="false" >
+    <desc name="Subjects" type="String" mult="true" >
       <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <amalgam name="default function" type="EUCLIDEAN" active="true" >
-      <entry name="Continent" active="true" fct="default function" weight="4.0"/>
-      <entry name="Language" active="true" fct="default function" weight="3.0"/>
-      <entry name="University" active="true" fct="default function" weight="1.0"/>
-      <entry name="Institute" active="true" fct="default function" weight="5.0"/>
-      <entry name="Country" active="true" fct="default function" weight="2.0"/>
-      <entry name="StudyPeriod" active="true" fct="yearSim" weight="1.0"/>
-      <entry name="SocialQuality" active="true" fct="default function" weight="2.0"/>
-      <entry name="AcademicQuality" active="true" fct="ratingSim" weight="2.0"/>
-      <entry name="Subjects" active="true" fct="default function" weight="1.0"/>
+      <entry name="Continent" active="true" fct="default function" weight="1"/>
+      <entry name="Institute" active="true" fct="default function" weight="1"/>
+      <entry name="University" active="true" fct="default function" weight="1"/>
+      <entry name="Language" active="true" fct="default function" weight="1"/>
+      <entry name="Country" active="true" fct="default function" weight="1"/>
+      <entry name="StudyPeriod" active="true" fct="default function" weight="1"/>
+      <entry name="SocialQuality" active="true" fct="default function" weight="1"/>
+      <entry name="AcademicQuality" active="true" fct="default function" weight="1"/>
+      <entry name="Subjects" active="true" fct="default function" weight="1"/>
     </amalgam>
   </concept>
 </model>
@@ -600,5 +141,5 @@
     <node name="Trip" sim="1.0" parent="inheritanceDesc" />
   </fct>
 </hierarchy>
-<cases no="100" cb="main_case_base"/>
+<cases no="3046" cb="main_case_base"/>
 </Project>

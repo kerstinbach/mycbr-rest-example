@@ -122,6 +122,8 @@ def format_language(s):
         return "Ukjent"
     else:
         return s.split()[-1].title()
+    
+    return "Engelsk"
 
 
 def get_continent(s):
@@ -153,13 +155,14 @@ def format_university(s):
     if s.isupper():
         for u in ui.universities:
             if u['acronym'].lower() == s.lower():
-                return titlecase(u['name'])
-        return s
+                return decodeString(titlecase(u['name']))
+        return decodeString(s)
     else:
-        return titlecase(s)
+        return decodeString(titlecase(s))
 
 
 def format_course(s):
+    s = s.replace('!', '')
     first_part = s.split()[0]
     for char in first_part:
         if char.isdigit():
@@ -228,6 +231,10 @@ def test_run():
         cases.append(run("test_html_files/" + file))
 
 
+def decodeString(s):
+    return s.encode('utf-8').decode('utf-8')
+
+
 def real_run():
     data_list = []
     star_list = []
@@ -235,11 +242,15 @@ def real_run():
     counter = 0
     stopper = 0
     for file in file_list:
-        print("Parsing: " + str(file))
-        cases.append(run(file)) 
+        case = run(file)
+        if not case["courses"]:
+            continue
+        #if stopper >= 50:
+        #    return
+        cases.append(case) 
         counter += 1
         stopper += 1
-        print("Finished: " + str(file) + " (" + str(counter) + '/' + "7000)")
+        print("Finished: " + str(file) + " (" + str(counter) + '/' + "3644)")
 
 
 

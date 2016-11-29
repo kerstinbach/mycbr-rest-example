@@ -31,14 +31,15 @@ def make_csv(data):
 			courses + '\n'
 			)
 
-
 	output.close()
+	
 
 
 if __name__ == "__main__":
 	with open('output/cases.json', 'r') as data_file:
 		data = json.load(data_file)
 	make_csv(data)
+
 
 
 
