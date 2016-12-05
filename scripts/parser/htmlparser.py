@@ -8,10 +8,12 @@ import json
 import glob
 from titlecase import titlecase
 import re
+import time
 
 data_list = []
 star_list = []
 institutes = []
+unique_unis = []
 
 cases = []
 
@@ -46,7 +48,7 @@ def parse_html():
         element = data_list[i]
         if element == "Land:":
             next_element = data_list[i+1]
-            data_object['country'] = next_element
+            data_object['country'] = next_element.title()
             data_object['continent'] = get_continent(next_element)
 
         elif element == "Vertsinstitusjon:":
@@ -127,7 +129,7 @@ def get_continent(s):
     if s.lower() == "usa":
         return "North America"
     elif s.lower() == "sør afrika":
-        return "Afrika"
+        return "Africa"
     elif s.lower() == "korea":
         return "Asia"
     else :
@@ -156,12 +158,28 @@ def format_institute(s):
 
 
 def format_university(s):
+    global unique_unis
+
+    for uni in unique_unis:
+        if fuzz.ratio(s.strip(), uni.strip()) > 90 and fuzz.ratio(s.strip(), uni.strip()) < 100:
+            '''
+            print("FOUND ALMOST DUPLICATE: " + ' ' + "GOT THIS: " + " " + str(s) + ', ' + "BUT THIS IS ALLREADY THERE: " + str(uni))
+            print("ADDING THIS: ", unique_unis[unique_unis.index(uni)])
+            if str(input("Continue?")) == "y":
+                continue
+            '''
+            return unique_unis[unique_unis.index(uni)]
+        else:
+            continue
+
     if s.isupper():
         for u in ui.universities:
             if u['acronym'].lower() == s.lower():
+                unique_unis.append(titlecase(u['name']))
                 return titlecase(u['name'])
         return s
     else:
+        unique_unis.append(titlecase(s))
         return titlecase(s)
 
 
@@ -253,6 +271,8 @@ def test_run():
 
 
 def real_run():
+    global unique_unis
+
     data_list = []
     star_list = []
     file_list = glob.glob("retrieved_html_files/*.html")
@@ -268,6 +288,7 @@ def real_run():
         counter += 1
         stopper += 1
         print("Finished: " + str(file) + " (" + str(counter) + '/' + "3644)")
+    print(unique_unis)
 
 
 def make_csv():

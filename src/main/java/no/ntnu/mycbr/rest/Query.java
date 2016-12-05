@@ -148,13 +148,15 @@ public class Query {
 
         int counter = 0;
         Iterator it = sortedResultList.entrySet().iterator();
-        while (it.hasNext() && counter < 9) {
+
+        // Ajust number to how many results you want back to the client
+        while (it.hasNext() && counter < 10000) {
             HashMap.Entry pair = (Map.Entry)it.next();
             reducedSortedResultList.put((String)pair.getKey(), (Double)pair.getValue());
             counter++;
         }
 
-        System.out.println(reducedSortedResultList);
+
         return reducedSortedResultList;
 
     }
