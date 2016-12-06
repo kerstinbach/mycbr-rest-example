@@ -243,61 +243,61 @@
 </qsym>
 </fct>
       <fct name="instituteTax" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="Institute" sim="0.0" symm="true" >
-        <node name="IVT-IPT - Institutt for petroleumsteknologi og anvendt geofysikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
-        <node name="IME-ITEM - Institutt for telematikk" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
-        <node name="HF-KULT - Institutt for tverrfaglige kulturstudier" sim="1.0" parent="Det humanistiske fakultet" />
-        <node name="HF-IFR - Institutt for filosofi og religionsvitenskap" sim="1.0" parent="Det humanistiske fakultet" />
-        <node name="AB-KIT - Institutt for billedkunst - Kunstakademiet i Trondheim" sim="1.0" parent="Fakultet for arkitektur og billedkunst" />
-        <node name="SVT-PSY - Psykologisk institutt" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
-        <node name="HF-IM - Institutt for musikk" sim="1.0" parent="Det humanistiske fakultet" />
-        <node name="AB-BKPF - Institutt for byggekunst, prosjektering og forvaltning" sim="1.0" parent="Fakultet for arkitektur og billedkunst" />
-        <node name="Fakultet for naturvitenskap og teknologi" sim="0.3" parent="Institute" />
-        <node name="Det humanistiske fakultet" sim="0.3" parent="Institute" />
-        <node name="IME-ELKRAFT - Institutt for elkraftteknikk" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
-        <node name="Det medisinske fakultet" sim="0.3" parent="Institute" />
-        <node name="IME-IET - Institutt for elektronikk og telekommunikasjon" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
-        <node name="DMF-ISB - Institutt for sirkulasjon og bildediagnostikk" sim="1.0" parent="Det medisinske fakultet" />
-        <node name="SVT-SANT - Sosialantropologisk institutt" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
-        <node name="IVT-IMT - Institutt for marin teknikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
         <node name="IVT-EPT - Institutt for energi- og prosessteknikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
-        <node name="SVT-NOSEB - Norsk senter for barneforskning" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
-        <node name="Fakultet for ingeni&#248;rvitenskap og teknologi" sim="0.3" parent="Institute" />
-        <node name="DMF-IKMM - Institutt for kreftforskning og molekyl&#230;r medisin" sim="1.0" parent="Det medisinske fakultet" />
-        <node name="AB-BYPLAN - Institutt for byforming og planlegging" sim="1.0" parent="Fakultet for arkitektur og billedkunst" />
-        <node name="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" sim="0.3" parent="Institute" />
-        <node name="SVT-ISO - Institutt for samfunns&#248;konomi" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
-        <node name="AB-BKHT - Institutt for byggekunst, historie og teknologi" sim="1.0" parent="Fakultet for arkitektur og billedkunst" />
-        <node name="IME-ITK - Institutt for teknisk kybernetikk" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
-        <node name="DMF-ISM - Institutt for samfunnsmedisin" sim="1.0" parent="Det medisinske fakultet" />
-        <node name="AB-BKFF - Institutt for byggekunst, form og farge" sim="1.0" parent="Fakultet for arkitektur og billedkunst" />
-        <node name="HF-IHS - Institutt for historiske studier" sim="1.0" parent="Det humanistiske fakultet" />
-        <node name="IVT-IGB - Institutt for geologi og bergteknikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
-        <node name="DMF-INM - Institutt for nevromedisin" sim="1.0" parent="Det medisinske fakultet" />
-        <node name="SVT-PED - Pedagogisk institutt" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
-        <node name="NT-IKP - Institutt for kjemisk prosessteknologi" sim="1.0" parent="Fakultet for naturvitenskap og teknologi" />
-        <node name="DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer" sim="1.0" parent="Det medisinske fakultet" />
-        <node name="HF-IKM - Institutt for kunst- og medievitenskap" sim="1.0" parent="Det humanistiske fakultet" />
-        <node name="NT-IBT - Institutt for bioteknologi" sim="1.0" parent="Fakultet for naturvitenskap og teknologi" />
-        <node name="IVT-IPK - Institutt for produksjons- og kvalitetsteknikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
-        <node name="SVT-ISH - Institutt for sosialt arbeid og helsevitenskap" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
         <node name="Fakultet for samfunnsvitenskap og teknologiledelse" sim="0.3" parent="Institute" />
-        <node name="NT-IMTE - Institutt for materialteknologi" sim="1.0" parent="Fakultet for naturvitenskap og teknologi" />
-        <node name="IVT-BAT - Institutt for bygg, anlegg og transport" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
+        <node name="AB-BKFF - Institutt for byggekunst, form og farge" sim="1.0" parent="Fakultet for arkitektur og billedkunst" />
+        <node name="SVT-ISO - Institutt for samfunns&#248;konomi" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
+        <node name="Fakultet for naturvitenskap og teknologi" sim="0.3" parent="Institute" />
+        <node name="AB-BKPF - Institutt for byggekunst, prosjektering og forvaltning" sim="1.0" parent="Fakultet for arkitektur og billedkunst" />
+        <node name="IVT-IPT - Institutt for petroleumsteknologi og anvendt geofysikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
         <node name="IVT-IPD - Institutt for produktdesign" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
-        <node name="NT-IKJ - Institutt for kjemi" sim="1.0" parent="Fakultet for naturvitenskap og teknologi" />
-        <node name="Fakultet for arkitektur og billedkunst" sim="0.3" parent="Institute" />
-        <node name="IVT-IPM - Institutt for produktutvikling og materialer" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
-        <node name="SVT-PLU - Program for l&#230;rerutdanning" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
-        <node name="SVT-ISS - Institutt for sosiologi og statsvitenskap" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
-        <node name="IVT-KT - Institutt for konstruksjonsteknikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
-        <node name="SVT-GEO - Geografisk institutt" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
-        <node name="IME-IDI - Institutt for datateknikk og informasjonsvitenskap" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
-        <node name="IME-IMF - Institutt for matematiske fag" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
-        <node name="SVT-IOT - Institutt for industriell &#248;konomi og teknologiledelse" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
+        <node name="Det medisinske fakultet" sim="0.3" parent="Institute" />
         <node name="NT-IFY - Institutt for fysikk" sim="1.0" parent="Fakultet for naturvitenskap og teknologi" />
-        <node name="HF-ISL - Institutt for spr&#229;k og litteratur" sim="1.0" parent="Det humanistiske fakultet" />
-        <node name="IVT-IVM - Institutt for vann- og milj&#248;teknikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
+        <node name="HF-IHS - Institutt for historiske studier" sim="1.0" parent="Det humanistiske fakultet" />
+        <node name="SVT-PED - Pedagogisk institutt" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
+        <node name="AB-BYPLAN - Institutt for byforming og planlegging" sim="1.0" parent="Fakultet for arkitektur og billedkunst" />
+        <node name="SVT-NOSEB - Norsk senter for barneforskning" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
+        <node name="IVT-IMT - Institutt for marin teknikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
+        <node name="IVT-IGB - Institutt for geologi og bergteknikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
+        <node name="IVT-BAT - Institutt for bygg, anlegg og transport" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
         <node name="NT-IBI - Institutt for biologi" sim="1.0" parent="Fakultet for naturvitenskap og teknologi" />
+        <node name="Fakultet for arkitektur og billedkunst" sim="0.3" parent="Institute" />
+        <node name="DMF-INM - Institutt for nevromedisin" sim="1.0" parent="Det medisinske fakultet" />
+        <node name="HF-ISL - Institutt for spr&#229;k og litteratur" sim="1.0" parent="Det humanistiske fakultet" />
+        <node name="AB-KIT - Institutt for billedkunst - Kunstakademiet i Trondheim" sim="1.0" parent="Fakultet for arkitektur og billedkunst" />
+        <node name="NT-IMTE - Institutt for materialteknologi" sim="1.0" parent="Fakultet for naturvitenskap og teknologi" />
+        <node name="DMF-IKMM - Institutt for kreftforskning og molekyl&#230;r medisin" sim="1.0" parent="Det medisinske fakultet" />
+        <node name="HF-KULT - Institutt for tverrfaglige kulturstudier" sim="1.0" parent="Det humanistiske fakultet" />
+        <node name="AB-BKHT - Institutt for byggekunst, historie og teknologi" sim="1.0" parent="Fakultet for arkitektur og billedkunst" />
+        <node name="IVT-IVM - Institutt for vann- og milj&#248;teknikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
+        <node name="SVT-SANT - Sosialantropologisk institutt" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
+        <node name="NT-IKP - Institutt for kjemisk prosessteknologi" sim="1.0" parent="Fakultet for naturvitenskap og teknologi" />
+        <node name="IME-IET - Institutt for elektronikk og telekommunikasjon" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
+        <node name="SVT-ISS - Institutt for sosiologi og statsvitenskap" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
+        <node name="HF-IKM - Institutt for kunst- og medievitenskap" sim="1.0" parent="Det humanistiske fakultet" />
+        <node name="IVT-IPM - Institutt for produktutvikling og materialer" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
+        <node name="DMF-ISB - Institutt for sirkulasjon og bildediagnostikk" sim="1.0" parent="Det medisinske fakultet" />
+        <node name="Fakultet for ingeni&#248;rvitenskap og teknologi" sim="0.3" parent="Institute" />
+        <node name="DMF-ISM - Institutt for samfunnsmedisin" sim="1.0" parent="Det medisinske fakultet" />
+        <node name="SVT-IOT - Institutt for industriell &#248;konomi og teknologiledelse" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
+        <node name="SVT-PLU - Program for l&#230;rerutdanning" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
+        <node name="IME-IMF - Institutt for matematiske fag" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
+        <node name="HF-IM - Institutt for musikk" sim="1.0" parent="Det humanistiske fakultet" />
+        <node name="IVT-KT - Institutt for konstruksjonsteknikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
+        <node name="Det humanistiske fakultet" sim="0.3" parent="Institute" />
+        <node name="NT-IKJ - Institutt for kjemi" sim="1.0" parent="Fakultet for naturvitenskap og teknologi" />
+        <node name="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" sim="0.3" parent="Institute" />
+        <node name="SVT-GEO - Geografisk institutt" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
+        <node name="DMF-LBK - Institutt for laboratoriemedisin, barne- og kvinnesykdommer" sim="1.0" parent="Det medisinske fakultet" />
+        <node name="SVT-ISH - Institutt for sosialt arbeid og helsevitenskap" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
+        <node name="IME-ITEM - Institutt for telematikk" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
+        <node name="HF-IFR - Institutt for filosofi og religionsvitenskap" sim="1.0" parent="Det humanistiske fakultet" />
+        <node name="NT-IBT - Institutt for bioteknologi" sim="1.0" parent="Fakultet for naturvitenskap og teknologi" />
+        <node name="IME-ELKRAFT - Institutt for elkraftteknikk" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
+        <node name="SVT-PSY - Psykologisk institutt" sim="1.0" parent="Fakultet for samfunnsvitenskap og teknologiledelse" />
+        <node name="IME-IDI - Institutt for datateknikk og informasjonsvitenskap" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
+        <node name="IVT-IPK - Institutt for produksjons- og kvalitetsteknikk" sim="1.0" parent="Fakultet for ingeniørvitenskap og teknologi" />
+        <node name="IME-ITK - Institutt for teknisk kybernetikk" sim="1.0" parent="Fakultet for informasjonsteknologi, matematikk og elektroteknikk" />
       </fct>
     </desc>
     <desc name="University" type="String" mult="false" >
@@ -357,10 +357,12 @@
       <symbol value="Korea" />
       <symbol value="Tsjekkia" />
       <symbol value="USA" />
+      <symbol value="Usa" />
       <symbol value="S&#248;r Afrika" />
       <symbol value="Palestina" />
       <symbol value="Italia" />
       <symbol value="Andre" />
+      <symbol value="S&#227;&#184;R Afrika" />
       <symbol value="Russland" />
       <symbol value="Asia" />
       <symbol value="Sveits" />
@@ -458,6 +460,8 @@
 </qsym>
 <qsym name="USA">
 </qsym>
+<qsym name="Usa">
+</qsym>
 <qsym name="Sør Afrika">
 </qsym>
 <qsym name="Palestina">
@@ -465,6 +469,8 @@
 <qsym name="Italia">
 </qsym>
 <qsym name="Andre">
+</qsym>
+<qsym name="Sã¸R Afrika">
 </qsym>
 <qsym name="Russland">
 </qsym>
@@ -488,68 +494,70 @@
 </qsym>
 </fct>
       <fct name="countryTax" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="Country" sim="0.0" symm="true" >
-        <node name="Canada" sim="1.0" parent="North America" />
-        <node name="Storbritannia" sim="1.0" parent="Europe" />
-        <node name="Kina" sim="1.0" parent="Asia" />
-        <node name="Brazil" sim="1.0" parent="South America" />
-        <node name="Tanzania" sim="1.0" parent="Africa" />
-        <node name="Frankrike" sim="1.0" parent="Europe" />
-        <node name="S&#248;r Afrika" sim="1.0" parent="Africa" />
-        <node name="Nederland" sim="1.0" parent="Europe" />
-        <node name="Estland" sim="1.0" parent="Europe" />
-        <node name="Columbia" sim="1.0" parent="South America" />
-        <node name="&#216;sterrike" sim="1.0" parent="Europe" />
-        <node name="India" sim="1.0" parent="Asia" />
-        <node name="Chile" sim="1.0" parent="South America" />
-        <node name="Australia" sim="1.0" parent="Oceania" />
-        <node name="Argentina" sim="1.0" parent="South America" />
-        <node name="Ecuador" sim="1.0" parent="South America" />
-        <node name="North America" sim="0.3" parent="Country" />
-        <node name="Hellas" sim="1.0" parent="Europe" />
-        <node name="Europe" sim="0.3" parent="Country" />
-        <node name="Belgia" sim="1.0" parent="Europe" />
-        <node name="Tyskland" sim="1.0" parent="Europe" />
-        <node name="Ghana" sim="1.0" parent="Africa" />
-        <node name="Africa" sim="0.3" parent="Country" />
-        <node name="Andre" sim="0.0" parent="Country" />
-        <node name="Sveits" sim="1.0" parent="Europe" />
-        <node name="Sweden" sim="1.0" parent="Europe" />
-        <node name="Korea" sim="1.0" parent="Asia" />
-        <node name="Russland" sim="1.0" parent="Europe" />
-        <node name="Spania" sim="1.0" parent="Europe" />
-        <node name="Polen" sim="1.0" parent="Europe" />
-        <node name="Germany" sim="1.0" parent="Europe" />
-        <node name="Nepal" sim="1.0" parent="Asia" />
-        <node name="South America" sim="0.3" parent="Country" />
-        <node name="S&#195;&#184;r Afrika" sim="1.0" parent="Africa" />
-        <node name="Uganda" sim="1.0" parent="Africa" />
-        <node name="Italia" sim="1.0" parent="Europe" />
         <node name="Zimbabwe" sim="1.0" parent="Africa" />
-        <node name="Singapore" sim="1.0" parent="Asia" />
-        <node name="albania" sim="1.0" parent="Asia" />
+        <node name="Andre" sim="0.0" parent="Country" />
+        <node name="Hellas" sim="1.0" parent="Europe" />
+        <node name="Usa" sim="1.0" parent="Country" />
+        <node name="Nepal" sim="1.0" parent="Asia" />
+        <node name="Ungarn" sim="1.0" parent="Europe" />
+        <node name="Germany" sim="1.0" parent="Europe" />
+        <node name="Australia" sim="1.0" parent="Oceania" />
+        <node name="Island" sim="1.0" parent="Europe" />
+        <node name="Uganda" sim="1.0" parent="Africa" />
+        <node name="Brazil" sim="1.0" parent="South America" />
         <node name="Peru" sim="1.0" parent="South America" />
-        <node name="Sverige" sim="1.0" parent="Europe" />
-        <node name="Mexico" sim="1.0" parent="South America" />
+        <node name="Tsjekkia" sim="1.0" parent="Europe" />
+        <node name="albania" sim="1.0" parent="Asia" />
         <node name="New Zealand" sim="1.0" parent="Oceania" />
+        <node name="USA" sim="1.0" parent="North America" />
+        <node name="Danmark" sim="1.0" parent="Europe" />
+        <node name="S&#248;r Afrika" sim="1.0" parent="Africa" />
+        <node name="Japan" sim="1.0" parent="Asia" />
+        <node name="Belgia" sim="1.0" parent="Europe" />
+        <node name="Irland" sim="1.0" parent="Europe" />
+        <node name="Spania" sim="1.0" parent="Europe" />
+        <node name="Storbritannia" sim="1.0" parent="Europe" />
+        <node name="S&#227;&#184;R Afrika" sim="1.0" parent="Country" />
+        <node name="&#216;sterrike" sim="1.0" parent="Europe" />
+        <node name="Polen" sim="1.0" parent="Europe" />
+        <node name="Russland" sim="1.0" parent="Europe" />
+        <node name="Nederland" sim="1.0" parent="Europe" />
+        <node name="Portugal" sim="1.0" parent="Europe" />
+        <node name="South America" sim="0.3" parent="Country" />
+        <node name="Africa" sim="0.3" parent="Country" />
+        <node name="Asia" sim="0.3" parent="Country" />
+        <node name="Mexico" sim="1.0" parent="South America" />
+        <node name="Tyskland" sim="1.0" parent="Europe" />
+        <node name="Europe" sim="0.3" parent="Country" />
+        <node name="Canada" sim="1.0" parent="North America" />
+        <node name="Singapore" sim="1.0" parent="Asia" />
+        <node name="Korea" sim="1.0" parent="Asia" />
+        <node name="Tanzania" sim="1.0" parent="Africa" />
+        <node name="Sverige" sim="1.0" parent="Europe" />
+        <node name="Albania" sim="1.0" parent="Asia" />
+        <node name="Palestina" sim="1.0" parent="Asia" />
+        <node name="Kina" sim="1.0" parent="Asia" />
+        <node name="Sveits" sim="1.0" parent="Europe" />
+        <node name="Estland" sim="1.0" parent="Europe" />
+        <node name="Chile" sim="1.0" parent="South America" />
+        <node name="India" sim="1.0" parent="Asia" />
+        <node name="Sweden" sim="1.0" parent="Europe" />
+        <node name="Ghana" sim="1.0" parent="Africa" />
+        <node name="Columbia" sim="1.0" parent="South America" />
         <node name="Slovenia" sim="1.0" parent="Europe" />
         <node name="Oceania" sim="0.3" parent="Country" />
-        <node name="Japan" sim="1.0" parent="Asia" />
-        <node name="Ungarn" sim="1.0" parent="Europe" />
-        <node name="Island" sim="1.0" parent="Europe" />
-        <node name="Palestina" sim="1.0" parent="Asia" />
-        <node name="Asia" sim="0.3" parent="Country" />
-        <node name="Danmark" sim="1.0" parent="Europe" />
-        <node name="Portugal" sim="1.0" parent="Europe" />
         <node name="Finland" sim="1.0" parent="Europe" />
-        <node name="Tsjekkia" sim="1.0" parent="Europe" />
-        <node name="Albania" sim="1.0" parent="Asia" />
-        <node name="Irland" sim="1.0" parent="Europe" />
-        <node name="USA" sim="1.0" parent="North America" />
+        <node name="S&#195;&#184;r Afrika" sim="1.0" parent="Africa" />
+        <node name="North America" sim="0.3" parent="Country" />
+        <node name="Argentina" sim="1.0" parent="South America" />
+        <node name="Frankrike" sim="1.0" parent="Europe" />
+        <node name="Ecuador" sim="1.0" parent="South America" />
+        <node name="Italia" sim="1.0" parent="Europe" />
       </fct>
     </desc>
-    <desc name="StudyPeriod" type="Integer" min="2010" max="2016" mult="false" >
+    <desc name="StudyPeriod" type="Integer" min="1999" max="2016" mult="false" >
       <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
-      <fct name="yearSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="yearSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="6.5" rtype="POLYNOMIAL_WITH" rparam="6.5" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <desc name="SocialQuality" type="Integer" min="0" max="5" mult="false" >
       <fct name="ratingSim" type="Integer" ltype="POLYNOMIAL_WITH" lparam="1.0" rtype="POLYNOMIAL_WITH" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
@@ -566,9 +574,9 @@
       <entry name="Continent" active="true" fct="continentSim" weight="2.0"/>
       <entry name="Institute" active="true" fct="instituteTax" weight="5.0"/>
       <entry name="University" active="true" fct="default function" weight="1.0"/>
-      <entry name="Language" active="true" fct="default function" weight="1"/>
+      <entry name="Language" active="true" fct="default function" weight="1.0"/>
       <entry name="Country" active="true" fct="countryTax" weight="3.0"/>
-      <entry name="StudyPeriod" active="true" fct="yearSim" weight="1"/>
+      <entry name="StudyPeriod" active="true" fct="yearSim" weight="1.0"/>
       <entry name="SocialQuality" active="true" fct="ratingSim" weight="1.1"/>
       <entry name="AcademicQuality" active="true" fct="ratingSim" weight="1.3"/>
       <entry name="Subjects" active="true" fct="default function" weight="1.0"/>

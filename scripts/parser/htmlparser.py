@@ -159,29 +159,34 @@ def format_institute(s):
 
 def format_university(s):
     global unique_unis
+    s = s.strip()
 
+    for char in s:
+        if char == '(':
+            s = s.split('(')
+            del s[-1]
+            s = ' '.join(s)
+        elif char == '"':
+            s = s.split('"')
+            del s[-1]
+            s = ' '.join(s)
+
+
+    
     for uni in unique_unis:
-        if fuzz.ratio(s.strip(), uni.strip()) > 90 and fuzz.ratio(s.strip(), uni.strip()) < 100:
-            '''
-            print("FOUND ALMOST DUPLICATE: " + ' ' + "GOT THIS: " + " " + str(s) + ', ' + "BUT THIS IS ALLREADY THERE: " + str(uni))
-            print("ADDING THIS: ", unique_unis[unique_unis.index(uni)])
-            if str(input("Continue?")) == "y":
-                continue
-            '''
-            return unique_unis[unique_unis.index(uni)]
-        else:
-            continue
+        if (s == uni) or (fuzz.ratio(s, uni.strip()) > 85):
+            return uni            
 
     if s.isupper():
         for u in ui.universities:
             if u['acronym'].lower() == s.lower():
                 unique_unis.append(titlecase(u['name']))
                 return titlecase(u['name'])
+        unique_unis.append(s)
         return s
     else:
-        unique_unis.append(titlecase(s))
+        unique_unis.append(s)
         return titlecase(s)
-
 
 def format_course(s):
     words = s.split()
@@ -288,7 +293,6 @@ def real_run():
         counter += 1
         stopper += 1
         print("Finished: " + str(file) + " (" + str(counter) + '/' + "3644)")
-    print(unique_unis)
 
 
 def make_csv():
