@@ -1,5 +1,17 @@
 universities = [
 {'name': 'Norwegian University of Science and Technology', 'acronym': 'NTNU'},
 {'name': 'University of New South Wales', 'acronym': 'UNSW'},
-{'name': 'University of California, San Diego', 'acronym': 'UCSD'}
+{'name': 'University of California, San Diego', 'acronym': 'UCSD'},
+{'name': 'University of Cape Town', 'acronym': 'UCT'},
+{'name': 'Universidad de Buenos Aires', 'acronym': 'UBA'},
+{'name': 'National Autonomous University of Mexico', 'acronym': 'UNAM'},
+{'name': 'University of British Columbia', 'acronym': 'UBC'},
+{'name': 'University of Western Australia', 'acronym': 'UWA'},
+{'name': 'Aalborg University', 'acronym': 'AAU'},
+{'name': 'San Diego State University', 'acronym': 'SDSU'},
+{'name': 'University of California, Santa Barbara', 'acronym': 'UCSB'},
+{'name': 'University of Cadiz', 'acronym': 'UCA'},
+{'name': 'Swiss Federal Institute of Technology in Zurich', 'acronym': 'ETH'},
+{'name': 'University of Nottingham Ningbo China', 'acronym': 'UNNC'},
+{'name': 'Polytechnic University of Catalonia', 'acronym': 'UPC'},
 ]

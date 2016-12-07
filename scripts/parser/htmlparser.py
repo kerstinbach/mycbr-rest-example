@@ -48,7 +48,7 @@ def parse_html():
         element = data_list[i]
         if element == "Land:":
             next_element = data_list[i+1]
-            data_object['country'] = next_element.title()
+            data_object['country'] = format_country(next_element)
             data_object['continent'] = get_continent(next_element)
 
         elif element == "Vertsinstitusjon:":
@@ -121,8 +121,17 @@ def format_language(s):
     for word in s.split():
         if word.lower() == "english" or word.lower() == "engelsk":
             return "Engelsk"
+        elif word.lower() == "vertsinstitusjonens":
+            return "Fag på vertsinstitusjonens undervisningsspråk"
 
     return "Ukjent"
+
+
+def format_country(s):
+    if s.isupper():
+        return s
+    else:
+        return titlecase(s)
     
 
 def get_continent(s):
@@ -147,7 +156,9 @@ def get_institutes():
         institutes.append(line.strip())
     file.close()
 
-
+"""
+Looks in our list of pre-formated insitutes, and returns the most similar one
+"""
 def format_institute(s):
     best_match = {'name': "", 'score': 0}
     for institute in institutes:
@@ -161,6 +172,7 @@ def format_university(s):
     global unique_unis
     s = s.strip()
 
+    # Removing any parts of the university string which is inside quotation marks or parantheses
     for char in s:
         if char == '(':
             s = s.split('(')
@@ -171,12 +183,14 @@ def format_university(s):
             del s[-1]
             s = ' '.join(s)
 
-
-    
+    # If the university is allready preent in another case, or it is very similar to an allready added
+    # university, that university is added instead, to avoid having several similar ways to write it
     for uni in unique_unis:
         if (s == uni) or (fuzz.ratio(s, uni.strip()) > 85):
             return uni            
 
+    # If the university is in all caps lock, it is asumed that it is an acronym. This acronym is looked up in the 
+    # acronym - university name dictionary, and returns its name. If the acronym isn't present, the string is simply returned
     if s.isupper():
         for u in ui.universities:
             if u['acronym'].lower() == s.lower():
@@ -189,17 +203,12 @@ def format_university(s):
         return titlecase(s)
 
 def format_course(s):
-    words = s.split()
-
-    # Checking if there are any (comments) in the course, and eventually removes it
-    for word in words:
-        if word[0] == '(':
-            s = s.replace(word, '')
-
     # Checking if the course contains a '!' or ';', which will break the formating
     for c in s:
         if c == '!' or c == ';':
-            s.replace(c, '')
+            s = s.replace(c, '')
+
+    words = s.split()
 
     first_part = words[0]
 
@@ -215,8 +224,6 @@ def format_course(s):
     for char in first_part:
         if char.isdigit():
             return s
-
-    
 
     return "XXXX" + " " + s
 
@@ -268,14 +275,8 @@ def print_cases():
             print(k + ':', v)
         print('-'*100)
 
-def test_run():
-    test_file_list = ["file1.html", "file2.html", "file3.html"]
 
-    for file in test_file_list:
-        cases.append(run("test_html_files/" + file))
-
-
-def real_run():
+def start():
     global unique_unis
 
     data_list = []
@@ -333,8 +334,7 @@ def make_csv():
 
 if __name__ == "__main__":
     get_institutes()
-    real_run()
-    #test_run()
+    start()
     #print_cases()
     make_csv()
 

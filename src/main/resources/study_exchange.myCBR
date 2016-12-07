@@ -23,35 +23,30 @@
       <symbol value="Africa" />
       <symbol value="North America" />
       <symbol value="Oceania" />
-      <symbol value="Afrika" />
 <fct name="continentSim" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
 <qsym name="South America">
 <csym name="North America" sim="0.3"/>
 </qsym>
 <qsym name="Asia">
 <csym name="Africa" sim="0.2"/>
-<csym name="Afrika" sim="0.2"/>
 </qsym>
 <qsym name="Ukjent">
 <csym name="Ukjent" sim="0.0"/>
 </qsym>
 <qsym name="Europe">
+<csym name="Asia" sim="0.2"/>
 <csym name="North America" sim="0.4"/>
 <csym name="Oceania" sim="0.2"/>
 </qsym>
 <qsym name="Africa">
-<csym name="Asia" sim="0.2"/>
-</qsym>
-<qsym name="North America">
 <csym name="South America" sim="0.3"/>
 <csym name="Europe" sim="0.4"/>
+</qsym>
+<qsym name="North America">
+<csym name="Europe" sim="0.2"/>
 <csym name="Oceania" sim="0.2"/>
 </qsym>
 <qsym name="Oceania">
-<csym name="Europe" sim="0.2"/>
-<csym name="North America" sim="0.2"/>
-</qsym>
-<qsym name="Afrika">
 <csym name="Asia" sim="0.2"/>
 </qsym>
 </fct>
@@ -69,8 +64,6 @@
 <qsym name="North America">
 </qsym>
 <qsym name="Oceania">
-</qsym>
-<qsym name="Afrika">
 </qsym>
 </fct>
     </desc>
@@ -304,9 +297,12 @@
       <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <desc name="Language" type="Symbol" mult="false" >
+      <symbol value="Fag p&#229; vertsinstitusjonens undervisningsspr&#229;k" />
       <symbol value="Ukjent" />
       <symbol value="Engelsk" />
 <fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Fag på vertsinstitusjonens undervisningsspråk">
+</qsym>
 <qsym name="Ukjent">
 </qsym>
 <qsym name="Engelsk">
@@ -588,5 +584,5 @@
     <node name="Trip" sim="1.0" parent="inheritanceDesc" />
   </fct>
 </hierarchy>
-<cases no="3047" cb="main_case_base"/>
+<cases no="3058" cb="main_case_base"/>
 </Project>
