@@ -2,6 +2,7 @@ import urllib.request as urllib
 from html.parser import HTMLParser
 import data.countryinfo as ci
 import data.universityinfo as ui
+import data.instituteInfo as ii
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import json
@@ -12,7 +13,6 @@ import time
 
 data_list = []
 star_list = []
-institutes = []
 unique_unis = []
 
 cases = []
@@ -150,21 +150,21 @@ def get_continent(s):
         return "Ukjent"
 
 
-def get_institutes():
-    file = open("data/institutes.txt", 'r')
-    for line in file.readlines():
-        institutes.append(line.strip())
-    file.close()
-
 """
 Looks in our list of pre-formated insitutes, and returns the most similar one
 """
 def format_institute(s):
+    if len(s) < 5:
+        for institute in ii.institutes:
+            if institute['acronym'].lower() == s.lower():
+                return str(institute['faculty']) + '-' + str(institute['acronym']) + ' - ' + str(institute['name'])
+
+   
     best_match = {'name': "", 'score': 0}
-    for institute in institutes:
-        if fuzz.ratio(s, institute) > best_match['score']:
-            best_match['name'] = institute
-            best_match['score'] = fuzz.ratio(s, institute)
+    for institute in ii.institutes:
+        if fuzz.ratio(s, str(institute['name'])) > best_match['score']:
+            best_match['name'] = str(institute['faculty']) + '-' + str(institute['acronym']) + ' - ' + str(institute['name'])
+            best_match['score'] = fuzz.ratio(s, institute['name'])
     return best_match['name']
 
 
@@ -191,9 +191,12 @@ def format_university(s):
 
     # If the university is in all caps lock, it is asumed that it is an acronym. This acronym is looked up in the 
     # acronym - university name dictionary, and returns its name. If the acronym isn't present, the string is simply returned
-    if s.isupper():
+    if s.isupper() or len(s) < 6:
         for u in ui.universities:
             if u['acronym'].lower() == s.lower():
+                for uni in unique_unis:
+                    if (fuzz.ratio(titlecase(u['name']), uni.strip()) > 85):
+                        return uni
                 unique_unis.append(titlecase(u['name']))
                 return titlecase(u['name'])
         unique_unis.append(s)
@@ -306,7 +309,7 @@ def make_csv():
         final_course = len(case['courses'])
         counter = 1
         for course in case['courses']:
-            courses += course
+            courses += str(course)
             if counter == final_course:
                 break
             else:
@@ -315,12 +318,12 @@ def make_csv():
         
 
         output.write(
-            case['institute'] + ';' +
+            str(case['institute']) + ';' +
             str(case['continent']) + ';' +
-            case['country'] + ';' +
-            case['university'] + ';' +
+            str(case['country']) + ';' +
+            str(case['university']) + ';' +
             str(case['study_period']) + ';' +
-            case['language'] + ';' +
+            str(case['language']) + ';' +
             str(case['academic_quality']) + ';' +
             str(case['social_quality']) + ';' +
             courses + '\n'
@@ -333,7 +336,6 @@ def make_csv():
 
 
 if __name__ == "__main__":
-    get_institutes()
     start()
     #print_cases()
     make_csv()
