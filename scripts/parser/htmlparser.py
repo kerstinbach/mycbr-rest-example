@@ -114,20 +114,33 @@ def parse_html():
 
 
 def format_study_period(s):
-    return int(re.match(r'.*([1-3][0-9]{3})', s).group(1))
+    for c in s:
+        if c == ';' or c == '!':
+            s = s.replace(c, '')
+    if len(s.strip()) > 1:
+        return int(re.match(r'.*([1-3][0-9]{3})', s).group(1))
+    return "Ukjent"
 
 
 def format_language(s):
-    for word in s.split():
-        if word.lower() == "english" or word.lower() == "engelsk":
-            return "Engelsk"
-        elif word.lower() == "vertsinstitusjonens":
-            return "Fag på vertsinstitusjonens undervisningsspråk"
+    for c in s:
+        if c == ';' or c == '!':
+            s = s.replace(c, '')
+    if s:
+        for word in s.split():
+            if word.lower() == "english" or word.lower() == "engelsk":
+                return "Engelsk"
+            elif word.lower() == "vertsinstitusjonens":
+                return "Fag på vertsinstitusjonens undervisningsspråk"
 
     return "Ukjent"
 
 
 def format_country(s):
+    s = s.strip()
+    for c in s:
+        if c == ';' or c == '!' or c == '\n':
+            s = s.replace(c, '')
     if s.isupper():
         return s
     else:
@@ -135,6 +148,9 @@ def format_country(s):
     
 
 def get_continent(s):
+    for c in s:
+        if c == ';' or c == '!':
+            s = s.replace(c, '')
     if s.lower() == "usa":
         return "North America"
     elif s.lower() == "sør afrika":
@@ -154,6 +170,9 @@ def get_continent(s):
 Looks in our list of pre-formated insitutes, and returns the most similar one
 """
 def format_institute(s):
+    for c in s:
+        if c == ';' or c == '!':
+            s = s.replace(c, '')
     if len(s) < 5:
         for institute in ii.institutes:
             if institute['acronym'].lower() == s.lower():
@@ -169,8 +188,15 @@ def format_institute(s):
 
 
 def format_university(s):
+    for c in s:
+        if c == ';' or c == '!':
+            s = s.replace(c, '')
     global unique_unis
     s = s.strip()
+
+    # Strange edge-case
+    if fuzz.ratio(s, "Universidad Politcnica de Madrid") > 90:
+        return "Universidad Politécnica de Madrid"
 
     # Removing any parts of the university string which is inside quotation marks or parantheses
     for char in s:
@@ -208,7 +234,7 @@ def format_university(s):
 def format_course(s):
     # Checking if the course contains a '!' or ';', which will break the formating
     for c in s:
-        if c == '!' or c == ';':
+        if c == '!' or c == ';' or c =='\n':
             s = s.replace(c, '')
 
     words = s.split()
@@ -288,15 +314,16 @@ def start():
     counter = 0
     stopper = 0
     for file in file_list:
+        print("Starting: " + str(file))
         case = run(file)
-        if not case["courses"]:
+        if not case["courses"] or len(case["institute"]) == 0 or len(str(case["study_period"])) > 4 or len(str(case["university"])) > 60:
             continue
         if stopper >= 10000:
             return
         cases.append(case) 
         counter += 1
         stopper += 1
-        print("Finished: " + str(file) + " (" + str(counter) + '/' + "3644)")
+        print("Finished: " + str(file) + " (" + str(counter) + '/' + "10857)")
 
 
 def make_csv():
@@ -326,7 +353,7 @@ def make_csv():
             str(case['language']) + ';' +
             str(case['academic_quality']) + ';' +
             str(case['social_quality']) + ';' +
-            courses + '\n'
+            str(courses) + '\n'
             )
 
     output.close()
