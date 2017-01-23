@@ -63,8 +63,8 @@ def parse_html():
             next_element = data_list[i+1]
             data_object['study_period'] = format_study_period(next_element)
 
-        elif element == "Studietype:":
-            next_element = data_list[i+1]
+        elif element == "Undervisningsspråk:":
+            next_element = data_list[i+2]
             data_object['language'] = format_language(next_element)
 
         elif element == "Fag 1:":
@@ -123,17 +123,26 @@ def format_study_period(s):
 
 
 def format_language(s):
+    s = s.strip()
+
     for c in s:
         if c == ';' or c == '!':
             s = s.replace(c, '')
-    if s:
-        for word in s.split():
-            if word.lower() == "english" or word.lower() == "engelsk":
-                return "Engelsk"
-            elif word.lower() == "vertsinstitusjonens":
-                return "Fag på vertsinstitusjonens undervisningsspråk"
+        elif c == ',' or c == '/':
+            s = s.replace(c, ' ')
 
-    return "Ukjent"
+    s = s.split()
+
+    for word in s:
+        if word == 'og':
+            index = s.index(word)
+            del s[index]
+
+    s = [element.title() for element in s]
+
+    s = '!'.join(s)
+
+    return s
 
 
 def format_country(s):
@@ -280,6 +289,16 @@ def get_rating(s):
 
         return star_counter
 
+    elif s == "economics":
+        for i in rage(0, 0):
+            temp.append(star_list[i])
+
+        for row in temp:
+            if row[0][1] == "fa fa-star":
+                star_counter += 1
+
+        return star_counter
+
     else:
         return None
 
@@ -318,7 +337,7 @@ def start():
         case = run(file)
         if not case["courses"] or len(case["institute"]) == 0 or len(str(case["study_period"])) > 4 or len(str(case["university"])) > 60:
             continue
-        if stopper >= 10000:
+        if stopper >= 10:
             return
         cases.append(case) 
         counter += 1
@@ -364,7 +383,7 @@ def make_csv():
 
 if __name__ == "__main__":
     start()
-    #print_cases()
+    print_cases()
     make_csv()
 
     
