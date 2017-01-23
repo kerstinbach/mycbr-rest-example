@@ -269,28 +269,31 @@ def format_course(s):
 def get_rating(s):
     temp = []
     star_counter = 0
+
     if s == "academic":
+
+        # Akademisk kvlaitet
         for i in range(181, 186):
             temp.append(star_list[i])
 
         for row in temp:
             if row[0][1] == "fa fa-star":
                 star_counter += 1
+                temp = []
 
-        return star_counter
-
-    elif s == "social":
-        for i in range(136, 141):
+        # Spesialkompetanse ut
+        for i in range(186, 191):
             temp.append(star_list[i])
 
         for row in temp:
             if row[0][1] == "fa fa-star":
                 star_counter += 1
+                temp = []
 
-        return star_counter
+        return star_counter / 2
 
-    elif s == "economics":
-        for i in rage(0, 0):
+    elif s == "social":
+        for i in range(136, 141):
             temp.append(star_list[i])
 
         for row in temp:
