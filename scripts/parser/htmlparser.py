@@ -10,6 +10,7 @@ import glob
 from titlecase import titlecase
 import re
 import time
+import math
 
 data_list = []
 star_list = []
@@ -109,6 +110,9 @@ def parse_html():
 
         data_object["academic_quality"] = get_rating("academic")
         data_object["social_quality"] = get_rating("social")
+        data_object["residential_quality"] = get_rating("residential")
+        data_object["reception_quality"] = get_rating("reception")
+        
 
     return data_object
 
@@ -265,45 +269,81 @@ def format_course(s):
 
     return "XXXX" + " " + s
 
-
 def get_rating(s):
-    temp = []
     star_counter = 0
 
     if s == "academic":
-
         # Akademisk kvlaitet
-        for i in range(181, 186):
-            temp.append(star_list[i])
+        star_counter += calculate_stars(181, 186)
 
-        for row in temp:
-            if row[0][1] == "fa fa-star":
-                star_counter += 1
-                temp = []
+        # Spesialkompetanse ute
+        star_counter += (calculate_stars(186, 191)) * 0.6
 
-        # Spesialkompetanse ut
-        for i in range(186, 191):
-            temp.append(star_list[i])
+        # Kvalitet på faglige tilbud
+        star_counter += calculate_stars(161, 166)
 
-        for row in temp:
-            if row[0][1] == "fa fa-star":
-                star_counter += 1
-                temp = []
-
-        return star_counter / 2
+        return math.ceil((star_counter / 3) * 2)
 
     elif s == "social":
-        for i in range(136, 141):
-            temp.append(star_list[i])
+        # Sosialt tilbud generelt
+        star_counter += calculate_stars(136, 141)
 
-        for row in temp:
-            if row[0][1] == "fa fa-star":
-                star_counter += 1
+        # Fritidstilbud generelt
+        star_counter += calculate_stars(141, 146)
 
-        return star_counter
+        # Kjæreste/venner i utlandet
+        star_counter += calculate_stars(191, 196)
+
+        # Sosial integrasjon med...
+        # Studenter fra universitetet
+        star_counter += calculate_stars(146, 151)
+
+        # Andre utenlandske studenter
+        star_counter += calculate_stars(151, 156)
+
+        # Norske studenter
+        star_counter += calculate_stars(156, 161)
+
+
+        return math.ceil((star_counter / 6) * 2)
+
+    elif s == "reception":
+        #Mottak generelt
+        star_counter += calculate_stars(111, 116)
+
+        #Administrativ støtte
+        star_counter += calculate_stars(116, 121)
+
+        return math.ceil((star_counter / 2) * 2)
+
+    elif s == "residential":
+        # Hybelformidling
+        star_counter += calculate_stars(121, 126)
+
+        # Hybelstandard
+        star_counter += calculate_stars(126, 131)
+
+        return math.ceil((star_counter / 2) * 2)
 
     else:
         return None
+
+def calculate_stars(start, end):
+    temp = []
+    counter = 0
+
+    for i in range(start, end):
+        temp.append(star_list[i])
+
+    for row in temp:
+        if row[0][1] == "fa fa-star":
+            counter += 1
+
+    return counter
+
+
+
+
 
 def run(s):
     global data_list
@@ -340,7 +380,7 @@ def start():
         case = run(file)
         if not case["courses"] or len(case["institute"]) == 0 or len(str(case["study_period"])) > 4 or len(str(case["university"])) > 60:
             continue
-        if stopper >= 10:
+        if stopper >= 10000:
             return
         cases.append(case) 
         counter += 1
@@ -351,7 +391,7 @@ def start():
 def make_csv():
 
     output = open('../../src/main/resources/cases.csv', 'w')
-    output.write("Institute;Continent;Country;University;StudyPeriod;Language;AcademicQuality;SocialQuality;Subjects" + '\n')
+    output.write("Institute;Continent;Country;University;StudyPeriod;Language;AcademicQuality;SocialQuality;ResidentialQuality;ReceptionQuality;Subjects" + '\n')
 
     for case in cases:
         courses = ""
@@ -375,6 +415,8 @@ def make_csv():
             str(case['language']) + ';' +
             str(case['academic_quality']) + ';' +
             str(case['social_quality']) + ';' +
+            str(case['residential_quality']) + ';' +
+            str(case['reception_quality']) + ';' +
             str(courses) + '\n'
             )
 
