@@ -336,18 +336,8 @@
     <desc name="University" type="String" mult="false" >
       <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
-    <desc name="Language" type="Symbol" mult="false" >
-      <symbol value="Fag p&#229; vertsinstitusjonens undervisningsspr&#229;k" />
-      <symbol value="Ukjent" />
-      <symbol value="Engelsk" />
-<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
-<qsym name="Fag på vertsinstitusjonens undervisningsspråk">
-</qsym>
-<qsym name="Ukjent">
-</qsym>
-<qsym name="Engelsk">
-</qsym>
-</fct>
+    <desc name="Language" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
     </desc>
     <desc name="Country" type="Symbol" mult="false" >
       <symbol value="South America" />
@@ -615,7 +605,7 @@
       <entry name="Continent" active="true" fct="continentSim" weight="2.0"/>
       <entry name="Institute" active="true" fct="instituteTax" weight="6.0"/>
       <entry name="University" active="true" fct="default function" weight="1.0"/>
-      <entry name="Language" active="true" fct="default function" weight="2.0"/>
+      <entry name="Language" active="true" fct="default function" weight="1"/>
       <entry name="Country" active="true" fct="countryTax" weight="3.5"/>
       <entry name="StudyPeriod" active="true" fct="yearSim" weight="1.0"/>
       <entry name="SocialQuality" active="true" fct="ratingSim" weight="2.0"/>

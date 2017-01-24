@@ -16,6 +16,10 @@
   <desc>
 &#10;    </desc>
 </exp>
+<exp obj="Language" c="Trip" type="AttributeDesc" >
+  <desc>
+  </desc>
+</exp>
 <exp obj="Country" c="Trip" type="AttributeDesc" >
   <desc>
               </desc>
