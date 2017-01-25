@@ -222,7 +222,7 @@ def format_university(s):
             del s[-1]
             s = ' '.join(s)
 
-    # If the university is allready preent in another case, or it is very similar to an allready added
+    # If the university is allready present in another case, or it is very similar to an allready added
     # university, that university is added instead, to avoid having several similar ways to write it
     for uni in unique_unis:
         if (s == uni) or (fuzz.ratio(s, uni.strip()) > 85):
