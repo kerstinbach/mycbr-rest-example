@@ -201,11 +201,13 @@ def format_institute(s):
 
 
 def format_university(s):
+    global unique_unis
+    s = s.strip()
+    s = s.title()
+
     for c in s:
         if c == ';' or c == '!':
             s = s.replace(c, '')
-    global unique_unis
-    s = s.strip()
 
     # Strange edge-case
     if fuzz.ratio(s, "Universidad Politcnica de Madrid") > 90:
@@ -230,19 +232,19 @@ def format_university(s):
 
     # If the university is in all caps lock, it is asumed that it is an acronym. This acronym is looked up in the 
     # acronym - university name dictionary, and returns its name. If the acronym isn't present, the string is simply returned
-    if s.isupper() or len(s) < 6:
+    if len(s) < 6:
         for u in ui.universities:
             if u['acronym'].lower() == s.lower():
                 for uni in unique_unis:
-                    if (fuzz.ratio(titlecase(u['name']), uni.strip()) > 85):
+                    if (fuzz.ratio(u['name'].title(), uni.strip()) > 85):
                         return uni
-                unique_unis.append(titlecase(u['name']))
-                return titlecase(u['name'])
-        unique_unis.append(s)
-        return s
+                unique_unis.append(u['name'].title())
+                return u['name'].title()
+        unique_unis.append(s.upper())
+        return s.upper()
     else:
         unique_unis.append(s)
-        return titlecase(s)
+        return s.title()
 
 def format_course(s):
     # Checking if the course contains a '!' or ';', which will break the formating
@@ -380,7 +382,7 @@ def start():
         case = run(file)
         if not case["courses"] or len(case["institute"]) == 0 or len(str(case["study_period"])) > 4 or len(str(case["university"])) > 60:
             continue
-        if stopper >= 10000:
+        if stopper >= 100000:
             return
         cases.append(case) 
         counter += 1
