@@ -10,6 +10,7 @@ import glob
 from titlecase import titlecase
 import re
 import time
+import math
 
 data_list = []
 star_list = []
@@ -63,8 +64,8 @@ def parse_html():
             next_element = data_list[i+1]
             data_object['study_period'] = format_study_period(next_element)
 
-        elif element == "Studietype:":
-            next_element = data_list[i+1]
+        elif element == "Undervisningsspråk:":
+            next_element = data_list[i+2]
             data_object['language'] = format_language(next_element)
 
         elif element == "Fag 1:":
@@ -109,6 +110,9 @@ def parse_html():
 
         data_object["academic_quality"] = get_rating("academic")
         data_object["social_quality"] = get_rating("social")
+        data_object["residential_quality"] = get_rating("residential")
+        data_object["reception_quality"] = get_rating("reception")
+        
 
     return data_object
 
@@ -123,17 +127,26 @@ def format_study_period(s):
 
 
 def format_language(s):
+    s = s.strip()
+
     for c in s:
         if c == ';' or c == '!':
             s = s.replace(c, '')
-    if s:
-        for word in s.split():
-            if word.lower() == "english" or word.lower() == "engelsk":
-                return "Engelsk"
-            elif word.lower() == "vertsinstitusjonens":
-                return "Fag på vertsinstitusjonens undervisningsspråk"
+        elif c == ',' or c == '/':
+            s = s.replace(c, ' ')
 
-    return "Ukjent"
+    s = s.split()
+
+    for word in s:
+        if word == 'og':
+            index = s.index(word)
+            del s[index]
+
+    s = [element.title() for element in s]
+
+    s = '!'.join(s)
+
+    return s
 
 
 def format_country(s):
@@ -188,11 +201,13 @@ def format_institute(s):
 
 
 def format_university(s):
+    global unique_unis
+    s = s.strip()
+    s = s.title()
+
     for c in s:
         if c == ';' or c == '!':
             s = s.replace(c, '')
-    global unique_unis
-    s = s.strip()
 
     # Strange edge-case
     if fuzz.ratio(s, "Universidad Politcnica de Madrid") > 90:
@@ -209,27 +224,27 @@ def format_university(s):
             del s[-1]
             s = ' '.join(s)
 
-    # If the university is allready preent in another case, or it is very similar to an allready added
+    # If the university is allready present in another case, or it is very similar to an allready added
     # university, that university is added instead, to avoid having several similar ways to write it
     for uni in unique_unis:
-        if (s == uni) or (fuzz.ratio(s, uni.strip()) > 85):
+        if (s == uni) or (fuzz.ratio(s, uni.strip()) > 80):
             return uni            
 
     # If the university is in all caps lock, it is asumed that it is an acronym. This acronym is looked up in the 
     # acronym - university name dictionary, and returns its name. If the acronym isn't present, the string is simply returned
-    if s.isupper() or len(s) < 6:
+    if len(s) < 6:
         for u in ui.universities:
             if u['acronym'].lower() == s.lower():
                 for uni in unique_unis:
-                    if (fuzz.ratio(titlecase(u['name']), uni.strip()) > 85):
+                    if (fuzz.ratio(u['name'].title(), uni.strip()) > 80):
                         return uni
-                unique_unis.append(titlecase(u['name']))
-                return titlecase(u['name'])
-        unique_unis.append(s)
-        return s
+                unique_unis.append(u['name'].title())
+                return u['name'].title()
+        unique_unis.append(s.upper())
+        return s.upper()
     else:
         unique_unis.append(s)
-        return titlecase(s)
+        return s.title()
 
 def format_course(s):
     # Checking if the course contains a '!' or ';', which will break the formating
@@ -254,34 +269,83 @@ def format_course(s):
         if char.isdigit():
             return s
 
-    return "XXXX" + " " + s
-
+    return s
 
 def get_rating(s):
-    temp = []
     star_counter = 0
+
     if s == "academic":
-        for i in range(181, 186):
-            temp.append(star_list[i])
+        # Akademisk kvlaitet
+        star_counter += calculate_stars(181, 186)
 
-        for row in temp:
-            if row[0][1] == "fa fa-star":
-                star_counter += 1
+        # Spesialkompetanse ute
+        star_counter += (calculate_stars(186, 191)) * 0.6
 
-        return star_counter
+        # Kvalitet på faglige tilbud
+        star_counter += calculate_stars(161, 166)
+
+        return math.ceil((star_counter / 3) * 2)
 
     elif s == "social":
-        for i in range(136, 141):
-            temp.append(star_list[i])
+        # Sosialt tilbud generelt
+        star_counter += calculate_stars(136, 141)
 
-        for row in temp:
-            if row[0][1] == "fa fa-star":
-                star_counter += 1
+        # Fritidstilbud generelt
+        star_counter += calculate_stars(141, 146)
 
-        return star_counter
+        # Kjæreste/venner i utlandet
+        star_counter += calculate_stars(191, 196)
+
+        # Sosial integrasjon med...
+        # Studenter fra universitetet
+        star_counter += calculate_stars(146, 151)
+
+        # Andre utenlandske studenter
+        star_counter += calculate_stars(151, 156)
+
+        # Norske studenter
+        star_counter += calculate_stars(156, 161)
+
+
+        return math.ceil((star_counter / 6) * 2)
+
+    elif s == "reception":
+        #Mottak generelt
+        star_counter += calculate_stars(111, 116)
+
+        #Administrativ støtte
+        star_counter += calculate_stars(116, 121)
+
+        return math.ceil((star_counter / 2) * 2)
+
+    elif s == "residential":
+        # Hybelformidling
+        star_counter += calculate_stars(121, 126)
+
+        # Hybelstandard
+        star_counter += calculate_stars(126, 131)
+
+        return math.ceil((star_counter / 2) * 2)
 
     else:
         return None
+
+def calculate_stars(start, end):
+    temp = []
+    counter = 0
+
+    for i in range(start, end):
+        temp.append(star_list[i])
+
+    for row in temp:
+        if row[0][1] == "fa fa-star":
+            counter += 1
+
+    return counter
+
+
+
+
 
 def run(s):
     global data_list
@@ -318,7 +382,7 @@ def start():
         case = run(file)
         if not case["courses"] or len(case["institute"]) == 0 or len(str(case["study_period"])) > 4 or len(str(case["university"])) > 60:
             continue
-        if stopper >= 10000:
+        if stopper >= 100000:
             return
         cases.append(case) 
         counter += 1
@@ -329,7 +393,7 @@ def start():
 def make_csv():
 
     output = open('../../src/main/resources/cases.csv', 'w')
-    output.write("Institute;Continent;Country;University;StudyPeriod;Language;AcademicQuality;SocialQuality;Subjects" + '\n')
+    output.write("Institute;Continent;Country;University;StudyPeriod;Language;AcademicQuality;SocialQuality;ResidentialQuality;ReceptionQuality;Subjects" + '\n')
 
     for case in cases:
         courses = ""
@@ -353,6 +417,8 @@ def make_csv():
             str(case['language']) + ';' +
             str(case['academic_quality']) + ';' +
             str(case['social_quality']) + ';' +
+            str(case['residential_quality']) + ';' +
+            str(case['reception_quality']) + ';' +
             str(courses) + '\n'
             )
 
@@ -364,7 +430,7 @@ def make_csv():
 
 if __name__ == "__main__":
     start()
-    #print_cases()
+    print_cases()
     make_csv()
 
     
