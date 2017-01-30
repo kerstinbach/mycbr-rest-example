@@ -227,7 +227,7 @@ def format_university(s):
     # If the university is allready present in another case, or it is very similar to an allready added
     # university, that university is added instead, to avoid having several similar ways to write it
     for uni in unique_unis:
-        if (s == uni) or (fuzz.ratio(s, uni.strip()) > 85):
+        if (s == uni) or (fuzz.ratio(s, uni.strip()) > 80):
             return uni            
 
     # If the university is in all caps lock, it is asumed that it is an acronym. This acronym is looked up in the 
@@ -236,7 +236,7 @@ def format_university(s):
         for u in ui.universities:
             if u['acronym'].lower() == s.lower():
                 for uni in unique_unis:
-                    if (fuzz.ratio(u['name'].title(), uni.strip()) > 85):
+                    if (fuzz.ratio(u['name'].title(), uni.strip()) > 80):
                         return uni
                 unique_unis.append(u['name'].title())
                 return u['name'].title()
@@ -269,7 +269,7 @@ def format_course(s):
         if char.isdigit():
             return s
 
-    return "XXXX" + " " + s
+    return s
 
 def get_rating(s):
     star_counter = 0

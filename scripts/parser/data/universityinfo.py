@@ -13,5 +13,6 @@ universities = [
 {'name': 'University Of Cadiz', 'acronym': 'UCA'},
 {'name': 'Swiss Federal Institute Of Technology In Zurich', 'acronym': 'ETH'},
 {'name': 'University Of Nottingham Ningbo China', 'acronym': 'UNNC'},
-{'name': 'Polytechnic University Of Catalonia', 'acronym': 'UPC'},
+{'name': 'Technical University Of Denmark', 'acronym': 'DTU'},
+{'name': 'Università di Bologna', 'acronym': 'UNIBO'}
 ]
