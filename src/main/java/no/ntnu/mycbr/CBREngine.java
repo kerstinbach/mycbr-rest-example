@@ -14,16 +14,16 @@ public class CBREngine {
 	private static String data_path = System.getProperty("user.dir") + "/src/main/resources/";
 	/* project specific: NewExampleProject*/
 	// name of the project file
-	private static String projectName = "used_cars_flat.prj";
+	private static String projectName = "study_exchange.prj";
 	// name of the central concept 
-	private static String conceptName = "Car";
+	private static String conceptName = "Trip";
 	// name of the csv containing the instances
-	private static String csv = "cars_casebase.csv";
+	private static String csv = "test_cases.csv";
 	// set the separators that are used in the csv file
 	private static String columnseparator = ";";
 	private static String multiplevalueseparator = ",";
 	// name of the case base that should be used; the default name in myCBR is CB_csvImport
-	private static String casebase = "CarsCB";
+	private static String casebase = "main_case_base";
 	// Getter for the ConceptName meta data
 	public static String getCaseBase() {
 		return casebase;

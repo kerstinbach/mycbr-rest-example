@@ -11,9 +11,9 @@ import de.dfki.mycbr.core.similarity.Similarity;
 import de.dfki.mycbr.util.Pair;
 import no.ntnu.mycbr.CBREngine;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
+import static java.util.Collections.reverseOrder;
 
 /**
  * Created by kerstin on 05/08/16.
@@ -107,8 +107,10 @@ public class Query {
                     query.addAttribute(attdesc, Float.parseFloat(att.getValue().toString()));
                 }
                 if (attdesc.getClass().getSimpleName().equalsIgnoreCase("IntegerDesc")){
-                    IntegerDesc aIntegerAtt = (IntegerDesc) attdesc;
-                    query.addAttribute(attdesc, Integer.parseInt(att.getValue().toString()));
+                    if (!att.getValue().toString().equals("")) {
+                        IntegerDesc aIntegerAtt = (IntegerDesc) attdesc;
+                        query.addAttribute(attdesc, Integer.parseInt(att.getValue().toString()));
+                    }
                 }
                 if (attdesc.getClass().getSimpleName().equalsIgnoreCase("DoubleDesc")){
                     DoubleDesc aIntegerAtt = (DoubleDesc) attdesc;
@@ -116,6 +118,10 @@ public class Query {
                 }
                 if (attdesc.getClass().getSimpleName().equalsIgnoreCase("SymbolDesc")){
                     SymbolDesc aSymbolAtt = (SymbolDesc) attdesc;
+                    query.addAttribute(attdesc, (String) att.getValue());
+                }
+                if (attdesc.getClass().getSimpleName().equalsIgnoreCase("StringDesc")){
+                    StringDesc aSymbolAtt = (StringDesc) attdesc;
                     query.addAttribute(attdesc, (String) att.getValue());
                 }
             }
@@ -127,15 +133,36 @@ public class Query {
             for (Pair<Instance, Similarity> result : results) {
                 this.resultList.put(result.getFirst().getName(), result.getSecond().getValue());
             }
-
-
+            this.resultList = sortAndReduceResult(this.resultList);
         }
         catch (Exception e) {
             e.printStackTrace();
         }
     }
 
+    private LinkedHashMap<String, Double> sortAndReduceResult(HashMap<String, Double> fullResultList) {
+        LinkedHashMap<String, Double> reducedSortedResultList = new LinkedHashMap<>();
+        LinkedHashMap<String, Double> sortedResultList = fullResultList.entrySet().stream()
+                .sorted(reverseOrder(Map.Entry.comparingByValue()))
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
+                        (e1, e2) -> e1, LinkedHashMap::new));
+
+        int counter = 0;
+        Iterator it = sortedResultList.entrySet().iterator();
+
+        // Ajust number to how many results you want back to the client
+        while (it.hasNext() && counter < 10000) {
+            HashMap.Entry pair = (Map.Entry)it.next();
+            reducedSortedResultList.put((String)pair.getKey(), (Double)pair.getValue());
+            counter++;
+        }
+
+
+        return reducedSortedResultList;
+
+    }
+
     public HashMap<String, Double> getSimilarCases() {
-        return resultList;
+        return this.resultList;
     }
 }
