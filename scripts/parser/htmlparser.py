@@ -382,8 +382,9 @@ def start():
         case = run(file)
         if not case["courses"] or len(case["institute"]) == 0 or len(str(case["study_period"])) > 4 or len(str(case["university"])) > 60:
             continue
-        if stopper >= 100000:
+        if stopper >= 10000:
             return
+        case['document_link'] = "https://www.ntnu.no/studier/studier_i_utlandet/rapport/report.php?recordid=" + str(file.split('/')[-1].split('.')[0].split('file')[-1])
         cases.append(case) 
         counter += 1
         stopper += 1
@@ -393,7 +394,7 @@ def start():
 def make_csv():
 
     output = open('../../src/main/resources/cases.csv', 'w')
-    output.write("Institute;Continent;Country;University;StudyPeriod;Language;AcademicQuality;SocialQuality;ResidentialQuality;ReceptionQuality;Subjects" + '\n')
+    output.write("Institute;Continent;Country;University;StudyPeriod;Language;AcademicQuality;SocialQuality;ResidentialQuality;ReceptionQuality;Link;Subjects" + '\n')
 
     for case in cases:
         courses = ""
@@ -419,6 +420,7 @@ def make_csv():
             str(case['social_quality']) + ';' +
             str(case['residential_quality']) + ';' +
             str(case['reception_quality']) + ';' +
+            str(case['document_link']) + ';' +
             str(courses) + '\n'
             )
 
