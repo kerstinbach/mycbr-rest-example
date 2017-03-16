@@ -9,6 +9,7 @@ import de.dfki.mycbr.core.retrieval.Retrieval;
 import de.dfki.mycbr.core.similarity.Similarity;
 import de.dfki.mycbr.util.Pair;
 import no.ntnu.mycbr.CBREngine;
+import no.ntnu.mycbr.rest.util.ResultPair;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -20,6 +21,7 @@ import static java.util.Collections.reverseOrder;
 public class Query {
 
     private static HashMap<String, Double> resultList = new HashMap<String, Double>();
+    private ArrayList<ResultPair> resultList2 = new ArrayList<>();
 
     public Query(String casebase, String concept, String attribute, String value) {
 
@@ -130,9 +132,22 @@ public class Query {
             List<Pair<Instance, Similarity>> results = r.getResult();
 
             for (Pair<Instance, Similarity> result : results) {
-                this.resultList.put(result.getFirst().getName(), result.getSecond().getValue());
+                Case c = new Case(result.getFirst().getName());
+
+
+
+                //this.resultList.put(result.getFirst().getName(), result.getSecond().getValue());
+
+                ResultPair pair = new ResultPair(c.getCase(), result.getSecond().getValue());
+
+                if (resultList2.size() > 0) {
+                    System.out.println(resultList2.get(0).getContent());
+                }
+                this.resultList2.add(pair);
+                System.out.println(resultList2.get(resultList2.size()-1).getContent());
+
             }
-            this.resultList = sortAndReduceResult(this.resultList);
+            //this.resultList = sortAndReduceResult(this.resultList);
         }
         catch (Exception e) {
             e.printStackTrace();
@@ -160,8 +175,17 @@ public class Query {
         return reducedSortedResultList;
 
     }
-
+/*
     public HashMap<String, Double> getSimilarCases() {
         return this.resultList;
+    }
+    */
+    public ArrayList<ResultPair> getSimilarCases() {
+        /*
+        for(int i = 0; i < resultList2.size(); i++) {
+            System.out.println(resultList2.get(i).getContent());
+        }
+        */
+        return this.resultList2;
     }
 }
