@@ -175,11 +175,7 @@ public class Query {
         return reducedSortedResultList;
 
     }
-/*
-    public HashMap<String, Double> getSimilarCases() {
-        return this.resultList;
-    }
-    */
+
     public ArrayList<ResultPair> getSimilarCases() {
         /*
         for(int i = 0; i < resultList2.size(); i++) {
