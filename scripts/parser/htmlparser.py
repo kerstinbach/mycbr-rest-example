@@ -3,6 +3,7 @@ from html.parser import HTMLParser
 import data.countryinfo as ci
 import data.universityinfo as ui
 import data.instituteInfo as ii
+import data.languageInfo as li
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import json
@@ -15,6 +16,7 @@ import math
 data_list = []
 star_list = []
 unique_unis = []
+languages = []
 
 cases = []
 
@@ -67,6 +69,8 @@ def parse_html():
         elif element == "Undervisningsspråk:":
             next_element = data_list[i+2]
             data_object['language'] = format_language(next_element)
+            if not format_language(next_element) in languages:
+                languages.append(format_language(next_element))
 
         elif element == "Fag 1:":
             next_element = data_list[i+1]
@@ -130,23 +134,36 @@ def format_language(s):
     s = s.strip()
 
     for c in s:
-        if c == ';' or c == '!':
+        if c == ';' or c == '!' or c == '(' or c == ')':
             s = s.replace(c, '')
         elif c == ',' or c == '/':
             s = s.replace(c, ' ')
 
     s = s.split()
 
+    new_s = []
+
     for word in s:
         if word == 'og':
             index = s.index(word)
             del s[index]
 
-    s = [element.title() for element in s]
+        if word.title() in li.languages:
+            new_s.append(word)
+        else:
+            for item in li.languages:
+                if fuzz.ratio(word.lower(), item.lower()) > 80:
+                    if item not in new_s:
+                        new_s.append(item)
 
-    s = '!'.join(s)
+    new_s = [element.title() for element in new_s]
 
-    return s
+    new_s = '!'.join(new_s)
+
+    if len(new_s) == 0:
+        new_s = "Ukjent"
+
+    return new_s
 
 
 def format_country(s):
@@ -380,7 +397,7 @@ def start():
     for file in file_list:
         print("Starting: " + str(file))
         case = run(file)
-        if not case["courses"] or len(case["institute"]) == 0 or len(str(case["study_period"])) > 4 or len(str(case["university"])) > 60:
+        if not case["courses"] or len(case["institute"]) == 0 or len(str(case["study_period"])) > 4 or len(str(case["university"])) > 60 or len(str(case["university"])) == 0:
             continue
         if stopper >= 10000:
             return
@@ -428,11 +445,19 @@ def make_csv():
 
     print("Finished CSV file")
 
+def save_languages():
+    with open('languageInfo.py', 'w') as language_target:
+        language_target.write("languages = [")
+        for item in languages:
+            language_target.write("'"+str(item)+"',")
+
+
 
 
 if __name__ == "__main__":
     start()
     #print_cases()
     make_csv()
+    #save_languages()
 
     
