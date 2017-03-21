@@ -140,11 +140,7 @@ public class Query {
 
                 ResultPair pair = new ResultPair(c.getCase(), result.getSecond().getValue());
 
-                if (resultList2.size() > 0) {
-                    System.out.println(resultList2.get(0).getContent());
-                }
                 this.resultList2.add(pair);
-                System.out.println(resultList2.get(resultList2.size()-1).getContent());
 
             }
             //this.resultList = sortAndReduceResult(this.resultList);

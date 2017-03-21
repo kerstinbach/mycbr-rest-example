@@ -432,7 +432,7 @@ def make_csv():
 
 if __name__ == "__main__":
     start()
-    print_cases()
+    #print_cases()
     make_csv()
 
     
