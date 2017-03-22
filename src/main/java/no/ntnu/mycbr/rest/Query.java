@@ -133,9 +133,7 @@ public class Query {
 
             for (Pair<Instance, Similarity> result : results) {
                 Case c = new Case(result.getFirst().getName());
-
-
-
+                
                 //this.resultList.put(result.getFirst().getName(), result.getSecond().getValue());
 
                 ResultPair pair = new ResultPair(c.getCase(), result.getSecond().getValue());
