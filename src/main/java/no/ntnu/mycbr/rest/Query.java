@@ -9,6 +9,7 @@ import de.dfki.mycbr.core.retrieval.Retrieval;
 import de.dfki.mycbr.core.similarity.Similarity;
 import de.dfki.mycbr.util.Pair;
 import no.ntnu.mycbr.CBREngine;
+import de.dfki.mycbr.core.casebase.MultipleAttribute;
 import no.ntnu.mycbr.rest.util.ResultPair;
 
 import java.util.*;
@@ -119,8 +120,23 @@ public class Query {
                 }
                 if (attdesc.getClass().getSimpleName().equalsIgnoreCase("SymbolDesc")){
                     SymbolDesc aSymbolAtt = (SymbolDesc) attdesc;
-                    query.addAttribute(attdesc, (String) att.getValue());
+
+                    if (!aSymbolAtt.isMultiple()) {
+                        query.addAttribute(attdesc, (String) att.getValue());
+                    }
+                    else {
+                        LinkedList<Attribute> llAtts = new LinkedList<Attribute>();
+                        StringTokenizer st = new StringTokenizer((String) att.getValue(), "!");
+                        while (st.hasMoreElements()) {
+                            String symbolName = st.nextElement().toString().trim();
+                            llAtts.add(aSymbolAtt.getAttribute(symbolName));
+                        }
+
+                        MultipleAttribute<SymbolDesc> muliSymbol = new MultipleAttribute<SymbolDesc>(aSymbolAtt, llAtts);
+                        query.addAttribute(attdesc, muliSymbol);
+                    }
                 }
+
                 if (attdesc.getClass().getSimpleName().equalsIgnoreCase("StringDesc")){
                     StringDesc aSymbolAtt = (StringDesc) attdesc;
                     query.addAttribute(attdesc, (String) att.getValue());
