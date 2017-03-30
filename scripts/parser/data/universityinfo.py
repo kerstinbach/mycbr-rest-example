@@ -14,5 +14,6 @@ universities = [
 {'name': 'Swiss Federal Institute Of Technology In Zurich', 'acronym': 'ETH'},
 {'name': 'University Of Nottingham Ningbo China', 'acronym': 'UNNC'},
 {'name': 'Technical University Of Denmark', 'acronym': 'DTU'},
-{'name': 'Università di Bologna', 'acronym': 'UNIBO'}
+{'name': 'Università di Bologna', 'acronym': 'UNIBO'},
+{'name': 'Queensland University Of Technology', 'acronym': 'QUT'}
 ]
