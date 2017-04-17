@@ -15,5 +15,11 @@ universities = [
 {'name': 'University Of Nottingham Ningbo China', 'acronym': 'UNNC'},
 {'name': 'Technical University Of Denmark', 'acronym': 'DTU'},
 {'name': 'Università di Bologna', 'acronym': 'UNIBO'},
-{'name': 'Queensland University Of Technology', 'acronym': 'QUT'}
+{'name': 'Queensland University Of Technology', 'acronym': 'QUT'},
+{'name': 'University of Chemistry and Technology, Prague', 'acronym': 'UCT'},
+{'name': 'Technical University of Munich', 'acronym': 'TUM'},
+{'name': 'Polytechnic University of Catalonia', 'acronym': 'UPC'},
+{'name': 'Swedish University of Agricultural Sciences', 'acronym': 'SLU'},
+{'name': 'Royal Institute of Technology', 'acronym': 'KTH'}
 ]
+

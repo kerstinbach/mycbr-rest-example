@@ -225,6 +225,15 @@ def format_university(s):
     s = s.strip()
     s = s.title()
 
+    if s == "Uc Berkley":
+        return "University Of California,Berkeley"
+    elif s == "Tu Berlin":
+        return "Technical University of Berlin"
+    elif s == "Tu Munchen":
+        return "Technical University of Munich"
+    elif s == "Tu Delft":
+        return "Delft University of Technology"
+
     for c in s:
         if c == ';' or c == '!':
             s = s.replace(c, '')
