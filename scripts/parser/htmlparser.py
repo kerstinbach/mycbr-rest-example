@@ -225,15 +225,6 @@ def format_university(s):
     s = s.strip()
     s = s.title()
 
-    if s == "Uc Berkley":
-        return "University Of California,Berkeley"
-    elif s == "Tu Berlin":
-        return "Technical University of Berlin"
-    elif s == "Tu Munchen":
-        return "Technical University of Munich"
-    elif s == "Tu Delft":
-        return "Delft University of Technology"
-
     for c in s:
         if c == ';' or c == '!':
             s = s.replace(c, '')
@@ -426,6 +417,16 @@ def make_csv():
     output.write("Institute;Continent;Country;University;StudyPeriod;Language;AcademicQuality;SocialQuality;ResidentialQuality;ReceptionQuality;Link;Subjects" + '\n')
 
     for case in cases:
+
+        if case['university'] == "Uc Berkeley":
+            case['university'] = "University Of California,Berkeley"
+        elif case['university'] == "Tu Berlin":
+            case['university'] = "Technical University of Berlin"
+        elif case['university'] == "Tu Munchen":
+            case['university'] = "Technical University of Munich"
+        elif case['university'] == "Tu Delft":
+            case['university'] = "Delft University of Technology"
+
         courses = ""
         final_course = len(case['courses'])
         counter = 1
