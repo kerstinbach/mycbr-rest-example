@@ -23,14 +23,13 @@ public class Instances {
 
 	public Instances(String casebaseName) {
 
-		Project project = App.getProject();		
+		Project project = App.getProject();	
+		
 		Collection<Instance> instances = project.getCB(casebaseName).getCases();
 
 		for (Instance instance : instances) {
 
-			LinkedHashMap<String, String> casecontent;
-
-			casecontent = new LinkedHashMap<String, String>(Helper.getSortedCaseContent(instance));
+			LinkedHashMap<String, String> casecontent = new LinkedHashMap<String, String>(Helper.getSortedCaseContent(instance));
 			casecontent.put(CASE_ID, instance.getName());
 
 			cases.add(casecontent);
