@@ -13,7 +13,6 @@ public class AmalgamationFunctions {
 
     private final List<String> amalgamationFunctions = new LinkedList<>();
 
-
     public AmalgamationFunctions(String conceptID) {
 
         de.dfki.mycbr.core.Project project = App.getProject();

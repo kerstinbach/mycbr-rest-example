@@ -1,9 +1,5 @@
 package no.ntnu.mycbr.rest;
 
-import de.dfki.mycbr.core.DefaultCaseBase;
-import de.dfki.mycbr.core.model.Concept;
-import no.ntnu.mycbr.CBREngine;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,17 +8,17 @@ import java.util.Set;
  */
 public class ConceptName {
 
-    private Set concepts = new HashSet();
+	private Set<String> concepts = new HashSet<String>();
 
-    public ConceptName() {
+	public ConceptName() {
 
-        concepts.clear();
-        de.dfki.mycbr.core.Project project = App.getProject();
-        // create case bases and assign the case bases that will be used for submitting a query
-        concepts = project.getSubConcepts().keySet();
-    }
+		getConcept().clear();
+		de.dfki.mycbr.core.Project project = App.getProject();
+		// create case bases and assign the case bases that will be used for submitting a query
+		concepts = project.getSubConcepts().keySet();
+	}
 
-    public Set getConcept() {
-        return concepts;
-    }
+	public Set<String> getConcept() {
+		return concepts;
+	}
 }

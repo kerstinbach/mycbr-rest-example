@@ -2,29 +2,38 @@ package no.ntnu.mycbr;
 
 import de.dfki.mycbr.core.Project;
 import de.dfki.mycbr.core.casebase.SymbolAttribute;
+import no.ntnu.mycbr.utils.Constants;
+import no.ntnu.mycbr.utils.ReadPropertiesFile;
 
+import java.util.Properties;
 import java.util.logging.Logger;
+
+import static no.ntnu.mycbr.utils.Constants.*;
 
 public class CBREngine {
 
 
 	/* Get actual class name to be printed on */
 
+//	private static Properties properties = ReadPropertiesFile.getProperties();
+	
+	public static final String DOT = ".";
 	// set path to myCBR projects	
-	private static String data_path = System.getProperty("user.dir") + "/src/main/resources/";
+	private static String data_path = DATA_PATH; //System.getProperty("user.dir") + "/src/main/resources/";
 	/* project specific: NewExampleProject*/
 	// name of the project file
-	private static String projectName = "used_cars_flat.prj";
+	private static String projectName = PROJECT_NAME;
 	// name of the central concept 
-	private static String conceptName = "Car";
+	private static String conceptName = CONCEPT_NAME;
 	// name of the csv containing the instances
 	private static String csv = "cars_casebase.csv";
 	// set the separators that are used in the csv file
 	private static String columnseparator = ";";
 	private static String multiplevalueseparator = ",";
 	// name of the case base that should be used; the default name in myCBR is CB_csvImport
-	private static String casebase = "CaseBase0";
+	private static String casebase = CASEBASE_NAME;
 	// Getter for the ConceptName meta data
+	
 	public static String getCaseBase() {
 		return casebase;
 	}
@@ -75,7 +84,7 @@ public class CBREngine {
 			// Erste Retrieval laueft		
 			while (project.isImporting()){
 				Thread.sleep(1000);
-				System.out.print(".");
+				System.out.print(DOT);
 			}		
 			System.out.print("\n");	//console pretty print
 
@@ -107,7 +116,7 @@ public class CBREngine {
 			// the name has to be specified at the beginning of this class
 			while (project.isImporting()){
 				Thread.sleep(1000);
-				System.out.print(".");
+				System.out.print(DOT);
 			}
 			System.out.print("\n");	//console pretty print
 		} catch (Exception e) {
