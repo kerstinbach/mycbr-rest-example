@@ -57,9 +57,10 @@ public class CBRController {
 	@ApiOperation(value = GET_CASE_BASE_INSTANCES, nickname = GET_CASE_BASE_INSTANCES)
 	@RequestMapping(method = RequestMethod.GET, path="/instances", produces = APPLICATION_JSON)
 	@ApiResponsesForInstances
-	public Instances getInstances(@RequestParam(value= CASEBASE_NAME_STR, defaultValue= CASEBASE) String casebaseName) {
-
-		return new Instances(casebaseName);
+	public List<LinkedHashMap<String, String>> getInstances(@RequestParam(value= CASEBASE_NAME_STR, defaultValue= CASEBASE) String casebaseName) {
+		
+		List<LinkedHashMap<String, String>> instances = new Instances(casebaseName).getCasebaseInstances();
+		return instances;
 	}
 
 	
@@ -251,6 +252,8 @@ public class CBRController {
 
 		return cases;
 	}
+	
+	
 
 
 	// All ApiResponses annotations definitions----------------------------------------------------------------------------------------------------------   
