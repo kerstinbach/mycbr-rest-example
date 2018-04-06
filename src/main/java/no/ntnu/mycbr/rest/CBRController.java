@@ -12,12 +12,12 @@ import java.util.*;
  */
 @RestController
 public class CBRController {
-	
+
 	// Need to batch below variables according to the cbr project
 	private static final String CASEBASE = "support_prim_cb_latest"; 
 	private static final String CONCEPT = "patient"; 
 	private static final String AMALGAMATION_FUNCTION = "global_sim_1"; 
-	
+
 	@ApiOperation(value = GET_AMALGAMATION_FUNCTIONS, nickname = GET_AMALGAMATION_FUNCTIONS)
 	@RequestMapping(method = RequestMethod.GET, path=SLASH_AMALGAMATION_FUNCTIONS, produces = APPLICATION_JSON)
 	@ApiResponsesForAmalgamationFunctions
@@ -33,14 +33,14 @@ public class CBRController {
 
 		return new Attribute(concept);
 	}
-	
+
 	@ApiOperation(value = GET_CASE, nickname = GET_CASE)
 	@RequestMapping(method = RequestMethod.GET, value = SLASH_CASE, headers=ACCEPT_APP_JSON)
 	@ApiResponsesForCase
 	public Case getCase(@RequestParam(value=CASE_ID, defaultValue="*0") String caseID) {
 
 		Case caze = new Case(caseID);
-		
+
 		return caze;
 	}
 
@@ -52,18 +52,63 @@ public class CBRController {
 
 		return new Casebase();
 	}
-	
+
 	// added new
 	@ApiOperation(value = GET_CASE_BASE_INSTANCES, nickname = GET_CASE_BASE_INSTANCES)
 	@RequestMapping(method = RequestMethod.GET, path="/instances", produces = APPLICATION_JSON)
 	@ApiResponsesForInstances
 	public List<LinkedHashMap<String, String>> getInstances(@RequestParam(value= CASEBASE_NAME_STR, defaultValue= CASEBASE) String casebaseName) {
-		
+
 		List<LinkedHashMap<String, String>> instances = new Instances(casebaseName).getCasebaseInstances();
 		return instances;
 	}
 
-	
+	// added new for experiment - query cases vs casebase cases of are same
+	@ApiOperation(value = EXEPERIMENT_DEPENDENT_CASEBASE, nickname = EXEPERIMENT_DEPENDENT_CASEBASE)
+	@RequestMapping(method = RequestMethod.GET, path=SLASH_EXEPERIMENT_DEPENDENT_CASEBASE, produces = APPLICATION_JSON)
+	@ApiResponsesForInstances
+	public LinkedHashMap<String, LinkedHashMap<String, Double>> experimentFixedSize(
+			@RequestParam(value= CASEBASE_STR, defaultValue= CASEBASE) String casebase,
+			@RequestParam(value= CONCEPT_NAME_STR, defaultValue= CONCEPT) String concept,
+			@RequestParam(value= AMALGAMATION_FUNCTION_STR, defaultValue= AMALGAMATION_FUNCTION) String amalFunc,
+			@RequestParam(required = false, value=NO_OF_RETURNED_CASES, defaultValue = DEFAULT_NO_OF_CASES) int k,
+			@RequestParam(value= "List of case IDS", defaultValue = RETRIEVAL_CASE_IDS) String caseListStr) {
+
+		String [] caseList = caseListStr.split(",");
+
+		List<String> caseIds = new ArrayList<String>();
+
+		for(String caseId : caseList) 
+			caseIds.add(caseId);
+
+		return new CasebaseExperiment(casebase, concept, amalFunc,  k).dependentCaseBaseExeperiment(caseIds);
+	}
+
+	// added new for experiment - query cases vs casebase cases of are of different size
+	@ApiOperation(value = EXEPERIMENT_INDEPENDENT_CASEBASE, nickname = EXEPERIMENT_INDEPENDENT_CASEBASE)
+	@RequestMapping(method = RequestMethod.GET, path=SLASH_EXEPERIMENT_INDEPENDENT_CASEBASE, produces = APPLICATION_JSON)
+	@ApiResponsesForInstances
+	public LinkedHashMap<String, LinkedHashMap<String, Double>> experimentDynamicSize(
+			@RequestParam(value= CASEBASE_STR, defaultValue= CASEBASE) String casebase,
+			@RequestParam(value= CONCEPT_NAME_STR, defaultValue= CONCEPT) String concept,
+			@RequestParam(value= AMALGAMATION_FUNCTION_STR, defaultValue= AMALGAMATION_FUNCTION) String amalFunc,
+			@RequestParam(required = false, value=NO_OF_RETURNED_CASES, defaultValue = DEFAULT_NO_OF_CASES) int k,
+			@RequestParam(value= "List of case IDS for retrival", defaultValue = RETRIEVAL_CASE_IDS) String retrievalCaseListStr,
+			@RequestParam(value= "List of case IDS for casebase", defaultValue = CB_CASE_IDS) String cbCaseListStr) {
+
+		String [] retrievalCaseList = retrievalCaseListStr.split(",");	
+		List<String> retrievalCaseIds = new ArrayList<String>();	
+		for(String caseId : retrievalCaseList) 
+			retrievalCaseIds.add(caseId);
+
+		String [] cbCaseList = cbCaseListStr.split(",");	
+		List<String> cbCaseIds = new ArrayList<String>();	
+		for(String caseId : cbCaseList) 
+			cbCaseIds.add(caseId);
+
+		return new CasebaseExperiment(casebase, concept, amalFunc,  k).independentCaseBaseExeperiment(retrievalCaseIds, cbCaseIds);
+	}
+
 	@ApiOperation(value = GET_CONCEPT, nickname = GET_CONCEPT)
 	@RequestMapping(method = RequestMethod.GET, path=SLASH_CONCEPTS, produces = APPLICATION_JSON)
 	@ApiResponsesForConceptName
@@ -85,11 +130,11 @@ public class CBRController {
 
 		return new Query(casebase, concept, amalFunc, queryContent, k);
 	}
-	
+
 	// POST /retrival
 	@ApiOperation(value = GET_SIMILAR_CASES_WITH_CONTENT, nickname = GET_SIMILAR_CASES_WITH_CONTENT)
 	@RequestMapping(method = RequestMethod.POST, path=RETRIEVAL_CONTENT_AS_JSON, produces = APPLICATION_JSON)
-	
+
 	/**@ApiImplicitParams({
         @ApiImplicitParam(name = "body_main", value = "Back", required = true, dataType = "string", paramType =
                 "query"),
@@ -99,7 +144,7 @@ public class CBRController {
                 = "query"),
         @ApiImplicitParam(name = "gender", value = "female", required = true, dataType = "string", paramType =
                 "query")})	
-    */
+	 */
 	@ApiResponsesDefault
 	public @ResponseBody List<LinkedHashMap<String, String>> getSimilarCasesWithContent(
 			@RequestParam(value= CASEBASE_STR, defaultValue= CASEBASE) String casebase,
@@ -237,7 +282,7 @@ public class CBRController {
 		return new ValueRange(concept, attributeName);
 	}
 
-	
+
 	// Private methods ----------------------------------------------------------------------------------------------------------   
 	private List<LinkedHashMap<String, String>> getFullResult(Query query, String concept) {
 		LinkedHashMap<String, Double> results = query.getSimilarCases();
@@ -252,8 +297,8 @@ public class CBRController {
 
 		return cases;
 	}
-	
-	
+
+
 
 
 	// All ApiResponses annotations definitions----------------------------------------------------------------------------------------------------------   
@@ -302,7 +347,7 @@ public class CBRController {
 			@ApiResponse(code = 500, message = FAILURE)
 	})
 	private @interface ApiResponsesForInstances{}
-	
+
 	@ApiResponses(value = {
 			@ApiResponse(code = 200, message = SUCCESS, response = AmalgamationFunctions.class),
 			@ApiResponse(code = 401, message = UNAUTHORIZED),
@@ -364,10 +409,16 @@ public class CBRController {
 	private static final String SLASH_RETRIEVAL_WITH_CONTENT_CSV = "/retrievalWithContent.csv";
 	private static final String GET_SIMILAR_CASES_BY_ATTRIBUTE_WITH_CONTENT = "getSimilarCasesByAttributeWithContent";
 	
-	
+
 	// added new
 	private static final String GET_CASE_BASE_INSTANCES = "getCasebaseInstances";
-	
+
+	private static final String EXEPERIMENT_DEPENDENT_CASEBASE = "expDependentCasebase";
+	private static final String SLASH_EXEPERIMENT_DEPENDENT_CASEBASE = "/"+EXEPERIMENT_DEPENDENT_CASEBASE;
+
+	private static final String EXEPERIMENT_INDEPENDENT_CASEBASE = "expIndependentCasebase";
+	private static final String SLASH_EXEPERIMENT_INDEPENDENT_CASEBASE = "/"+EXEPERIMENT_INDEPENDENT_CASEBASE;
+
 	private static final String GET_CASE_BASE_NAMES = "getCasebaseNames";
 	private static final String GET_CASE_BASES = "getCaseBases";
 	private static final String SLASH_AMALGAMATION_FUNCTIONS = "/amalgamationFunctions";
@@ -400,4 +451,9 @@ public class CBRController {
 
 	private static final String CONCEPT_NAME_STR = "concept name";
 	private static final String AMALGAMATION_FUNCTION_STR = "amalgamation function";
+
+	//	private static ArrayList<String> defaultList = ;
+	//	defaultList "patient0","patient1","patient2"};
+	private static final String RETRIEVAL_CASE_IDS = "patient0,patient1,patient2";
+	private static final String CB_CASE_IDS = "patient0,patient1,patient2,patient3,patient4";
 }
